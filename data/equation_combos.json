@@ -1,0 +1,114 @@
+{
+  "total_digit_rows": 529,
+  "solved": 51,
+  "top_combos": [
+    {
+      "order": "BA_DC",
+      "op": "mul",
+      "fmt": "rev",
+      "count": 10
+    },
+    {
+      "order": "AB_CD",
+      "op": "cat",
+      "fmt": "raw",
+      "count": 5
+    },
+    {
+      "order": "BA_DC",
+      "op": "add",
+      "fmt": "rev",
+      "count": 4
+    },
+    {
+      "order": "BA_DC",
+      "op": "mul_sub1",
+      "fmt": "rev",
+      "count": 4
+    },
+    {
+      "order": "AB_CD",
+      "op": "mul",
+      "fmt": "raw",
+      "count": 3
+    },
+    {
+      "order": "BA_DC",
+      "op": "sub",
+      "fmt": "rev_abs",
+      "count": 3
+    },
+    {
+      "order": "BA_DC",
+      "op": "cat",
+      "fmt": "rev",
+      "count": 3
+    },
+    {
+      "order": "AB_CD",
+      "op": "rcat",
+      "fmt": "raw",
+      "count": 3
+    },
+    {
+      "order": "AB_CD",
+      "op": "addm1",
+      "fmt": "raw",
+      "count": 2
+    },
+    {
+      "order": "AB_CD",
+      "op": "add1",
+      "fmt": "raw",
+      "count": 2
+    },
+    {
+      "order": "BA_DC",
+      "op": "addm1",
+      "fmt": "rev",
+      "count": 2
+    },
+    {
+      "order": "AB_CD",
+      "op": "mul_add1",
+      "fmt": "raw",
+      "count": 2
+    },
+    {
+      "order": "BA_DC",
+      "op": "mul_add1",
+      "fmt": "rev",
+      "count": 2
+    },
+    {
+      "order": "AB_CD",
+      "op": "rcat",
+      "fmt": "zpad4",
+      "count": 2
+    },
+    {
+      "order": "AB_CD",
+      "op": "sub",
+      "fmt": "abs",
+      "count": 1
+    },
+    {
+      "order": "AB_CD",
+      "op": "sub",
+      "fmt": "raw",
+      "count": 1
+    },
+    {
+      "order": "AB_CD",
+      "op": "mul_sub1",
+      "fmt": "raw",
+      "count": 1
+    },
+    {
+      "order": "AB_CD",
+      "op": "add",
+      "fmt": "raw",
+      "count": 1
+    }
+  ]
+}

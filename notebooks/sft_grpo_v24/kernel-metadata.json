@@ -1,0 +1,17 @@
+{
+  "id": "bharatmohan/nemotron-sft-grpo-v24",
+  "title": "Nemotron SFT+GRPO v24",
+  "code_file": "train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "bharatmohan/nemotron-training-v24",
+    "mayukh18/nemotron-packages"
+  ],
+  "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],
+  "kernel_sources": [],
+  "model_sources": ["metric/nemotron-3-nano-30b-a3b-bf16/transformers/default/1"]
+}

@@ -1,0 +1,689 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e137]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e144]: Nemotron SFT+GRPO v1
+                - listitem "Nemotron Submit SFT v5 List Item" [ref=e145]:
+                  - link "Nemotron Submit SFT v5" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-submit-sft-v5
+                    - paragraph [ref=e152]: Nemotron Submit SFT v5
+                - listitem "Nemotron SFT v3 List Item" [ref=e153]:
+                  - link "Nemotron SFT v3" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v3
+                    - paragraph [ref=e160]: Nemotron SFT v3
+                - listitem "Nemotron SFT v2 List Item" [ref=e161]:
+                  - link "Nemotron SFT v2" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v2
+                    - paragraph [ref=e168]: Nemotron SFT v2
+                - listitem "Nemotron Reasoning Baseline List Item" [ref=e169]:
+                  - link "Nemotron Reasoning Baseline" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-reasoning-baseline
+                    - paragraph [ref=e176]: Nemotron Reasoning Baseline
+            - listitem
+      - button "1 View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e179]:
+          - generic [ref=e180]: update
+          - generic [ref=e181]: "1"
+        - paragraph [ref=e182]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e183]:
+    - generic [ref=e184]:
+      - generic [ref=e188]:
+        - generic [ref=e189]: search
+        - textbox "Search" [ref=e190]
+        - group
+      - button "bharat" [ref=e195] [cursor=pointer]:
+        - generic "bharat" [ref=e196]
+        - img [ref=e197]
+  - main [ref=e200]:
+    - generic [ref=e203]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - link "NVIDIA's profile" [ref=e207] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e208]
+            - img [ref=e209]
+          - generic [ref=e212]:
+            - generic [ref=e214]: NVIDIA
+            - generic [ref=e215]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e216]:
+            - button "Submit Prediction" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e221] [cursor=pointer]: more_horiz
+        - generic [ref=e223]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e224]
+          - paragraph [ref=e226]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e230]:
+        - tablist [ref=e237]:
+          - tab "Overview, 1 of 9" [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: Overview
+          - tab "Data, 2 of 9" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: Data
+          - tab "Code, 3 of 9" [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]: Code
+          - tab "Models, 4 of 9" [ref=e244] [cursor=pointer]:
+            - generic [ref=e245]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e246] [cursor=pointer]:
+            - generic [ref=e247]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e248] [cursor=pointer]:
+            - generic [ref=e249]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]: Rules
+          - tab "Team, 8 of 9" [ref=e252] [cursor=pointer]:
+            - generic [ref=e253]: Team
+          - tab "Submissions, 9 of 9" [ref=e254] [cursor=pointer]:
+            - generic [ref=e255]: Submissions
+        - separator [ref=e257]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "Tong Hui Kang's profile" [ref=e265] [cursor=pointer]:
+                - /url: /huikang
+                - generic "Tong Hui Kang" [ref=e266]
+                - img [ref=e267]
+              - generic [ref=e270]:
+                - link "Tong Hui Kang" [ref=e271] [cursor=pointer]:
+                  - /url: /huikang
+                - text: ·
+                - generic [ref=e272]: 10th in this Competition ·
+                - generic [ref=e273]: Posted 7 hours ago
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - button "Upvote" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e277]: arrow_drop_up
+                - button "16 votes" [ref=e278] [cursor=pointer]: "16"
+                - button "Downvote" [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]: arrow_drop_down
+              - button "More Options for this Topic" [ref=e281] [cursor=pointer]: more_vert
+            - heading "Visualize the problems and completions from the base model" [level=3] [ref=e282]
+            - generic [ref=e285]:
+              - paragraph [ref=e286]: I ran the base model over all the 9500 problems at least once. These are the results.
+              - paragraph [ref=e287]:
+                - link "https://nemotron.huikang.dev/ (opens in a new tab)" [ref=e288] [cursor=pointer]:
+                  - /url: https://nemotron.huikang.dev/
+                  - text: https://nemotron.huikang.dev/
+              - paragraph [ref=e289]
+              - paragraph [ref=e290]: You can see the model generation as well.
+              - paragraph [ref=e291]
+              - paragraph [ref=e292]:
+                - text: The code is
+                - link "here (opens in a new tab)" [ref=e293] [cursor=pointer]:
+                  - /url: https://github.com/tonghuikang/nemotron
+                  - text: here
+                - text: . This is derived from my work in
+                - link "AIMO 3 (opens in a new tab)" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/672528
+                  - text: AIMO 3
+                - text: and
+                - link "ARC-AGI-2 (opens in a new tab)" [ref=e295] [cursor=pointer]:
+                  - /url: https://www.kaggle.com/competitions/arc-prize-2025/writeups/my-attempt-at-arc-agi-2
+                  - text: ARC-AGI-2
+                - text: .
+            - generic [ref=e298]:
+              - checkbox "5" [ref=e300] [cursor=pointer]:
+                - img [ref=e302]
+                - generic [ref=e303]: "5"
+              - button "Add Reaction" [ref=e304] [cursor=pointer]: add_reaction
+          - separator [ref=e305]
+        - generic [ref=e306]:
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - generic [ref=e310]: comment
+              - heading "9 Comments" [level=2] [ref=e312]
+            - generic [ref=e315]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e316] [cursor=pointer]:
+                - generic [ref=e318]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e320]:
+            - link "bharat's profile" [ref=e322] [cursor=pointer]:
+              - /url: /bharatmohan
+              - generic "bharat" [ref=e323]
+              - img [ref=e324]
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - generic [ref=e332]:
+                    - button "Undo" [disabled] [ref=e333]: undo
+                    - button "Redo" [disabled] [ref=e334]: redo
+                    - separator [ref=e335]
+                    - button "Insert Heading" [ref=e337] [cursor=pointer]: format_size
+                    - button "Bold" [ref=e339] [cursor=pointer]: format_bold
+                    - button "Italicize" [ref=e341] [cursor=pointer]: format_italic
+                    - button "Strikethrough" [ref=e343] [cursor=pointer]: format_strikethrough
+                    - separator [ref=e344]
+                    - button "Insert Link" [ref=e346] [cursor=pointer]: insert_link
+                    - button "Insert Quote" [ref=e348] [cursor=pointer]: format_quote
+                    - button "Insert Code Block" [ref=e350] [cursor=pointer]: code
+                    - separator [ref=e351]
+                    - button "Insert Numbered List" [ref=e353] [cursor=pointer]: format_list_numbered
+                    - button "Insert Bulleted List" [ref=e355] [cursor=pointer]: format_list_bulleted
+                    - separator [ref=e356]
+                    - button "Insert Table" [ref=e358] [cursor=pointer]: table_chart
+                    - button "Insert Image" [ref=e360] [cursor=pointer]: insert_photo
+                    - button "Embed YouTube Video" [ref=e362] [cursor=pointer]: smart_display
+                    - button "Insert Emoticon" [ref=e364] [cursor=pointer]: insert_emoticon
+                    - separator [ref=e365]
+                    - button "Go to Markdown documentation" [ref=e367] [cursor=pointer]: help
+                  - textbox "Content" [ref=e373]:
+                    - /placeholder: Comment here. Be patient, be friendly, and focus on ideas. We're all here to learn and improve!
+                - paragraph [ref=e376]: This comment will be made public once posted.
+              - generic [ref=e378]:
+                - button "Attach a File" [ref=e380] [cursor=pointer]: attach_file
+                - button "Post Comment" [ref=e381] [cursor=pointer]:
+                  - generic [ref=e382]: Post Comment
+          - generic [ref=e383]:
+            - generic [ref=e384]:
+              - generic [ref=e388]:
+                - link "Anton Kratz's profile" [ref=e389] [cursor=pointer]:
+                  - /url: /antonkratz
+                  - generic "Anton Kratz" [ref=e390]
+                  - img [ref=e391]
+                - generic [ref=e396]:
+                  - link "Anton Kratz" [ref=e398] [cursor=pointer]:
+                    - /url: /antonkratz
+                    - heading "Anton Kratz" [level=3] [ref=e399]
+                  - generic [ref=e400]:
+                    - paragraph [ref=e401]: Posted 6 hours ago
+                    - paragraph [ref=e403]: · 575th in this Competition
+                - generic [ref=e405]:
+                  - generic [ref=e406]:
+                    - button "Upvote" [ref=e407] [cursor=pointer]:
+                      - generic [ref=e408]: arrow_drop_up
+                    - button "1 votes" [ref=e409] [cursor=pointer]: "1"
+                    - button "Downvote" [ref=e410] [cursor=pointer]:
+                      - generic [ref=e411]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e412] [cursor=pointer]: more_vert
+                - paragraph [ref=e416]:
+                  - text: Excellent work
+                  - link "@huikang (opens in a new tab)" [ref=e417] [cursor=pointer]:
+                    - /url: https://www.kaggle.com/huikang
+                    - text: "@huikang"
+                  - text: "! How long did it take to run all 9500 problems at least once? I am woking on something similar, using Blackwell here on Kaggle, I need about 4 minutes per problem. This seems… slow?!?"
+                - generic [ref=e418]:
+                  - button "Reply" [ref=e419] [cursor=pointer]:
+                    - generic [ref=e420]: reply
+                    - generic [ref=e421]: Reply
+                  - button "React" [ref=e423] [cursor=pointer]:
+                    - generic [ref=e424]: add_reaction
+                    - generic [ref=e425]: React
+                - generic [ref=e431]:
+                  - link "Tong Hui Kang's profile" [ref=e432] [cursor=pointer]:
+                    - /url: /huikang
+                    - generic "Tong Hui Kang" [ref=e433]
+                    - img [ref=e434]
+                  - generic [ref=e439]:
+                    - generic [ref=e440]:
+                      - link "Tong Hui Kang" [ref=e441] [cursor=pointer]:
+                        - /url: /huikang
+                        - heading "Tong Hui Kang" [level=3] [ref=e442]
+                      - generic [ref=e444]: Topic Author
+                    - generic [ref=e445]:
+                      - paragraph [ref=e446]: Posted 6 hours ago
+                      - paragraph [ref=e448]: · 10th in this Competition
+                  - generic [ref=e450]:
+                    - generic [ref=e451]:
+                      - button "Upvote" [ref=e452] [cursor=pointer]:
+                        - generic [ref=e453]: arrow_drop_up
+                      - button "2 votes" [ref=e454] [cursor=pointer]: "2"
+                      - button "Downvote" [ref=e455] [cursor=pointer]:
+                        - generic [ref=e456]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e457] [cursor=pointer]: more_vert
+                  - generic [ref=e460]:
+                    - paragraph [ref=e461]: If I only consider the latest run for each of the 9500 problems, apparently there are 48,217,898 tokens generated.
+                    - paragraph [ref=e462]: At 2.5k tokens per second it is 5.35 hours, which is about right.
+                  - generic [ref=e463]:
+                    - button "Reply" [ref=e464] [cursor=pointer]:
+                      - generic [ref=e465]: reply
+                      - generic [ref=e466]: Reply
+                    - generic [ref=e467]:
+                      - checkbox "1" [ref=e469] [cursor=pointer]:
+                        - img [ref=e471]
+                        - generic [ref=e472]: "1"
+                      - button "Add Reaction" [ref=e473] [cursor=pointer]: add_reaction
+              - separator [ref=e474]
+            - generic [ref=e475]:
+              - generic [ref=e479]:
+                - link "HZM's profile" [ref=e480] [cursor=pointer]:
+                  - /url: /leehann
+                  - generic "HZM" [ref=e481]
+                  - img [ref=e482]
+                - generic [ref=e487]:
+                  - link "HZM" [ref=e489] [cursor=pointer]:
+                    - /url: /leehann
+                    - heading "HZM" [level=3] [ref=e490]
+                  - paragraph [ref=e492]: Posted 7 hours ago
+                - generic [ref=e494]:
+                  - generic [ref=e495]:
+                    - button "Upvote" [ref=e496] [cursor=pointer]:
+                      - generic [ref=e497]: arrow_drop_up
+                    - button "1 votes" [ref=e498] [cursor=pointer]: "1"
+                    - button "Downvote" [ref=e499] [cursor=pointer]:
+                      - generic [ref=e500]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e501] [cursor=pointer]: more_vert
+                - paragraph [ref=e505]: may i ask where the problem type comes from? I am a liitle bit late to join this competation
+                - generic [ref=e506]:
+                  - button "Reply" [ref=e507] [cursor=pointer]:
+                    - generic [ref=e508]: reply
+                    - generic [ref=e509]: Reply
+                  - button "React" [ref=e511] [cursor=pointer]:
+                    - generic [ref=e512]: add_reaction
+                    - generic [ref=e513]: React
+                - generic [ref=e519]:
+                  - link "Tong Hui Kang's profile" [ref=e520] [cursor=pointer]:
+                    - /url: /huikang
+                    - generic "Tong Hui Kang" [ref=e521]
+                    - img [ref=e522]
+                  - generic [ref=e527]:
+                    - generic [ref=e528]:
+                      - link "Tong Hui Kang" [ref=e529] [cursor=pointer]:
+                        - /url: /huikang
+                        - heading "Tong Hui Kang" [level=3] [ref=e530]
+                      - generic [ref=e532]: Topic Author
+                    - generic [ref=e533]:
+                      - paragraph [ref=e534]: Posted 7 hours ago
+                      - paragraph [ref=e536]: · 10th in this Competition
+                  - generic [ref=e538]:
+                    - generic [ref=e539]:
+                      - button "Upvote" [ref=e540] [cursor=pointer]:
+                        - generic [ref=e541]: arrow_drop_up
+                      - button "3 votes" [ref=e542] [cursor=pointer]: "3"
+                      - button "Downvote" [ref=e543] [cursor=pointer]:
+                        - generic [ref=e544]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e545] [cursor=pointer]: more_vert
+                  - paragraph [ref=e549]: Oh, that is extracted from the problem. If you see, the problems categorizes nicely into 6 (or 7) formats.
+                  - generic [ref=e550]:
+                    - button "Reply" [ref=e551] [cursor=pointer]:
+                      - generic [ref=e552]: reply
+                      - generic [ref=e553]: Reply
+                    - generic [ref=e554]:
+                      - checkbox "1" [ref=e556] [cursor=pointer]:
+                        - img [ref=e558]
+                        - generic [ref=e559]: "1"
+                      - button "Add Reaction" [ref=e560] [cursor=pointer]: add_reaction
+              - separator [ref=e561]
+            - generic [ref=e562]:
+              - generic [ref=e566]:
+                - link "Russell Kirk's profile" [ref=e567] [cursor=pointer]:
+                  - /url: /russcore
+                  - generic "Russell Kirk" [ref=e568]
+                  - img [ref=e569]
+                  - generic [ref=e573]: emoji_people
+                - generic [ref=e576]:
+                  - link "Russell Kirk" [ref=e578] [cursor=pointer]:
+                    - /url: /russcore
+                    - heading "Russell Kirk" [level=3] [ref=e579]
+                  - generic [ref=e580]:
+                    - paragraph [ref=e581]: Posted 2 hours ago
+                    - paragraph [ref=e583]: · 409th in this Competition
+                - generic [ref=e585]:
+                  - generic [ref=e586]:
+                    - button "Upvote" [ref=e587] [cursor=pointer]:
+                      - generic [ref=e588]: arrow_drop_up
+                    - button "0 votes" [ref=e589] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e590] [cursor=pointer]:
+                      - generic [ref=e591]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e592] [cursor=pointer]: more_vert
+                - paragraph [ref=e596]: You made some useful stuff on the AIMO competition as well ^^
+                - generic [ref=e597]:
+                  - button "Reply" [ref=e598] [cursor=pointer]:
+                    - generic [ref=e599]: reply
+                    - generic [ref=e600]: Reply
+                  - button "React" [ref=e602] [cursor=pointer]:
+                    - generic [ref=e603]: add_reaction
+                    - generic [ref=e604]: React
+                - generic [ref=e610]:
+                  - link "Tong Hui Kang's profile" [ref=e611] [cursor=pointer]:
+                    - /url: /huikang
+                    - generic "Tong Hui Kang" [ref=e612]
+                    - img [ref=e613]
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - link "Tong Hui Kang" [ref=e620] [cursor=pointer]:
+                        - /url: /huikang
+                        - heading "Tong Hui Kang" [level=3] [ref=e621]
+                      - generic [ref=e623]: Topic Author
+                    - generic [ref=e624]:
+                      - paragraph [ref=e625]: Posted 21 minutes ago
+                      - paragraph [ref=e627]: · 10th in this Competition
+                  - generic [ref=e629]:
+                    - generic [ref=e630]:
+                      - button "Upvote" [ref=e631] [cursor=pointer]:
+                        - generic [ref=e632]: arrow_drop_up
+                      - button "0 votes" [ref=e633] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e634] [cursor=pointer]:
+                        - generic [ref=e635]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e636] [cursor=pointer]: more_vert
+                  - generic [ref=e639]:
+                    - paragraph [ref=e640]: lol I somewhat gave up on AIMO 3, I want to prove that I can finetune models here, then I go back to AIMO 3
+                    - paragraph [ref=e641]: Also I am waiting for the Tinker credits for use in AIMO 3
+                  - generic [ref=e642]:
+                    - button "Reply" [ref=e643] [cursor=pointer]:
+                      - generic [ref=e644]: reply
+                      - generic [ref=e645]: Reply
+                    - button "React" [ref=e647] [cursor=pointer]:
+                      - generic [ref=e648]: add_reaction
+                      - generic [ref=e649]: React
+                  - generic [ref=e655]:
+                    - link "Russell Kirk's profile" [ref=e656] [cursor=pointer]:
+                      - /url: /russcore
+                      - generic "Russell Kirk" [ref=e657]
+                      - img [ref=e658]
+                      - generic [ref=e662]: emoji_people
+                    - generic [ref=e665]:
+                      - link "Russell Kirk" [ref=e667] [cursor=pointer]:
+                        - /url: /russcore
+                        - heading "Russell Kirk" [level=3] [ref=e668]
+                      - generic [ref=e669]:
+                        - paragraph [ref=e670]: Posted 11 minutes ago
+                        - paragraph [ref=e672]: · 409th in this Competition
+                    - generic [ref=e674]:
+                      - generic [ref=e675]:
+                        - button "Upvote" [ref=e676] [cursor=pointer]:
+                          - generic [ref=e677]: arrow_drop_up
+                        - button "0 votes" [ref=e678] [cursor=pointer]: "0"
+                        - button "Downvote" [ref=e679] [cursor=pointer]:
+                          - generic [ref=e680]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e681] [cursor=pointer]: more_vert
+                    - generic [ref=e684]:
+                      - paragraph [ref=e685]: I feel the same way. I have plenty of data, but I'm not good at training. I was hoping someone would at least take a look at my data and try GRPO while I worked on dataset quality for forcing SFT! But as it is now, I will still lint the dataset everyday, but I set up a local computer with a 4090 to train non-stop until the competition ends. I never made good use of the H100.
+                      - paragraph [ref=e686]: This is what my "remote setup" looks like, but the loss is misleading because my dataset is SUPER linted. I think it may be grokking finally or what now? I don't know! We'll see, it was fun anyway!
+                      - paragraph [ref=e687]: 9B REMOTE UNSLOTH LORA r150 ctx2400 WATCH 2026-03-24 06:11:31 • up 13s
+                      - paragraph [ref=e688]: "▶ REMOTE russ@192.168.88.188 SFT GPU: ████████████████████ 100% 22GB/23GB (95%) 81C 433W Proc: 32891 tmux new-session -d -s sft9_hourly cd \"/home/russ/Desktop/qwen3_math_finetune\" && MODEL_PATH=/home/russ/models/Qwen3.5-9B-rack-promote"
+                      - paragraph [ref=e689]: "▶ SFT METRICS /mnt/synology/data/qwen3_9b/logs/train_9b_unsloth_lora_stage2_20260316_121647.log [log:train_9b_unsloth_lora_stage2_20260316_121647.log] Log: updated 24s ago TRAINING step 89/3701 Step: ░░░░░░░░░░░░░░░░░░░░ 2% (89/3701) Seen: 89 ex (0.02 ep) ~0.21M tok Loss: 0.0231 lr=7.93e-05 grad=0.803 Avg: 10▸l=0.0160 g=0.339 t=1,970 50▸l=0.0096 g=0.279 t=1,963 dig10=1.000 mcq10=0.991 dig50=0.998 mcq50=0.991 Ckpt: every=100 step=89→11left best=0.0000@8 Diag: tok_acc=0.997 ece=0.002 p(ok|wrong)=0.135 gns~1.206 Layers: ▂▂▃▄▃▄▄▅▄▅▅▇▆▆▇█▇▇▇█▇▇▆▇▆▆▅▅▄▄▃▄ hot:L19=1.79e-01 L15=1.78e-01 L18=1.57e-01 cold:L2=4.60e-02 L1=3.87e-02 L0=3.58e-02 Acc: digit=1.000(60) mcq=0.958(24) ΔIter: iter_0101 final=0.0239 → now=0.0231 →0.0008"
+                      - paragraph [ref=e690]: "▶ CHECKPOINTS SFT: iter_0101 /mnt/synology/data/qwen3_9b/checkpoints_unsloth_lora_r150_2400_kaggle4_stage2_20260316_121647"
+                      - paragraph [ref=e691]: Ctrl+C to exit • refresh 5s
+                    - generic [ref=e692]:
+                      - button "Reply" [ref=e693] [cursor=pointer]:
+                        - generic [ref=e694]: reply
+                        - generic [ref=e695]: Reply
+                      - button "React" [ref=e697] [cursor=pointer]:
+                        - generic [ref=e698]: add_reaction
+                        - generic [ref=e699]: React
+              - separator [ref=e700]
+            - generic [ref=e705]:
+              - link "Tong Hui Kang's profile" [ref=e706] [cursor=pointer]:
+                - /url: /huikang
+                - generic "Tong Hui Kang" [ref=e707]
+                - img [ref=e708]
+              - generic [ref=e713]:
+                - generic [ref=e714]:
+                  - link "Tong Hui Kang" [ref=e715] [cursor=pointer]:
+                    - /url: /huikang
+                    - heading "Tong Hui Kang" [level=3] [ref=e716]
+                  - generic [ref=e718]: Topic Author
+                - generic [ref=e719]:
+                  - paragraph [ref=e720]: Posted 6 hours ago
+                  - paragraph [ref=e722]: · 10th in this Competition
+              - generic [ref=e724]:
+                - generic [ref=e725]:
+                  - button "Upvote" [ref=e726] [cursor=pointer]:
+                    - generic [ref=e727]: arrow_drop_up
+                  - button "0 votes" [ref=e728] [cursor=pointer]: "0"
+                  - button "Downvote" [ref=e729] [cursor=pointer]:
+                    - generic [ref=e730]: arrow_drop_down
+                - button "More Options for this Comment" [ref=e731] [cursor=pointer]: more_vert
+              - generic [ref=e734]:
+                - paragraph [ref=e735]: FAQ
+                - list [ref=e736]:
+                  - listitem [ref=e737]: Why are the partially solved problems in the middle? I ran the inference script in alphabetical and reverse alphabetical order and went for a nap. When I woke up, each script is slightly more than half done and I terminated it.
+                  - listitem [ref=e738]:
+                    - text: Where is the prompt from? It is from the official
+                    - link "metric (opens in a new tab)" [ref=e739] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/code/metric/nvidia-nemotron-metric/notebook
+                      - text: metric
+                    - text: notebook.
+                  - listitem [ref=e740]:
+                    - text: How much money did it cost? On Modal I ran on an RTX PRO 6000 which is
+                    - link "$3.03 (opens in a new tab)" [ref=e741] [cursor=pointer]:
+                      - /url: https://modal.com/pricing
+                      - text: $3.03
+                    - text: per hour. I think I ran this for five hours. The throughput was 2.5k tokens per second.
+                - paragraph [ref=e742]: Comments
+                - list [ref=e743]:
+                  - listitem [ref=e744]:
+                    - text: You see that the solve rate is almost 50%, which aligns with the demo submission from the
+                    - link "organizer (opens in a new tab)" [ref=e745] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/code/ryanholbrook/nvidia-nemotron-submission-demo
+                      - text: organizer
+                    - text: .
+                  - listitem [ref=e746]:
+                    - text: For many entries of equation numeric, and almost all entries in equation symbolic, I could not figure the pattern. This is reported in other
+                    - link "threads (opens in a new tab)" [ref=e747] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/684192
+                      - text: threads
+                    - text: .
+              - generic [ref=e748]:
+                - button "Reply" [ref=e749] [cursor=pointer]:
+                  - generic [ref=e750]: reply
+                  - generic [ref=e751]: Reply
+                - button "React" [ref=e753] [cursor=pointer]:
+                  - generic [ref=e754]: add_reaction
+                  - generic [ref=e755]: React
+              - generic [ref=e756]:
+                - generic [ref=e761]:
+                  - link "martianlantern's profile" [ref=e762] [cursor=pointer]:
+                    - /url: /ellipticaloranges
+                    - generic "martianlantern" [ref=e763]
+                    - img [ref=e764]
+                  - generic [ref=e769]:
+                    - link "martianlantern" [ref=e771] [cursor=pointer]:
+                      - /url: /ellipticaloranges
+                      - heading "martianlantern" [level=3] [ref=e772]
+                    - paragraph [ref=e774]: Posted 2 hours ago
+                  - generic [ref=e776]:
+                    - generic [ref=e777]:
+                      - button "Upvote" [ref=e778] [cursor=pointer]:
+                        - generic [ref=e779]: arrow_drop_up
+                      - button "1 votes" [ref=e780] [cursor=pointer]: "1"
+                      - button "Downvote" [ref=e781] [cursor=pointer]:
+                        - generic [ref=e782]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e783] [cursor=pointer]: more_vert
+                  - paragraph [ref=e787]:
+                    - text: Hey
+                    - link "@huikang (opens in a new tab)" [ref=e788] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/huikang
+                      - text: "@huikang"
+                    - text: thanks for sharing this, it's really helpful to understand the model's current behaviour around these puzzles. I have one doubt regarding the partial problems, as you said problems where attempted more than twice due to the way you ran two separate scripts, but in the inference metrics the temperature is set to 0.0 so this still shouldn't happen and every inference run should give me the same thinking and answer chain, or maybe I misunderstood something
+                  - generic [ref=e789]:
+                    - button "Reply" [ref=e790] [cursor=pointer]:
+                      - generic [ref=e791]: reply
+                      - generic [ref=e792]: Reply
+                    - button "React" [ref=e794] [cursor=pointer]:
+                      - generic [ref=e795]: add_reaction
+                      - generic [ref=e796]: React
+                  - generic [ref=e802]:
+                    - link "Tong Hui Kang's profile" [ref=e803] [cursor=pointer]:
+                      - /url: /huikang
+                      - generic "Tong Hui Kang" [ref=e804]
+                      - img [ref=e805]
+                    - generic [ref=e810]:
+                      - generic [ref=e811]:
+                        - link "Tong Hui Kang" [ref=e812] [cursor=pointer]:
+                          - /url: /huikang
+                          - heading "Tong Hui Kang" [level=3] [ref=e813]
+                        - generic [ref=e815]: Topic Author
+                      - generic [ref=e816]:
+                        - paragraph [ref=e817]: Posted 25 minutes ago
+                        - paragraph [ref=e819]: · 10th in this Competition
+                    - generic [ref=e821]:
+                      - generic [ref=e822]:
+                        - button "Upvote" [ref=e823] [cursor=pointer]:
+                          - generic [ref=e824]: arrow_drop_up
+                        - button "0 votes" [ref=e825] [cursor=pointer]: "0"
+                        - button "Downvote" [ref=e826] [cursor=pointer]:
+                          - generic [ref=e827]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e828] [cursor=pointer]: more_vert
+                    - generic [ref=e831]:
+                      - paragraph [ref=e832]: Great question, the temperature was 1.0.
+                      - paragraph [ref=e833]: Otherwise everything will be logprob one (need to confirm). I want to see which tokens are super likely and which tokens are unlikely.
+                    - generic [ref=e834]:
+                      - button "Reply" [ref=e835] [cursor=pointer]:
+                        - generic [ref=e836]: reply
+                        - generic [ref=e837]: Reply
+                      - button "React" [ref=e839] [cursor=pointer]:
+                        - generic [ref=e840]: add_reaction
+                        - generic [ref=e841]: React
+                - generic [ref=e846]:
+                  - link "Ankith Savio's profile" [ref=e847] [cursor=pointer]:
+                    - /url: /weedoo
+                    - generic "Ankith Savio" [ref=e848]
+                    - img [ref=e849]
+                  - generic [ref=e854]:
+                    - link "Ankith Savio" [ref=e856] [cursor=pointer]:
+                      - /url: /weedoo
+                      - heading "Ankith Savio" [level=3] [ref=e857]
+                    - generic [ref=e858]:
+                      - paragraph [ref=e859]: Posted an hour ago
+                      - paragraph [ref=e861]: · 775th in this Competition
+                  - generic [ref=e863]:
+                    - generic [ref=e864]:
+                      - button "Upvote" [ref=e865] [cursor=pointer]:
+                        - generic [ref=e866]: arrow_drop_up
+                      - button "0 votes" [ref=e867] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e868] [cursor=pointer]:
+                        - generic [ref=e869]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e870] [cursor=pointer]: more_vert
+                  - paragraph [ref=e874]: What was the batch size here? I am trying to understand how we can achieve that throughput.
+                  - generic [ref=e875]:
+                    - button "Reply" [ref=e876] [cursor=pointer]:
+                      - generic [ref=e877]: reply
+                      - generic [ref=e878]: Reply
+                    - button "React" [ref=e880] [cursor=pointer]:
+                      - generic [ref=e881]: add_reaction
+                      - generic [ref=e882]: React
+                  - generic [ref=e888]:
+                    - link "Tong Hui Kang's profile" [ref=e889] [cursor=pointer]:
+                      - /url: /huikang
+                      - generic "Tong Hui Kang" [ref=e890]
+                      - img [ref=e891]
+                    - generic [ref=e896]:
+                      - generic [ref=e897]:
+                        - link "Tong Hui Kang" [ref=e898] [cursor=pointer]:
+                          - /url: /huikang
+                          - heading "Tong Hui Kang" [level=3] [ref=e899]
+                        - generic [ref=e901]: Topic Author
+                      - generic [ref=e902]:
+                        - paragraph [ref=e903]: Posted 21 minutes ago
+                        - paragraph [ref=e905]: · 10th in this Competition
+                    - generic [ref=e907]:
+                      - generic [ref=e908]:
+                        - button "Upvote" [ref=e909] [cursor=pointer]:
+                          - generic [ref=e910]: arrow_drop_up
+                        - button "0 votes" [ref=e911] [cursor=pointer]: "0"
+                        - button "Downvote" [ref=e912] [cursor=pointer]:
+                          - generic [ref=e913]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e914] [cursor=pointer]: more_vert
+                    - generic [ref=e917]:
+                      - paragraph [ref=e918]:
+                        - text: For vLLM inference, we do not think in terms of batch size but in terms of concurrency
+                        - link "<code>--max-num-seqs</code> (opens in a new tab)" [ref=e919] [cursor=pointer]:
+                          - /url: https://docs.vllm.ai/en/stable/configuration/engine_args/#-max-num-seqs
+                          - code [ref=e920]: "--max-num-seqs"
+                        - text: .
+                      - paragraph [ref=e921]: I remember having a concurrency of 256. I do not think I needed that high, I remember achieving the same 2.5k token throughput with a concurrency of 128.
+                    - generic [ref=e922]:
+                      - button "Reply" [ref=e923] [cursor=pointer]:
+                        - generic [ref=e924]: reply
+                        - generic [ref=e925]: Reply
+                      - button "React" [ref=e927] [cursor=pointer]:
+                        - generic [ref=e928]: add_reaction
+                        - generic [ref=e929]: React
+  - alert [ref=e932]

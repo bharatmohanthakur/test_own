@@ -1,0 +1,454 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - list [ref=e23]:
+          - listitem "Home List Item" [ref=e24]:
+            - link "Home" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e27]:
+                - generic [ref=e30]: explore
+                - paragraph [ref=e32]: Home
+          - listitem "Competitions List Item" [ref=e33]:
+            - link "Competitions" [ref=e35] [cursor=pointer]:
+              - /url: /competitions
+              - generic [ref=e36]:
+                - generic [ref=e39]: emoji_events
+                - paragraph [ref=e41]: Competitions
+          - listitem "Datasets List Item" [ref=e43]:
+            - link "Datasets" [ref=e45] [cursor=pointer]:
+              - /url: /datasets
+              - generic [ref=e46]:
+                - generic [ref=e49]: table_chart
+                - paragraph [ref=e51]: Datasets
+          - listitem "Models List Item" [ref=e52]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /models
+              - generic [ref=e55]:
+                - generic [ref=e58]: tenancy
+                - paragraph [ref=e60]: Models
+          - listitem "Benchmarks List Item" [ref=e61]:
+            - link "Benchmarks" [ref=e63] [cursor=pointer]:
+              - /url: /benchmarks
+              - generic [ref=e64]:
+                - generic [ref=e67]: leaderboard
+                - paragraph [ref=e69]: Benchmarks
+          - listitem "Game Arena List Item" [ref=e70]:
+            - link "Game Arena" [ref=e72] [cursor=pointer]:
+              - /url: /game-arena
+              - generic [ref=e73]:
+                - generic [ref=e76]: smart_toy
+                - paragraph [ref=e78]: Game Arena
+          - listitem "Code List Item" [ref=e79]:
+            - link "Code" [ref=e81] [cursor=pointer]:
+              - /url: /code
+              - generic [ref=e82]:
+                - generic [ref=e85]: code
+                - paragraph [ref=e87]: Code
+          - listitem "Discussions List Item" [ref=e88]:
+            - link "Discussions" [ref=e90] [cursor=pointer]:
+              - /url: /discussions
+              - generic [ref=e91]:
+                - generic [ref=e94]: comment
+                - paragraph [ref=e96]: Discussions
+          - listitem "Kaggle Learn List Item" [ref=e97]:
+            - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+              - /url: /learn
+              - generic [ref=e100]:
+                - generic [ref=e103]: school
+                - paragraph [ref=e105]: Learn
+        - list [ref=e106]:
+          - listitem "More on Kaggle List Item" [ref=e107]:
+            - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e110]:
+                - generic [ref=e113]: expand_more
+                - paragraph [ref=e115]: More
+      - button "View Active Events" [ref=e117] [cursor=pointer]:
+        - generic [ref=e119]: auto_awesome_motion
+        - paragraph [ref=e120]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: search
+        - textbox "Search" [ref=e128]
+        - group
+      - generic [ref=e130]:
+        - link "Sign In" [ref=e132] [cursor=pointer]:
+          - /url: /account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F681820
+          - button "Sign In" [ref=e133]:
+            - generic [ref=e134]: Sign In
+        - link "Register" [ref=e136] [cursor=pointer]:
+          - /url: /account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F681820
+          - button "Register" [ref=e137]:
+            - generic [ref=e138]: Register
+  - main [ref=e139]:
+    - generic [ref=e141]:
+      - generic [ref=e142]: Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+      - generic [ref=e143]:
+        - link "Learn more" [ref=e144] [cursor=pointer]:
+          - /url: /cookies
+          - generic [ref=e145]: Learn more
+        - generic [ref=e146] [cursor=pointer]: OK, Got it.
+    - generic [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - link "NVIDIA's profile" [ref=e153] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e154]
+            - img [ref=e155]
+          - generic [ref=e158]:
+            - generic [ref=e160]: NVIDIA
+            - generic [ref=e161]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e162]:
+            - button "Join Competition" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Join Competition
+            - button "Competition options menu collapsed" [ref=e167] [cursor=pointer]: more_horiz
+        - generic [ref=e169]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e170]
+          - paragraph [ref=e172]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e176]:
+        - tablist [ref=e183]:
+          - tab "Overview, 1 of 7" [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]: Overview
+          - tab "Data, 2 of 7" [ref=e186] [cursor=pointer]:
+            - generic [ref=e187]: Data
+          - tab "Code, 3 of 7" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]: Code
+          - tab "Models, 4 of 7" [ref=e190] [cursor=pointer]:
+            - generic [ref=e191]: Models
+          - tab "Discussion, 5 of 7" [selected] [ref=e192] [cursor=pointer]:
+            - generic [ref=e193]: Discussion
+          - tab "Leaderboard, 6 of 7" [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]: Leaderboard
+          - tab "Rules, 7 of 7" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: Rules
+        - separator [ref=e199]
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - link "Adarsh Kumar's profile" [ref=e207] [cursor=pointer]:
+                - /url: /adarsh2626
+                - generic "Adarsh Kumar" [ref=e208]
+                - img [ref=e209]
+              - generic [ref=e212]:
+                - link "Adarsh Kumar" [ref=e213] [cursor=pointer]:
+                  - /url: /adarsh2626
+                - text: ·
+                - generic [ref=e214]: 37th in this Competition ·
+                - generic [ref=e215]: Posted 2 days ago
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - button "Upvote" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]: arrow_drop_up
+                - button "7 votes" [ref=e220] [cursor=pointer]: "7"
+              - button "More Options for this Topic" [ref=e221] [cursor=pointer]: more_vert
+            - 'heading "Fix for “CUDA error: no kernel image is available for execution on the device” on RTX PRO 6000 Blackwell" [level=3] [ref=e222]'
+            - generic [ref=e225]:
+              - paragraph [ref=e226]:
+                - text: This competition provides an
+                - strong [ref=e227]: NVIDIA RTX PRO 6000 Blackwell
+                - text: "GPU. When trying to fine-tune the Nemotron model with LoRA, you may encounter the following error during training:"
+              - code [ref=e229]: "AcceleratorError: CUDA error: no kernel image is available for execution on the device"
+              - paragraph [ref=e230]:
+                - text: I initially thought something was wrong in my training pipeline and spent
+                - strong [ref=e231]: 2–3 hours debugging
+                - text: tokenization, Trainer setup, LoRA configuration, etc. However, the issue is actually much simpler.
+              - paragraph [ref=e232]:
+                - strong [ref=e233]: "Reason:"
+                - text: The default PyTorch build in the environment supports CUDA architectures up to
+                - strong [ref=e234]: sm_90
+                - text: ", but the RTX PRO 6000 (Blackwell) uses"
+                - strong [ref=e235]: sm_120
+                - text: . Because of this mismatch, CUDA kernels cannot run and training fails.
+              - paragraph [ref=e236]:
+                - strong [ref=e237]: "Solution:"
+                - text: Install a PyTorch build compiled with CUDA 12.8+ (nightly) that includes support for the Blackwell architecture.
+              - paragraph [ref=e238]:
+                - text: Run this before importing
+                - code [ref=e239]: torch
+                - text: or
+                - code [ref=e240]: transformers
+                - text: ":"
+              - code [ref=e242]: "!pip uninstall -y torch torchvision torchaudio !pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128 !pip install mamba-ssm --no-build-isolation"
+              - paragraph [ref=e243]:
+                - text: After installing,
+                - strong [ref=e244]: restart the kernel from the Run menu
+                - text: ", and the training should start normally."
+              - paragraph [ref=e245]: Hope this saves others some debugging time 🙂
+          - separator [ref=e246]
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - paragraph [ref=e251]:
+              - paragraph [ref=e252]:
+                - text: Please
+                - link "sign in opens in new window" [ref=e253] [cursor=pointer]:
+                  - /url: /account/login
+                  - text: sign in
+                - text: to reply to this topic.
+            - separator [ref=e254]
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - generic [ref=e258]: comment
+              - heading "10 Comments" [level=2] [ref=e260]
+            - generic [ref=e263]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e264] [cursor=pointer]:
+                - generic [ref=e266]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - generic [ref=e272]:
+                - link "HanJunseo's profile" [ref=e273] [cursor=pointer]:
+                  - /url: /hanjunseo
+                  - generic "HanJunseo" [ref=e274]
+                  - img [ref=e275]
+                - generic [ref=e280]:
+                  - link "HanJunseo" [ref=e282] [cursor=pointer]:
+                    - /url: /hanjunseo
+                    - heading "HanJunseo" [level=3] [ref=e283]
+                  - generic [ref=e284]:
+                    - paragraph [ref=e285]: Posted 20 hours ago
+                    - paragraph [ref=e287]: · 177th in this Competition
+                - generic [ref=e289]:
+                  - generic [ref=e290]:
+                    - button "Upvote" [ref=e291] [cursor=pointer]:
+                      - generic [ref=e292]: arrow_drop_up
+                    - button "1 votes" [ref=e293] [cursor=pointer]: "1"
+                  - button "More Options for this Comment" [ref=e294] [cursor=pointer]: more_vert
+                - paragraph [ref=e298]: me too. I can't solve this problem
+                - generic [ref=e304]:
+                  - link "Anton Kratz's profile" [ref=e305] [cursor=pointer]:
+                    - /url: /antonkratz
+                    - generic "Anton Kratz" [ref=e306]
+                    - img [ref=e307]
+                  - generic [ref=e312]:
+                    - link "Anton Kratz" [ref=e314] [cursor=pointer]:
+                      - /url: /antonkratz
+                      - heading "Anton Kratz" [level=3] [ref=e315]
+                    - generic [ref=e316]:
+                      - paragraph [ref=e317]: Posted 20 hours ago
+                      - paragraph [ref=e319]: · 155th in this Competition
+                  - generic [ref=e321]:
+                    - generic [ref=e322]:
+                      - button "Upvote" [ref=e323] [cursor=pointer]:
+                        - generic [ref=e324]: arrow_drop_up
+                      - button "0 votes" [ref=e325] [cursor=pointer]: "0"
+                    - button "More Options for this Comment" [ref=e326] [cursor=pointer]: more_vert
+                  - paragraph [ref=e330]: Thanks for speaking up. I have spent ~5 of the weekly GPU hours on this already plus additional troubleshooting. This is a blocker.
+              - separator [ref=e331]
+            - generic [ref=e332]:
+              - generic [ref=e336]:
+                - link "Anton Kratz's profile" [ref=e337] [cursor=pointer]:
+                  - /url: /antonkratz
+                  - generic "Anton Kratz" [ref=e338]
+                  - img [ref=e339]
+                - generic [ref=e344]:
+                  - link "Anton Kratz" [ref=e346] [cursor=pointer]:
+                    - /url: /antonkratz
+                    - heading "Anton Kratz" [level=3] [ref=e347]
+                  - generic [ref=e348]:
+                    - paragraph [ref=e349]: Posted a day ago
+                    - paragraph [ref=e351]: · 155th in this Competition
+                - generic [ref=e353]:
+                  - generic [ref=e354]:
+                    - button "Upvote" [ref=e355] [cursor=pointer]:
+                      - generic [ref=e356]: arrow_drop_up
+                    - button "1 votes" [ref=e357] [cursor=pointer]: "1"
+                  - button "More Options for this Comment" [ref=e358] [cursor=pointer]: more_vert
+                - generic [ref=e361]:
+                  - paragraph [ref=e362]:
+                    - text: Thank you
+                    - link "@adarsh2626 (opens in a new tab)" [ref=e363] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/adarsh2626
+                      - text: "@adarsh2626"
+                    - text: "for posting this. I am indeed running into this exact error, however the solution does not work for me, when I try your solution I get:"
+                  - code [ref=e365]: "Found existing installation: torch 2.12.0.dev20260315+cu128 Uninstalling torch-2.12.0.dev20260315+cu128: ERROR: Exception: Traceback (most recent call last): File \"/usr/lib/python3.12/shutil.py\", line 847, in move os.rename(src, real_dst) OSError: [Errno 18] Invalid cross-device link: '/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/bin/torchfrtrace' -> '/tmp/pip-uninstall-jrvck2ey/torchfrtrace' During handling of the above exception, another exception occurred: Traceback (most recent call last): File \"/usr/local/lib/python3.12/dist-packages/pip/_internal/cli/base_command.py\", line 179, in exc_logging_wrapper status = run_func(*args) ^^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.12/dist-packages/pip/_internal/commands/uninstall.py\", line 106, in run uninstall_pathset = req.uninstall( ^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.12/dist-packages/pip/_internal/req/req_install.py\", line 722, in uninstall uninstalled_pathset.remove(auto_confirm, verbose) File \"/usr/local/lib/python3.12/dist-packages/pip/_internal/req/req_uninstall.py\", line 370, in remove moved.stash(path) File \"/usr/local/lib/python3.12/dist-packages/pip/_internal/req/req_uninstall.py\", line 261, in stash renames(path, new_path) File \"/usr/local/lib/python3.12/dist-packages/pip/_internal/utils/misc.py\", line 356, in renames shutil.move(old, new) File \"/usr/lib/python3.12/shutil.py\", line 868, in move os.unlink(src) OSError: [Errno 30] Read-only file system: '/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/bin/torchfrtrace'"
+                - generic [ref=e366]:
+                  - paragraph [ref=e373]: This comment has been deleted.
+                  - generic [ref=e378]:
+                    - link "Adarsh Kumar's profile" [ref=e379] [cursor=pointer]:
+                      - /url: /adarsh2626
+                      - generic "Adarsh Kumar" [ref=e380]
+                      - img [ref=e381]
+                    - generic [ref=e386]:
+                      - generic [ref=e387]:
+                        - link "Adarsh Kumar" [ref=e388] [cursor=pointer]:
+                          - /url: /adarsh2626
+                          - heading "Adarsh Kumar" [level=3] [ref=e389]
+                        - generic [ref=e391]: Topic Author
+                      - generic [ref=e392]:
+                        - paragraph [ref=e393]: Posted a day ago
+                        - paragraph [ref=e395]: · 37th in this Competition
+                    - generic [ref=e397]:
+                      - generic [ref=e398]:
+                        - button "Upvote" [ref=e399] [cursor=pointer]:
+                          - generic [ref=e400]: arrow_drop_up
+                        - button "1 votes" [ref=e401] [cursor=pointer]: "1"
+                      - button "More Options for this Comment" [ref=e402] [cursor=pointer]: more_vert
+                    - generic [ref=e405]:
+                      - paragraph [ref=e406]:
+                        - link "@antonkratz (opens in a new tab)" [ref=e407] [cursor=pointer]:
+                          - /url: https://www.kaggle.com/antonkratz
+                          - text: "@antonkratz"
+                        - text: can you try
+                      - code [ref=e409]: "!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128"
+                      - paragraph [ref=e410]: OR
+                      - code [ref=e412]: "!pip install torch torchvision torchaudio \\ --index-url https://download.pytorch.org/whl/cu128 \\ --force-reinstall --no-deps"
+                      - paragraph [ref=e413]: The problem is the pytorch version it should be 128
+                      - paragraph [ref=e414]: And you need this to load model
+                      - code [ref=e416]: "!pip install mamba-ssm --no-build-isolation"
+                      - paragraph [ref=e417]: If you get retrying or internetconnection error turn off and again on the notebooks internet it will work
+                    - generic [ref=e418]:
+                      - generic [ref=e423]:
+                        - link "Anton Kratz's profile" [ref=e424] [cursor=pointer]:
+                          - /url: /antonkratz
+                          - generic "Anton Kratz" [ref=e425]
+                          - img [ref=e426]
+                        - generic [ref=e431]:
+                          - link "Anton Kratz" [ref=e433] [cursor=pointer]:
+                            - /url: /antonkratz
+                            - heading "Anton Kratz" [level=3] [ref=e434]
+                          - generic [ref=e435]:
+                            - paragraph [ref=e436]: Posted a day ago
+                            - paragraph [ref=e438]: · 155th in this Competition
+                        - generic [ref=e440]:
+                          - generic [ref=e441]:
+                            - button "Upvote" [ref=e442] [cursor=pointer]:
+                              - generic [ref=e443]: arrow_drop_up
+                            - button "0 votes" [ref=e444] [cursor=pointer]: "0"
+                          - button "More Options for this Comment" [ref=e445] [cursor=pointer]: more_vert
+                        - generic [ref=e448]:
+                          - paragraph [ref=e449]: Thank you, but somehow I can't seem to get it to work. I tried the these two fixes just now.
+                          - paragraph [ref=e450]: It seems I do have 128 installed already?!
+                          - paragraph [ref=e451]: I took the freedom to share my notebook with you, I hope that's okay. Maybe I could kindly ask you to take a look?
+                          - paragraph [ref=e452]: "P.S.:"
+                          - code [ref=e454]: "!pip install torch torchvision torchaudio \\ --index-url https://download.pytorch.org/whl/cu128 \\ --force-reinstall --no-deps"
+                          - paragraph [ref=e455]:
+                            - text: results in
+                            - code [ref=e456]: "ERROR: Could not install packages due to an OSError: [Errno 30] Read-only file system: '/kaggle/usr/lib/notebooks/ryanholbrook/nvidia_utility_script/torchaudio-2.11.0.dev20260315+cu128.dist-info/'"
+                          - paragraph [ref=e457]: What does work for me is
+                          - code [ref=e459]: "!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128"
+                          - paragraph [ref=e460]:
+                            - text: however it will ultimately result in
+                            - code [ref=e461]: "AcceleratorError: CUDA error: no kernel image is available for execution on the device"
+                            - text: .
+                      - generic [ref=e462]:
+                        - button "4 more replies" [ref=e463] [cursor=pointer]:
+                          - generic [ref=e464]: 4 more replies
+                          - generic [ref=e465]: arrow_drop_down
+                        - generic [ref=e466]:
+                          - img "Profile picture for Adarsh Kumar" [ref=e468]
+                          - img "Profile picture for Anton Kratz" [ref=e470]
+              - separator [ref=e471]
+            - generic [ref=e472]:
+              - generic [ref=e476]:
+                - link "Dustin's profile" [ref=e477] [cursor=pointer]:
+                  - /url: /herbison
+                  - generic "Dustin" [ref=e478]
+                  - img [ref=e479]
+                - generic [ref=e484]:
+                  - generic [ref=e485]:
+                    - link "Dustin" [ref=e486] [cursor=pointer]:
+                      - /url: /herbison
+                      - heading "Dustin" [level=3] [ref=e487]
+                    - generic [ref=e489]: Kaggle Staff
+                  - paragraph [ref=e491]: Posted 2 days ago
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - button "Upvote" [ref=e495] [cursor=pointer]:
+                      - generic [ref=e496]: arrow_drop_up
+                    - button "3 votes" [ref=e497] [cursor=pointer]: "3"
+                  - button "More Options for this Comment" [ref=e498] [cursor=pointer]: more_vert
+                - paragraph [ref=e502]:
+                  - link "@tifftoff (opens in a new tab)" [ref=e503] [cursor=pointer]:
+                    - /url: https://www.kaggle.com/tifftoff
+                    - text: "@tifftoff"
+                  - text: Can you look into upgrading these in the base env for the next release? May need to check in with our base image since I think they are installed there.
+              - separator [ref=e504]
+            - generic [ref=e505]:
+              - generic [ref=e509]:
+                - link "HADY's profile" [ref=e510] [cursor=pointer]:
+                  - /url: /johnhady101
+                  - generic "HADY" [ref=e511]
+                  - img [ref=e512]
+                - generic [ref=e517]:
+                  - link "HADY" [ref=e519] [cursor=pointer]:
+                    - /url: /johnhady101
+                    - heading "HADY" [level=3] [ref=e520]
+                  - paragraph [ref=e522]: Posted 2 days ago
+                - generic [ref=e524]:
+                  - generic [ref=e525]:
+                    - button "Upvote" [ref=e526] [cursor=pointer]:
+                      - generic [ref=e527]: arrow_drop_up
+                    - button "-1 votes" [ref=e528] [cursor=pointer]: "-1"
+                  - button "More Options for this Comment" [ref=e529] [cursor=pointer]: more_vert
+                - paragraph [ref=e533]: How did you access the rtx pro 6000?
+                - generic [ref=e539]:
+                  - link "lucian kucera's profile" [ref=e540] [cursor=pointer]:
+                    - /url: /luciankucera
+                    - generic "lucian kucera" [ref=e541]
+                    - img [ref=e542]
+                  - generic [ref=e547]:
+                    - link "lucian kucera" [ref=e549] [cursor=pointer]:
+                      - /url: /luciankucera
+                      - heading "lucian kucera" [level=3] [ref=e550]
+                    - paragraph [ref=e552]: Posted 2 days ago
+                  - generic [ref=e554]:
+                    - generic [ref=e555]:
+                      - button "Upvote" [ref=e556] [cursor=pointer]:
+                        - generic [ref=e557]: arrow_drop_up
+                      - button "0 votes" [ref=e558] [cursor=pointer]: "0"
+                    - button "More Options for this Comment" [ref=e559] [cursor=pointer]: more_vert
+                  - paragraph [ref=e563]: Ver simple in code tab u create notebook, which is asociated with this competition and u can use rtx pro 6000.
+              - separator [ref=e564]
+            - generic [ref=e569]:
+              - link "HanJunseo's profile" [ref=e570] [cursor=pointer]:
+                - /url: /hanjunseo
+                - generic "HanJunseo" [ref=e571]
+                - img [ref=e572]
+              - generic [ref=e577]:
+                - link "HanJunseo" [ref=e579] [cursor=pointer]:
+                  - /url: /hanjunseo
+                  - heading "HanJunseo" [level=3] [ref=e580]
+                - generic [ref=e581]:
+                  - paragraph [ref=e582]: Posted 3 hours ago
+                  - paragraph [ref=e584]: · 177th in this Competition
+              - generic [ref=e586]:
+                - generic [ref=e587]:
+                  - button "Upvote" [ref=e588] [cursor=pointer]:
+                    - generic [ref=e589]: arrow_drop_up
+                  - button "0 votes" [ref=e590] [cursor=pointer]: "0"
+                - button "More Options for this Comment" [ref=e591] [cursor=pointer]: more_vert
+              - paragraph [ref=e595]: I tried again today, and it seems that internet access is blocked in the competition notebook environment. Is this happening only to me, or are others seeing the same issue as well?
+              - generic [ref=e601]:
+                - link "Keanan's profile" [ref=e602] [cursor=pointer]:
+                  - /url: /citerne
+                  - generic "Keanan" [ref=e603]
+                  - img [ref=e604]
+                - generic [ref=e609]:
+                  - link "Keanan" [ref=e611] [cursor=pointer]:
+                    - /url: /citerne
+                    - heading "Keanan" [level=3] [ref=e612]
+                  - paragraph [ref=e614]: Posted 2 hours ago
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - button "Upvote" [ref=e618] [cursor=pointer]:
+                      - generic [ref=e619]: arrow_drop_up
+                    - button "0 votes" [ref=e620] [cursor=pointer]: "0"
+                  - button "More Options for this Comment" [ref=e621] [cursor=pointer]: more_vert
+                - paragraph [ref=e625]: "got this message: Error: Internet cannot be enabled for this competition with the current accelerator."
+  - alert [ref=e628]

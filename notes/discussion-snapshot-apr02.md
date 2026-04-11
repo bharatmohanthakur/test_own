@@ -1,0 +1,809 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT v16 Tiny List Item" [ref=e137]:
+                  - link "Nemotron SFT v16 Tiny" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v16-tiny
+                    - paragraph [ref=e144]: Nemotron SFT v16 Tiny
+                - listitem "Nemotron SFT v15 List Item" [ref=e145]:
+                  - link "Nemotron SFT v15" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v15
+                    - paragraph [ref=e152]: Nemotron SFT v15
+                - listitem "Nemotron SFT v11 List Item" [ref=e153]:
+                  - link "Nemotron SFT v11" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v11
+                    - paragraph [ref=e160]: Nemotron SFT v11
+                - listitem "Nemotron SFT v10 List Item" [ref=e161]:
+                  - link "Nemotron SFT v10" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v10
+                    - paragraph [ref=e168]: Nemotron SFT v10
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e169]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e176]: Nemotron SFT+GRPO v1
+            - listitem
+      - button "View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e180]: auto_awesome_motion
+        - paragraph [ref=e181]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e187]:
+        - generic [ref=e188]: search
+        - textbox "Search" [ref=e189]
+        - group
+      - button "bharat" [ref=e194] [cursor=pointer]:
+        - generic "bharat" [ref=e195]
+        - img [ref=e196]
+  - main [ref=e199]:
+    - generic [ref=e202]:
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - link "NVIDIA's profile" [ref=e206] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e207]
+            - img [ref=e208]
+          - generic [ref=e211]:
+            - generic [ref=e213]: NVIDIA
+            - generic [ref=e214]: · Featured Prediction Competition · 2 months to go
+          - generic [ref=e215]:
+            - button "Submit Prediction" [ref=e217] [cursor=pointer]:
+              - generic [ref=e218]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e220] [cursor=pointer]: more_horiz
+        - generic [ref=e222]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e223]
+          - paragraph [ref=e225]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e229]:
+        - tablist [ref=e236]:
+          - tab "Overview, 1 of 9" [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: Overview
+          - tab "Data, 2 of 9" [ref=e239] [cursor=pointer]:
+            - generic [ref=e240]: Data
+          - tab "Code, 3 of 9" [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]: Code
+          - tab "Models, 4 of 9" [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e245] [cursor=pointer]:
+            - generic [ref=e246]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e247] [cursor=pointer]:
+            - generic [ref=e248]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e249] [cursor=pointer]:
+            - generic [ref=e250]: Rules
+          - tab "Team, 8 of 9" [ref=e251] [cursor=pointer]:
+            - generic [ref=e252]: Team
+          - tab "Submissions, 9 of 9" [ref=e253] [cursor=pointer]:
+            - generic [ref=e254]: Submissions
+        - separator [ref=e256]
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - heading "Discussion" [level=2] [ref=e264]
+          - generic [ref=e265]:
+            - button "Follow" [ref=e266] [cursor=pointer]:
+              - generic [ref=e267]: notifications
+              - generic [ref=e268]: Follow
+              - generic [ref=e269]: arrow_drop_down
+            - button "New Topic" [ref=e270] [cursor=pointer]:
+              - generic [ref=e271]: add
+              - generic [ref=e272]: New Topic
+        - generic [ref=e274]:
+          - generic [ref=e277]:
+            - generic [ref=e278]: search
+            - textbox "Search discussions" [ref=e279]
+            - generic "Filter is added" [ref=e281]:
+              - button "Filters" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: filter_list
+                - generic [ref=e284]: Filters
+            - group
+          - tablist [ref=e289]:
+            - tab "All, 1 of 3" [selected] [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: All
+            - tab "Owned, 2 of 3" [ref=e292] [cursor=pointer]:
+              - generic [ref=e293]: Owned
+            - tab "Bookmarks, 3 of 3" [ref=e294] [cursor=pointer]:
+              - generic [ref=e295]: Bookmarks
+          - generic [ref=e299]:
+            - combobox "Select Sort. Recent Comments currently selected." [ref=e300] [cursor=pointer]:
+              - generic [ref=e302]: Recent Comments
+            - textbox: Recent Comments
+            - img
+          - generic [ref=e303]:
+            - separator [ref=e304]
+            - list [ref=e305]:
+              - heading "Pinned topics" [level=3] [ref=e306]
+              - listitem "undefined List Item" [ref=e307]:
+                - generic [ref=e308]:
+                  - link "Jamil C Semaan's profile (opens in a new tab) How to Get Started + Nemotron Model Reasoning Challenge Resources Jamil C Semaan · Last comment 10 hours ago by NoorMazhar" [ref=e309] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681745
+                    - generic [ref=e310]:
+                      - link "Jamil C Semaan's profile (opens in a new tab)" [ref=e313]:
+                        - /url: /jamilcsemaan
+                        - generic "Jamil C Semaan" [ref=e314]
+                        - img [ref=e315]
+                        - generic [ref=e319]: push_pin
+                      - generic [ref=e320]:
+                        - generic [ref=e322]: How to Get Started + Nemotron Model Reasoning Challenge Resources
+                        - generic [ref=e323]:
+                          - link "Jamil C Semaan" [ref=e325]:
+                            - /url: /jamilcsemaan
+                          - text: ·
+                          - generic [ref=e326]:
+                            - text: Last
+                            - link "comment" [ref=e327]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681745#3433362
+                            - text: 10h ago by NoorMazhar
+                  - generic [ref=e329]:
+                    - generic [ref=e330]:
+                      - button "Upvote" [ref=e331] [cursor=pointer]:
+                        - generic [ref=e332]: arrow_drop_up
+                      - generic "38 votes" [ref=e333]: "38"
+                      - button "Downvote" [ref=e334] [cursor=pointer]:
+                        - generic [ref=e335]: arrow_drop_down
+                    - generic [ref=e336]:
+                      - generic [ref=e337]:
+                        - generic [ref=e338]:
+                          - link "New comments" [ref=e339] [cursor=pointer]:
+                            - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681745#3433361
+                          - text: ·
+                        - generic [ref=e340]: 25 comments
+                      - button "More options for this topic" [ref=e341] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e342]:
+                - generic [ref=e343]:
+                  - link "Ashley Oldacre's profile (opens in a new tab) How to get started + Competition's Official Discord Ashley Oldacre · Last comment 16 days ago by Adarsh Kumar" [ref=e344] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681714
+                    - generic [ref=e345]:
+                      - link "Ashley Oldacre's profile (opens in a new tab)" [ref=e348]:
+                        - /url: /ashleyoldacre
+                        - generic "Ashley Oldacre" [ref=e349]
+                        - img [ref=e350]
+                        - generic [ref=e354]: push_pin
+                      - generic [ref=e355]:
+                        - generic [ref=e357]: How to get started + Competition's Official Discord
+                        - generic [ref=e358]:
+                          - link "Ashley Oldacre" [ref=e360]:
+                            - /url: /ashleyoldacre
+                          - text: ·
+                          - generic [ref=e361]:
+                            - text: Last
+                            - link "comment" [ref=e362]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681714#3422305
+                            - text: 16d ago by Adarsh Kumar
+                  - generic [ref=e364]:
+                    - generic [ref=e365]:
+                      - button "Upvote" [ref=e366] [cursor=pointer]:
+                        - generic [ref=e367]: arrow_drop_up
+                      - generic "10 votes" [ref=e368]: "10"
+                      - button "Downvote" [ref=e369] [cursor=pointer]:
+                        - generic [ref=e370]: arrow_drop_down
+                    - generic [ref=e371]:
+                      - generic [ref=e373]: 6 comments
+                      - button "More options for this topic" [ref=e374] [cursor=pointer]: more_horiz
+              - heading "All other topics" [level=3] [ref=e375]
+              - listitem "undefined List Item" [ref=e376]:
+                - generic [ref=e377]:
+                  - link "Darren Amadeus Martin's profile (opens in a new tab) RL/GRPO difficulty Darren Amadeus Martin · Last comment 3 hours ago by MAJ0RT0M" [ref=e378] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686794
+                    - generic [ref=e379]:
+                      - link "Darren Amadeus Martin's profile (opens in a new tab)" [ref=e382]:
+                        - /url: /darrenamadeusmartin
+                        - generic "Darren Amadeus Martin" [ref=e383]
+                        - img [ref=e384]
+                      - generic [ref=e387]:
+                        - generic [ref=e389]: RL/GRPO difficulty
+                        - generic [ref=e390]:
+                          - link "Darren Amadeus Martin" [ref=e392]:
+                            - /url: /darrenamadeusmartin
+                          - text: ·
+                          - generic [ref=e393]:
+                            - text: Last
+                            - link "comment" [ref=e394]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686794#3433641
+                            - text: 3h ago by MAJ0RT0M
+                  - generic [ref=e396]:
+                    - generic [ref=e397]:
+                      - button "Upvote" [ref=e398] [cursor=pointer]:
+                        - generic [ref=e399]: arrow_drop_up
+                      - generic "1 votes" [ref=e400]: "1"
+                      - button "Downvote" [ref=e401] [cursor=pointer]:
+                        - generic [ref=e402]: arrow_drop_down
+                    - generic [ref=e403]:
+                      - generic [ref=e405]: 4 comments
+                      - button "More options for this topic" [ref=e406] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e407]:
+                - generic [ref=e408]:
+                  - link "WillTLing's profile (opens in a new tab) It seems the KV cache is not enabled during RL training WillTLing · Last comment 3 hours ago by MAJ0RT0M" [ref=e409] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686444
+                    - generic [ref=e410]:
+                      - link "WillTLing's profile (opens in a new tab)" [ref=e413]:
+                        - /url: /willtling
+                        - generic "WillTLing" [ref=e414]
+                        - img [ref=e415]
+                      - generic [ref=e418]:
+                        - generic [ref=e420]: It seems the KV cache is not enabled during RL training
+                        - generic [ref=e421]:
+                          - link "WillTLing" [ref=e423]:
+                            - /url: /willtling
+                          - text: ·
+                          - generic [ref=e424]:
+                            - text: Last
+                            - link "comment" [ref=e425]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686444#3433638
+                            - text: 3h ago by MAJ0RT0M
+                  - generic [ref=e427]:
+                    - generic [ref=e428]:
+                      - button "Upvote" [ref=e429] [cursor=pointer]:
+                        - generic [ref=e430]: arrow_drop_up
+                      - generic "1 votes" [ref=e431]: "1"
+                      - button "Downvote" [ref=e432] [cursor=pointer]:
+                        - generic [ref=e433]: arrow_drop_down
+                    - generic [ref=e434]:
+                      - generic [ref=e436]: 2 comments
+                      - button "More options for this topic" [ref=e437] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e438]:
+                - generic [ref=e439]:
+                  - link "JK-Piece's profile (opens in a new tab) Something wrong -- My notebook of 0.80+ now scores 0.77 JK-Piece · Last comment 6 hours ago by Chew Kok Wah" [ref=e440] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/685920
+                    - generic [ref=e441]:
+                      - link "JK-Piece's profile (opens in a new tab)" [ref=e444]:
+                        - /url: /jeannkouagou
+                        - generic "JK-Piece" [ref=e445]
+                        - img [ref=e446]
+                      - generic [ref=e449]:
+                        - generic [ref=e451]: Something wrong -- My notebook of 0.80+ now scores 0.77
+                        - generic [ref=e452]:
+                          - link "JK-Piece" [ref=e454]:
+                            - /url: /jeannkouagou
+                          - text: ·
+                          - generic [ref=e455]:
+                            - text: Last
+                            - link "comment" [ref=e456]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/685920#3433559
+                            - text: 6h ago by Chew Kok Wah
+                  - generic [ref=e458]:
+                    - generic [ref=e459]:
+                      - button "Upvote" [ref=e460] [cursor=pointer]:
+                        - generic [ref=e461]: arrow_drop_up
+                      - generic "16 votes" [ref=e462]: "16"
+                      - button "Downvote" [ref=e463] [cursor=pointer]:
+                        - generic [ref=e464]: arrow_drop_down
+                    - generic [ref=e465]:
+                      - generic [ref=e467]: 25 comments
+                      - button "More options for this topic" [ref=e468] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e469]:
+                - generic [ref=e470]:
+                  - link "lucian kucera's profile (opens in a new tab) Why every bit problem always has INFINITE AMOUNT OF WRONG SOLUTIONS[WHY IT DOESN'T TEST REASONING] lucian kucera · Posted 6 hours ago" [ref=e471] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686995
+                    - generic [ref=e472]:
+                      - link "lucian kucera's profile (opens in a new tab)" [ref=e475]:
+                        - /url: /luciankucera
+                        - generic "lucian kucera" [ref=e476]
+                        - img [ref=e477]
+                      - generic [ref=e480]:
+                        - generic [ref=e482]: Why every bit problem always has INFINITE AMOUNT OF WRONG SOLUTIONS[WHY IT DOESN'T TEST REASONING]
+                        - generic [ref=e483]:
+                          - link "lucian kucera" [ref=e485]:
+                            - /url: /luciankucera
+                          - text: ·
+                          - generic [ref=e486]: Posted 6h ago
+                  - generic [ref=e488]:
+                    - generic [ref=e489]:
+                      - button "Upvote" [ref=e490] [cursor=pointer]:
+                        - generic [ref=e491]: arrow_drop_up
+                      - generic "-1 votes" [ref=e492]: "-1"
+                      - button "Downvote" [ref=e493] [cursor=pointer]:
+                        - generic [ref=e494]: arrow_drop_down
+                    - button "More options for this topic" [ref=e496] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e497]:
+                - generic [ref=e498]:
+                  - link "Alpaca's profile (opens in a new tab) Permission error Alpaca · Last comment 6 hours ago by Vish Ramamurthy" [ref=e499] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686800
+                    - generic [ref=e500]:
+                      - link "Alpaca's profile (opens in a new tab)" [ref=e503]:
+                        - /url: /aggshourya
+                        - generic "Alpaca" [ref=e504]
+                        - img [ref=e505]
+                      - generic [ref=e508]:
+                        - generic [ref=e510]: Permission error
+                        - generic [ref=e511]:
+                          - link "Alpaca" [ref=e513]:
+                            - /url: /aggshourya
+                          - text: ·
+                          - generic [ref=e514]:
+                            - text: Last
+                            - link "comment" [ref=e515]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686800#3433531
+                            - text: 6h ago by Vish Ramamurthy
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - button "Upvote" [ref=e519] [cursor=pointer]:
+                        - generic [ref=e520]: arrow_drop_up
+                      - generic "1 votes" [ref=e521]: "1"
+                      - button "Downvote" [ref=e522] [cursor=pointer]:
+                        - generic [ref=e523]: arrow_drop_down
+                    - generic [ref=e524]:
+                      - generic [ref=e526]: 2 comments
+                      - button "More options for this topic" [ref=e527] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e528]:
+                - generic [ref=e529]:
+                  - link "HaoKwok's profile (opens in a new tab) Has anyone successfully run NVIDIA Nemotron using DeepSpeed ZeRO-3? HaoKwok · Last comment 12 hours ago by HaoKwok" [ref=e530] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686865
+                    - generic [ref=e531]:
+                      - link "HaoKwok's profile (opens in a new tab)" [ref=e534]:
+                        - /url: /haokwok2002
+                        - generic "HaoKwok" [ref=e535]
+                        - img [ref=e536]
+                      - generic [ref=e539]:
+                        - generic [ref=e541]: Has anyone successfully run NVIDIA Nemotron using DeepSpeed ZeRO-3?
+                        - generic [ref=e542]:
+                          - link "HaoKwok" [ref=e544]:
+                            - /url: /haokwok2002
+                          - text: ·
+                          - generic [ref=e545]:
+                            - text: Last
+                            - link "comment" [ref=e546]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686865#3433257
+                            - text: 12h ago by HaoKwok
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - button "Upvote" [ref=e550] [cursor=pointer]:
+                        - generic [ref=e551]: arrow_drop_up
+                      - generic "2 votes" [ref=e552]: "2"
+                      - button "Downvote" [ref=e553] [cursor=pointer]:
+                        - generic [ref=e554]: arrow_drop_down
+                    - generic [ref=e555]:
+                      - generic [ref=e557]: 1 comment
+                      - button "More options for this topic" [ref=e558] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e559]:
+                - generic [ref=e560]:
+                  - link "ForcewithMe's profile (opens in a new tab) Train locally and get lower scores. ForcewithMe · Last comment 14 hours ago by MD Mushfirat Mohaimin" [ref=e561] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686419
+                    - generic [ref=e562]:
+                      - link "ForcewithMe's profile (opens in a new tab)" [ref=e565]:
+                        - /url: /forcewithme
+                        - generic "ForcewithMe" [ref=e566]
+                        - img [ref=e567]
+                      - generic [ref=e570]:
+                        - generic [ref=e572]: Train locally and get lower scores.
+                        - generic [ref=e573]:
+                          - link "ForcewithMe" [ref=e575]:
+                            - /url: /forcewithme
+                          - text: ·
+                          - generic [ref=e576]:
+                            - text: Last
+                            - link "comment" [ref=e577]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686419#3433213
+                            - text: 14h ago by MD Mushfirat Mohaimin
+                  - generic [ref=e579]:
+                    - generic [ref=e580]:
+                      - button "Upvote" [ref=e581] [cursor=pointer]:
+                        - generic [ref=e582]: arrow_drop_up
+                      - generic "3 votes" [ref=e583]: "3"
+                      - button "Downvote" [ref=e584] [cursor=pointer]:
+                        - generic [ref=e585]: arrow_drop_down
+                    - generic [ref=e586]:
+                      - generic [ref=e588]: 5 comments
+                      - button "More options for this topic" [ref=e589] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e590]:
+                - generic [ref=e591]:
+                  - link "lucian kucera's profile (opens in a new tab) Why people downvote? lucian kucera · Last comment 14 hours ago by CPMP" [ref=e592] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/685910
+                    - generic [ref=e593]:
+                      - link "lucian kucera's profile (opens in a new tab)" [ref=e596]:
+                        - /url: /luciankucera
+                        - generic "lucian kucera" [ref=e597]
+                        - img [ref=e598]
+                      - generic [ref=e601]:
+                        - generic [ref=e603]: Why people downvote?
+                        - generic [ref=e604]:
+                          - link "lucian kucera" [ref=e606]:
+                            - /url: /luciankucera
+                          - text: ·
+                          - generic [ref=e607]:
+                            - text: Last
+                            - link "comment" [ref=e608]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/685910#3433211
+                            - text: 14h ago by CPMP
+                  - generic [ref=e610]:
+                    - generic [ref=e611]:
+                      - button "Upvote" [ref=e612] [cursor=pointer]:
+                        - generic [ref=e613]: arrow_drop_up
+                      - generic "-10 votes" [ref=e614]: "-10"
+                      - button "Downvote" [ref=e615] [cursor=pointer]:
+                        - generic [ref=e616]: arrow_drop_down
+                    - generic [ref=e617]:
+                      - generic [ref=e619]: 3 comments
+                      - button "More options for this topic" [ref=e620] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e621]:
+                - generic [ref=e622]:
+                  - link "Divyam Singh's profile (opens in a new tab) Mamba_ssm modules not installing Divyam Singh · Posted 14 hours ago" [ref=e623] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686839
+                    - generic [ref=e624]:
+                      - link "Divyam Singh's profile (opens in a new tab)" [ref=e627]:
+                        - /url: /divyamsingh2356
+                        - generic "Divyam Singh" [ref=e628]
+                        - img [ref=e629]
+                      - generic [ref=e632]:
+                        - generic [ref=e634]: Mamba_ssm modules not installing
+                        - generic [ref=e635]:
+                          - link "Divyam Singh" [ref=e637]:
+                            - /url: /divyamsingh2356
+                          - text: ·
+                          - generic [ref=e638]: Posted 14h ago
+                  - generic [ref=e640]:
+                    - generic [ref=e641]:
+                      - button "Upvote" [ref=e642] [cursor=pointer]:
+                        - generic [ref=e643]: arrow_drop_up
+                      - generic "1 votes" [ref=e644]: "1"
+                      - button "Downvote" [ref=e645] [cursor=pointer]:
+                        - generic [ref=e646]: arrow_drop_down
+                    - button "More options for this topic" [ref=e648] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e649]:
+                - generic [ref=e650]:
+                  - link "EnDream's profile (opens in a new tab) Per-Category Error Analysis After SFT (0.63 LB) — Where the Real Bottlenecks Are EnDream · Last comment 19 hours ago by MD Mushfirat Mohaimin" [ref=e651] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686069
+                    - generic [ref=e652]:
+                      - link "EnDream's profile (opens in a new tab)" [ref=e655]:
+                        - /url: /endream
+                        - generic "EnDream" [ref=e656]
+                        - img [ref=e657]
+                      - generic [ref=e660]:
+                        - generic [ref=e662]: Per-Category Error Analysis After SFT (0.63 LB) — Where the Real Bottlenecks Are
+                        - generic [ref=e663]:
+                          - link "EnDream" [ref=e665]:
+                            - /url: /endream
+                          - text: ·
+                          - generic [ref=e666]:
+                            - text: Last
+                            - link "comment" [ref=e667]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686069#3433074
+                            - text: 19h ago by MD Mushfirat Mohaimin
+                  - generic [ref=e669]:
+                    - generic [ref=e670]:
+                      - button "Upvote" [ref=e671] [cursor=pointer]:
+                        - generic [ref=e672]: arrow_drop_up
+                      - generic "8 votes" [ref=e673]: "8"
+                      - button "Downvote" [ref=e674] [cursor=pointer]:
+                        - generic [ref=e675]: arrow_drop_down
+                    - generic [ref=e676]:
+                      - generic [ref=e678]: 3 comments
+                      - button "More options for this topic" [ref=e679] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e680]:
+                - generic [ref=e681]:
+                  - link "Noizersam's profile (opens in a new tab) QLoRA Fine-tuning Bug Noizersam · Last comment 21 hours ago by MAJ0RT0M" [ref=e682] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686431
+                    - generic [ref=e683]:
+                      - link "Noizersam's profile (opens in a new tab)" [ref=e686]:
+                        - /url: /noizersam
+                        - generic "Noizersam" [ref=e687]
+                        - img [ref=e688]
+                      - generic [ref=e691]:
+                        - generic [ref=e693]: QLoRA Fine-tuning Bug
+                        - generic [ref=e694]:
+                          - link "Noizersam" [ref=e696]:
+                            - /url: /noizersam
+                          - text: ·
+                          - generic [ref=e697]:
+                            - text: Last
+                            - link "comment" [ref=e698]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686431#3433012
+                            - text: 21h ago by MAJ0RT0M
+                  - generic [ref=e700]:
+                    - generic [ref=e701]:
+                      - button "Upvote" [ref=e702] [cursor=pointer]:
+                        - generic [ref=e703]: arrow_drop_up
+                      - generic "1 votes" [ref=e704]: "1"
+                      - button "Downvote" [ref=e705] [cursor=pointer]:
+                        - generic [ref=e706]: arrow_drop_down
+                    - generic [ref=e707]:
+                      - generic [ref=e709]: 1 comment
+                      - button "More options for this topic" [ref=e710] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e711]:
+                - generic [ref=e712]:
+                  - link "Youhei Tomio's profile (opens in a new tab) Is it possible to win this competition using only Kaggle-provided machine resources? Youhei Tomio · Last comment 21 hours ago by Irving Ernesto" [ref=e713] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686036
+                    - generic [ref=e714]:
+                      - link "Youhei Tomio's profile (opens in a new tab)" [ref=e717]:
+                        - /url: /youheitomio
+                        - generic "Youhei Tomio" [ref=e718]
+                        - img [ref=e719]
+                      - generic [ref=e722]:
+                        - generic [ref=e724]: Is it possible to win this competition using only Kaggle-provided machine resources?
+                        - generic [ref=e725]:
+                          - link "Youhei Tomio" [ref=e727]:
+                            - /url: /youheitomio
+                          - text: ·
+                          - generic [ref=e728]:
+                            - text: Last
+                            - link "comment" [ref=e729]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686036#3433006
+                            - text: 21h ago by Irving Ernesto
+                  - generic [ref=e731]:
+                    - generic [ref=e732]:
+                      - button "Upvote" [ref=e733] [cursor=pointer]:
+                        - generic [ref=e734]: arrow_drop_up
+                      - generic "8 votes" [ref=e735]: "8"
+                      - button "Downvote" [ref=e736] [cursor=pointer]:
+                        - generic [ref=e737]: arrow_drop_down
+                    - generic [ref=e738]:
+                      - generic [ref=e740]: 12 comments
+                      - button "More options for this topic" [ref=e741] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e742]:
+                - generic [ref=e743]:
+                  - link "AMITH NAIR's profile (opens in a new tab) Minor Claiming Prizes AMITH NAIR · Last comment a day ago by Addison Howard" [ref=e744] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686691
+                    - generic [ref=e745]:
+                      - link "AMITH NAIR's profile (opens in a new tab)" [ref=e748]:
+                        - /url: /amith1707
+                        - generic "AMITH NAIR" [ref=e749]
+                        - img [ref=e750]
+                      - generic [ref=e753]:
+                        - generic [ref=e755]: Minor Claiming Prizes
+                        - generic [ref=e756]:
+                          - link "AMITH NAIR" [ref=e758]:
+                            - /url: /amith1707
+                          - text: ·
+                          - generic [ref=e759]:
+                            - text: Last
+                            - link "comment" [ref=e760]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686691#3432848
+                            - text: 1d ago by Addison Howard
+                  - generic [ref=e762]:
+                    - generic [ref=e763]:
+                      - button "Upvote" [ref=e764] [cursor=pointer]:
+                        - generic [ref=e765]: arrow_drop_up
+                      - generic "1 votes" [ref=e766]: "1"
+                      - button "Downvote" [ref=e767] [cursor=pointer]:
+                        - generic [ref=e768]: arrow_drop_down
+                    - generic [ref=e769]:
+                      - generic [ref=e771]: 1 comment
+                      - button "More options for this topic" [ref=e772] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e773]:
+                - generic [ref=e774]:
+                  - link "Ashutosh Kumar's profile (opens in a new tab) BUG in Nemotron Model file://Models/modeling_nemotron_h.py Ashutosh Kumar · Posted a day ago" [ref=e775] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686615
+                    - generic [ref=e776]:
+                      - link "Ashutosh Kumar's profile (opens in a new tab)" [ref=e779]:
+                        - /url: /ashutoshkumar432
+                        - generic "Ashutosh Kumar" [ref=e780]
+                        - img [ref=e781]
+                      - generic [ref=e784]:
+                        - generic [ref=e786]: BUG in Nemotron Model file://Models/modeling_nemotron_h.py
+                        - generic [ref=e787]:
+                          - link "Ashutosh Kumar" [ref=e789]:
+                            - /url: /ashutoshkumar432
+                          - text: ·
+                          - generic [ref=e790]: Posted 1d ago
+                  - generic [ref=e792]:
+                    - generic [ref=e793]:
+                      - button "Upvote" [ref=e794] [cursor=pointer]:
+                        - generic [ref=e795]: arrow_drop_up
+                      - generic "1 votes" [ref=e796]: "1"
+                      - button "Downvote" [ref=e797] [cursor=pointer]:
+                        - generic [ref=e798]: arrow_drop_down
+                    - button "More options for this topic" [ref=e800] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e801]:
+                - generic [ref=e802]:
+                  - link "AlexxxSem's profile (opens in a new tab) Offline Dependencies and a Simple Fix for ModuleNotFoundError and PermissionError AlexxxSem · Posted a day ago" [ref=e803] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686591
+                    - generic [ref=e804]:
+                      - link "AlexxxSem's profile (opens in a new tab)" [ref=e807]:
+                        - /url: /alexxxsem
+                        - generic "AlexxxSem" [ref=e808]
+                        - img [ref=e809]
+                      - generic [ref=e812]:
+                        - generic [ref=e814]: Offline Dependencies and a Simple Fix for ModuleNotFoundError and PermissionError
+                        - generic [ref=e815]:
+                          - link "AlexxxSem" [ref=e817]:
+                            - /url: /alexxxsem
+                          - text: ·
+                          - generic [ref=e818]: Posted 1d ago
+                  - generic [ref=e820]:
+                    - generic [ref=e821]:
+                      - button "Upvote" [ref=e822] [cursor=pointer]:
+                        - generic [ref=e823]: arrow_drop_up
+                      - generic "1 votes" [ref=e824]: "1"
+                      - button "Downvote" [ref=e825] [cursor=pointer]:
+                        - generic [ref=e826]: arrow_drop_down
+                    - button "More options for this topic" [ref=e828] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e829]:
+                - generic [ref=e830]:
+                  - link "Aurorcys's profile (opens in a new tab) MAMBA 2.3.1 from 2.2.2 lowering performance and cutlass mock Aurorcys · Last comment 2 days ago by Aurorcys" [ref=e831] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/684748
+                    - generic [ref=e832]:
+                      - link "Aurorcys's profile (opens in a new tab)" [ref=e835]:
+                        - /url: /aurorcys
+                        - generic "Aurorcys" [ref=e836]
+                        - img [ref=e837]
+                      - generic [ref=e840]:
+                        - generic [ref=e842]: MAMBA 2.3.1 from 2.2.2 lowering performance and cutlass mock
+                        - generic [ref=e843]:
+                          - link "Aurorcys" [ref=e845]:
+                            - /url: /aurorcys
+                          - text: ·
+                          - generic [ref=e846]:
+                            - text: Last
+                            - link "comment" [ref=e847]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/684748#3432241
+                            - text: 2d ago by Aurorcys
+                  - generic [ref=e849]:
+                    - generic [ref=e850]:
+                      - button "Upvote" [ref=e851] [cursor=pointer]:
+                        - generic [ref=e852]: arrow_drop_up
+                      - generic "5 votes" [ref=e853]: "5"
+                      - button "Downvote" [ref=e854] [cursor=pointer]:
+                        - generic [ref=e855]: arrow_drop_down
+                    - generic [ref=e856]:
+                      - generic [ref=e858]: 3 comments
+                      - button "More options for this topic" [ref=e859] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e860]:
+                - generic [ref=e861]:
+                  - link "CS Major's profile (opens in a new tab) Seemingly Impossible Questions in Dataset? CS Major · Last comment 2 days ago by Kh0a" [ref=e862] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686185
+                    - generic [ref=e863]:
+                      - link "CS Major's profile (opens in a new tab)" [ref=e866]:
+                        - /url: /aaditsingh7
+                        - generic "CS Major" [ref=e867]
+                        - img [ref=e868]
+                      - generic [ref=e871]:
+                        - generic [ref=e873]: Seemingly Impossible Questions in Dataset?
+                        - generic [ref=e874]:
+                          - link "CS Major" [ref=e876]:
+                            - /url: /aaditsingh7
+                          - text: ·
+                          - generic [ref=e877]:
+                            - text: Last
+                            - link "comment" [ref=e878]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/686185#3432076
+                            - text: 2d ago by Kh0a
+                  - generic [ref=e880]:
+                    - generic [ref=e881]:
+                      - button "Upvote" [ref=e882] [cursor=pointer]:
+                        - generic [ref=e883]: arrow_drop_up
+                      - generic "3 votes" [ref=e884]: "3"
+                      - button "Downvote" [ref=e885] [cursor=pointer]:
+                        - generic [ref=e886]: arrow_drop_down
+                    - generic [ref=e887]:
+                      - generic [ref=e889]: 2 comments
+                      - button "More options for this topic" [ref=e890] [cursor=pointer]: more_horiz
+              - listitem "undefined List Item" [ref=e891]:
+                - generic [ref=e892]:
+                  - link "Dr. Ahmed M Abdelsalam's profile (opens in a new tab) Issue running NVIDIA Nemotron model on Kaggle (mamba_ssm import error) Dr. Ahmed M Abdelsalam · Last comment 2 days ago by Mohamed Amr992" [ref=e893] [cursor=pointer]:
+                    - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/685922
+                    - generic [ref=e894]:
+                      - link "Dr. Ahmed M Abdelsalam's profile (opens in a new tab)" [ref=e897]:
+                        - /url: /drahmedmabdelsalam33
+                        - generic "Dr. Ahmed M Abdelsalam" [ref=e898]
+                        - img [ref=e899]
+                      - generic [ref=e902]:
+                        - generic [ref=e904]: Issue running NVIDIA Nemotron model on Kaggle (mamba_ssm import error)
+                        - generic [ref=e905]:
+                          - link "Dr. Ahmed M Abdelsalam" [ref=e907]:
+                            - /url: /drahmedmabdelsalam33
+                          - text: ·
+                          - generic [ref=e908]:
+                            - text: Last
+                            - link "comment" [ref=e909]:
+                              - /url: /competitions/nvidia-nemotron-model-reasoning-challenge/discussion/685922#3431958
+                            - text: 2d ago by Mohamed Amr992
+                  - generic [ref=e911]:
+                    - generic [ref=e912]:
+                      - button "Upvote" [ref=e913] [cursor=pointer]:
+                        - generic [ref=e914]: arrow_drop_up
+                      - generic "-5 votes" [ref=e915]: "-5"
+                      - button "Downvote" [ref=e916] [cursor=pointer]:
+                        - generic [ref=e917]: arrow_drop_down
+                    - generic [ref=e918]:
+                      - generic [ref=e920]: 2 comments
+                      - button "More options for this topic" [ref=e921] [cursor=pointer]: more_horiz
+            - navigation "pagination navigation" [ref=e922]:
+              - list [ref=e923]:
+                - listitem [ref=e924]
+                - listitem [ref=e925]:
+                  - button "Page 1 is selected" [ref=e926] [cursor=pointer]: "1"
+                - listitem [ref=e927]:
+                  - button "Go to page 2" [ref=e928] [cursor=pointer]: "2"
+                - listitem [ref=e929]:
+                  - button "Go to page 3" [ref=e930] [cursor=pointer]: "3"
+                - listitem [ref=e931]:
+                  - button "Go to page 4" [ref=e932] [cursor=pointer]: "4"
+                - listitem [ref=e933]:
+                  - button "Go to page 5" [ref=e934] [cursor=pointer]: "5"
+                - listitem [ref=e935]:
+                  - button "Go to page 6" [ref=e936] [cursor=pointer]: "6"
+                - listitem [ref=e937]:
+                  - button "Go to next page" [ref=e938] [cursor=pointer]:
+                    - img [ref=e939]
+  - alert [ref=e942]

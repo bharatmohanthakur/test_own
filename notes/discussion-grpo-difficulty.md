@@ -1,0 +1,368 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT v16 Tiny List Item" [ref=e137]:
+                  - link "Nemotron SFT v16 Tiny" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v16-tiny
+                    - paragraph [ref=e144]: Nemotron SFT v16 Tiny
+                - listitem "Nemotron SFT v15 List Item" [ref=e145]:
+                  - link "Nemotron SFT v15" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v15
+                    - paragraph [ref=e152]: Nemotron SFT v15
+                - listitem "Nemotron SFT v11 List Item" [ref=e153]:
+                  - link "Nemotron SFT v11" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v11
+                    - paragraph [ref=e160]: Nemotron SFT v11
+                - listitem "Nemotron SFT v10 List Item" [ref=e161]:
+                  - link "Nemotron SFT v10" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v10
+                    - paragraph [ref=e168]: Nemotron SFT v10
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e169]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e176]: Nemotron SFT+GRPO v1
+            - listitem
+      - button "View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e180]: auto_awesome_motion
+        - paragraph [ref=e181]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e187]:
+        - generic [ref=e188]: search
+        - textbox "Search" [ref=e189]
+        - group
+      - button "bharat" [ref=e194] [cursor=pointer]:
+        - generic "bharat" [ref=e195]
+        - img [ref=e196]
+  - main [ref=e199]:
+    - generic [ref=e202]:
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - link "NVIDIA's profile" [ref=e206] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e207]
+            - img [ref=e208]
+          - generic [ref=e211]:
+            - generic [ref=e213]: NVIDIA
+            - generic [ref=e214]: · Featured Prediction Competition · 2 months to go
+          - generic [ref=e215]:
+            - button "Submit Prediction" [ref=e217] [cursor=pointer]:
+              - generic [ref=e218]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e220] [cursor=pointer]: more_horiz
+        - generic [ref=e222]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e223]
+          - paragraph [ref=e225]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e229]:
+        - tablist [ref=e236]:
+          - tab "Overview, 1 of 9" [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: Overview
+          - tab "Data, 2 of 9" [ref=e239] [cursor=pointer]:
+            - generic [ref=e240]: Data
+          - tab "Code, 3 of 9" [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]: Code
+          - tab "Models, 4 of 9" [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e245] [cursor=pointer]:
+            - generic [ref=e246]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e247] [cursor=pointer]:
+            - generic [ref=e248]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e249] [cursor=pointer]:
+            - generic [ref=e250]: Rules
+          - tab "Team, 8 of 9" [ref=e251] [cursor=pointer]:
+            - generic [ref=e252]: Team
+          - tab "Submissions, 9 of 9" [ref=e253] [cursor=pointer]:
+            - generic [ref=e254]: Submissions
+        - separator [ref=e256]
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - link "Darren Amadeus Martin's profile" [ref=e264] [cursor=pointer]:
+                - /url: /darrenamadeusmartin
+                - generic "Darren Amadeus Martin" [ref=e265]
+                - img [ref=e266]
+              - generic [ref=e269]:
+                - link "Darren Amadeus Martin" [ref=e270] [cursor=pointer]:
+                  - /url: /darrenamadeusmartin
+                - text: ·
+                - generic [ref=e271]: 391st in this Competition ·
+                - generic [ref=e272]: Posted 18 hours ago
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - button "Upvote" [ref=e275] [cursor=pointer]:
+                  - generic [ref=e276]: arrow_drop_up
+                - button "1 votes" [ref=e277] [cursor=pointer]: "1"
+                - button "Downvote" [ref=e278] [cursor=pointer]:
+                  - generic [ref=e279]: arrow_drop_down
+              - button "More Options for this Topic" [ref=e280] [cursor=pointer]: more_vert
+            - heading "RL/GRPO difficulty" [level=3] [ref=e281]
+            - paragraph [ref=e285]: Has anybody tried using RL techniques such as GRPO ? Since on RL, we basically need to hold 2 copies of the model, training in bf16 is absolutely impossible and training with quantized model can lower performance. I tried using unsloth where it said that you don't need 2 copies of the model to be loaded at the gpu at the same time but the debugging is super hard and is very prone to errors. Has anybody managed to do RL and if you had done it, how slow was it ?
+            - button "React" [ref=e289] [cursor=pointer]:
+              - generic [ref=e290]: add_reaction
+              - generic [ref=e291]: React
+          - separator [ref=e292]
+        - generic [ref=e293]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e297]: comment
+              - heading "4 Comments" [level=2] [ref=e299]
+            - generic [ref=e302]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e303] [cursor=pointer]:
+                - generic [ref=e305]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e307]:
+            - link "bharat's profile" [ref=e309] [cursor=pointer]:
+              - /url: /bharatmohan
+              - generic "bharat" [ref=e310]
+              - img [ref=e311]
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - generic [ref=e319]:
+                    - button "Undo" [disabled] [ref=e320]: undo
+                    - button "Redo" [disabled] [ref=e321]: redo
+                    - separator [ref=e322]
+                    - button "Insert Heading" [ref=e324] [cursor=pointer]: format_size
+                    - button "Bold" [ref=e326] [cursor=pointer]: format_bold
+                    - button "Italicize" [ref=e328] [cursor=pointer]: format_italic
+                    - button "Strikethrough" [ref=e330] [cursor=pointer]: format_strikethrough
+                    - separator [ref=e331]
+                    - button "Insert Link" [ref=e333] [cursor=pointer]: insert_link
+                    - button "Insert Quote" [ref=e335] [cursor=pointer]: format_quote
+                    - button "Insert Code Block" [ref=e337] [cursor=pointer]: code
+                    - separator [ref=e338]
+                    - button "Insert Numbered List" [ref=e340] [cursor=pointer]: format_list_numbered
+                    - button "Insert Bulleted List" [ref=e342] [cursor=pointer]: format_list_bulleted
+                    - separator [ref=e343]
+                    - button "Insert Table" [ref=e345] [cursor=pointer]: table_chart
+                    - button "Insert Image" [ref=e347] [cursor=pointer]: insert_photo
+                    - button "Embed YouTube Video" [ref=e349] [cursor=pointer]: smart_display
+                    - button "Insert Emoticon" [ref=e351] [cursor=pointer]: insert_emoticon
+                    - separator [ref=e352]
+                    - button "Go to Markdown documentation" [ref=e354] [cursor=pointer]: help
+                  - textbox "Content" [ref=e360]:
+                    - /placeholder: Comment here. Be patient, be friendly, and focus on ideas. We're all here to learn and improve!
+                - paragraph [ref=e363]: This comment will be made public once posted.
+              - generic [ref=e365]:
+                - button "Attach a File" [ref=e367] [cursor=pointer]: attach_file
+                - button "Post Comment" [ref=e368] [cursor=pointer]:
+                  - generic [ref=e369]: Post Comment
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - generic [ref=e375]:
+                - link "WillTLing's profile" [ref=e376] [cursor=pointer]:
+                  - /url: /willtling
+                  - generic "WillTLing" [ref=e377]
+                  - img [ref=e378]
+                - generic [ref=e383]:
+                  - link "WillTLing" [ref=e385] [cursor=pointer]:
+                    - /url: /willtling
+                    - heading "WillTLing" [level=3] [ref=e386]
+                  - generic [ref=e387]:
+                    - paragraph [ref=e388]: Posted 14 hours ago
+                    - paragraph [ref=e390]: · 94th in this Competition
+                - generic [ref=e392]:
+                  - generic [ref=e393]:
+                    - button "Upvote" [ref=e394] [cursor=pointer]:
+                      - generic [ref=e395]: arrow_drop_up
+                    - button "1 votes" [ref=e396] [cursor=pointer]: "1"
+                    - button "Downvote" [ref=e397] [cursor=pointer]:
+                      - generic [ref=e398]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e399] [cursor=pointer]: more_vert
+                - paragraph [ref=e403]:
+                  - text: unsloth not support fast_inference for Mamba hybrid models (
+                  - link "https://github.com/unslothai/unsloth/issues/4073) (opens in a new tab)" [ref=e404] [cursor=pointer]:
+                    - /url: https://github.com/unslothai/unsloth/issues/4073)
+                    - text: https://github.com/unslothai/unsloth/issues/4073)
+                  - text: ", so vLLM won’t work in unsloth. Also, since this model seem is no KV cache implemented under the transformers inference engine, the inference speed is painfully slow."
+                - generic [ref=e405]:
+                  - button "Reply" [ref=e406] [cursor=pointer]:
+                    - generic [ref=e407]: reply
+                    - generic [ref=e408]: Reply
+                  - button "React" [ref=e410] [cursor=pointer]:
+                    - generic [ref=e411]: add_reaction
+                    - generic [ref=e412]: React
+                - generic [ref=e418]:
+                  - link "MAJ0RT0M's profile" [ref=e419] [cursor=pointer]:
+                    - /url: /maj0rt0m
+                    - generic "MAJ0RT0M" [ref=e420]
+                    - img [ref=e421]
+                  - generic [ref=e426]:
+                    - link "MAJ0RT0M" [ref=e428] [cursor=pointer]:
+                      - /url: /maj0rt0m
+                      - heading "MAJ0RT0M" [level=3] [ref=e429]
+                    - generic [ref=e430]:
+                      - paragraph [ref=e431]: Posted 3 hours ago
+                      - paragraph [ref=e433]: · 1066th in this Competition
+                  - generic [ref=e435]:
+                    - generic [ref=e436]:
+                      - button "Upvote" [ref=e437] [cursor=pointer]:
+                        - generic [ref=e438]: arrow_drop_up
+                      - button "0 votes" [ref=e439] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e440] [cursor=pointer]:
+                        - generic [ref=e441]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e442] [cursor=pointer]: more_vert
+                  - paragraph [ref=e446]: Have you tried huggingface GRPO trainer? it supports the same VLLM + pytorch RAM sharing as unsloth (supposedly - haven't got it to work)
+                  - generic [ref=e447]:
+                    - button "Reply" [ref=e448] [cursor=pointer]:
+                      - generic [ref=e449]: reply
+                      - generic [ref=e450]: Reply
+                    - button "React" [ref=e452] [cursor=pointer]:
+                      - generic [ref=e453]: add_reaction
+                      - generic [ref=e454]: React
+              - separator [ref=e455]
+            - generic [ref=e460]:
+              - link "ImperfectKitto's profile" [ref=e461] [cursor=pointer]:
+                - /url: /defdet
+                - generic "ImperfectKitto" [ref=e462]
+                - img [ref=e463]
+              - generic [ref=e468]:
+                - link "ImperfectKitto" [ref=e470] [cursor=pointer]:
+                  - /url: /defdet
+                  - heading "ImperfectKitto" [level=3] [ref=e471]
+                - generic [ref=e472]:
+                  - paragraph [ref=e473]: Posted 10 hours ago
+                  - paragraph [ref=e475]: · 306th in this Competition
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - button "Upvote" [ref=e479] [cursor=pointer]:
+                    - generic [ref=e480]: arrow_drop_up
+                  - button "0 votes" [ref=e481] [cursor=pointer]: "0"
+                  - button "Downvote" [ref=e482] [cursor=pointer]:
+                    - generic [ref=e483]: arrow_drop_down
+                - button "More Options for this Comment" [ref=e484] [cursor=pointer]: more_vert
+              - paragraph [ref=e488]: vLLM + sleep mode worked for me
+              - generic [ref=e489]:
+                - button "Reply" [ref=e490] [cursor=pointer]:
+                  - generic [ref=e491]: reply
+                  - generic [ref=e492]: Reply
+                - button "React" [ref=e494] [cursor=pointer]:
+                  - generic [ref=e495]: add_reaction
+                  - generic [ref=e496]: React
+              - generic [ref=e502]:
+                - link "MAJ0RT0M's profile" [ref=e503] [cursor=pointer]:
+                  - /url: /maj0rt0m
+                  - generic "MAJ0RT0M" [ref=e504]
+                  - img [ref=e505]
+                - generic [ref=e510]:
+                  - link "MAJ0RT0M" [ref=e512] [cursor=pointer]:
+                    - /url: /maj0rt0m
+                    - heading "MAJ0RT0M" [level=3] [ref=e513]
+                  - generic [ref=e514]:
+                    - paragraph [ref=e515]: Posted 3 hours ago
+                    - paragraph [ref=e517]: · 1066th in this Competition
+                - generic [ref=e519]:
+                  - generic [ref=e520]:
+                    - button "Upvote" [ref=e521] [cursor=pointer]:
+                      - generic [ref=e522]: arrow_drop_up
+                    - button "0 votes" [ref=e523] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e524] [cursor=pointer]:
+                      - generic [ref=e525]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e526] [cursor=pointer]: more_vert
+                - paragraph [ref=e530]:
+                  - text: "curious how were able to load your LORA adaptor in VLLM - getting this error:"
+                  - code [ref=e531]: "AssertionError: Module model.layers.0.mixer.conv1d must be a BaseLayerWithLoRA instance"
+                - generic [ref=e532]:
+                  - button "Reply" [ref=e533] [cursor=pointer]:
+                    - generic [ref=e534]: reply
+                    - generic [ref=e535]: Reply
+                  - button "React" [ref=e537] [cursor=pointer]:
+                    - generic [ref=e538]: add_reaction
+                    - generic [ref=e539]: React
+  - alert [ref=e542]

@@ -1,0 +1,305 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - list [ref=e23]:
+          - listitem "Home List Item" [ref=e24]:
+            - link "Home" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e27]:
+                - generic [ref=e30]: explore
+                - paragraph [ref=e32]: Home
+          - listitem "Competitions List Item" [ref=e33]:
+            - link "Competitions" [ref=e35] [cursor=pointer]:
+              - /url: /competitions
+              - generic [ref=e36]:
+                - generic [ref=e39]: emoji_events
+                - paragraph [ref=e41]: Competitions
+          - listitem "Datasets List Item" [ref=e43]:
+            - link "Datasets" [ref=e45] [cursor=pointer]:
+              - /url: /datasets
+              - generic [ref=e46]:
+                - generic [ref=e49]: table_chart
+                - paragraph [ref=e51]: Datasets
+          - listitem "Models List Item" [ref=e52]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /models
+              - generic [ref=e55]:
+                - generic [ref=e58]: tenancy
+                - paragraph [ref=e60]: Models
+          - listitem "Benchmarks List Item" [ref=e61]:
+            - link "Benchmarks" [ref=e63] [cursor=pointer]:
+              - /url: /benchmarks
+              - generic [ref=e64]:
+                - generic [ref=e67]: leaderboard
+                - paragraph [ref=e69]: Benchmarks
+          - listitem "Game Arena List Item" [ref=e70]:
+            - link "Game Arena" [ref=e72] [cursor=pointer]:
+              - /url: /game-arena
+              - generic [ref=e73]:
+                - generic [ref=e76]: smart_toy
+                - paragraph [ref=e78]: Game Arena
+          - listitem "Code List Item" [ref=e79]:
+            - link "Code" [ref=e81] [cursor=pointer]:
+              - /url: /code
+              - generic [ref=e82]:
+                - generic [ref=e85]: code
+                - paragraph [ref=e87]: Code
+          - listitem "Discussions List Item" [ref=e88]:
+            - link "Discussions" [ref=e90] [cursor=pointer]:
+              - /url: /discussions
+              - generic [ref=e91]:
+                - generic [ref=e94]: comment
+                - paragraph [ref=e96]: Discussions
+          - listitem "Kaggle Learn List Item" [ref=e97]:
+            - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+              - /url: /learn
+              - generic [ref=e100]:
+                - generic [ref=e103]: school
+                - paragraph [ref=e105]: Learn
+        - list [ref=e106]:
+          - listitem "More on Kaggle List Item" [ref=e107]:
+            - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e110]:
+                - generic [ref=e113]: expand_more
+                - paragraph [ref=e115]: More
+      - button "View Active Events" [ref=e117] [cursor=pointer]:
+        - generic [ref=e119]: auto_awesome_motion
+        - paragraph [ref=e120]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: search
+        - textbox "Search" [ref=e128]
+        - group
+      - generic [ref=e130]:
+        - link "Sign In" [ref=e132] [cursor=pointer]:
+          - /url: /account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F682197
+          - button "Sign In" [ref=e133]:
+            - generic [ref=e134]: Sign In
+        - link "Register" [ref=e136] [cursor=pointer]:
+          - /url: /account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F682197
+          - button "Register" [ref=e137]:
+            - generic [ref=e138]: Register
+  - main [ref=e139]:
+    - generic [ref=e141]:
+      - generic [ref=e142]: Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+      - generic [ref=e143]:
+        - link "Learn more" [ref=e144] [cursor=pointer]:
+          - /url: /cookies
+          - generic [ref=e145]: Learn more
+        - generic [ref=e146] [cursor=pointer]: OK, Got it.
+    - generic [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - link "NVIDIA's profile" [ref=e153] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e154]
+            - img [ref=e155]
+          - generic [ref=e158]:
+            - generic [ref=e160]: NVIDIA
+            - generic [ref=e161]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e162]:
+            - button "Join Competition" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Join Competition
+            - button "Competition options menu collapsed" [ref=e167] [cursor=pointer]: more_horiz
+        - generic [ref=e169]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e170]
+          - paragraph [ref=e172]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e176]:
+        - tablist [ref=e183]:
+          - tab "Overview, 1 of 7" [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]: Overview
+          - tab "Data, 2 of 7" [ref=e186] [cursor=pointer]:
+            - generic [ref=e187]: Data
+          - tab "Code, 3 of 7" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]: Code
+          - tab "Models, 4 of 7" [ref=e190] [cursor=pointer]:
+            - generic [ref=e191]: Models
+          - tab "Discussion, 5 of 7" [selected] [ref=e192] [cursor=pointer]:
+            - generic [ref=e193]: Discussion
+          - tab "Leaderboard, 6 of 7" [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]: Leaderboard
+          - tab "Rules, 7 of 7" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: Rules
+        - separator [ref=e199]
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - link "ISAKA Tsuyoshi's profile" [ref=e207] [cursor=pointer]:
+                - /url: /isakatsuyoshi
+                - generic "ISAKA Tsuyoshi" [ref=e208]
+                - img [ref=e209]
+              - generic [ref=e212]:
+                - link "ISAKA Tsuyoshi" [ref=e213] [cursor=pointer]:
+                  - /url: /isakatsuyoshi
+                - text: ·
+                - generic [ref=e214]: 38th in this Competition ·
+                - generic [ref=e215]: Posted a day ago
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - button "Upvote" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]: arrow_drop_up
+                - button "6 votes" [ref=e220] [cursor=pointer]: "6"
+              - button "More Options for this Topic" [ref=e221] [cursor=pointer]: more_vert
+            - heading "[RESOLVED] How to use RTX Pro 6000 instead of P100 with the Kaggle API?" [level=3] [ref=e222]
+            - paragraph [ref=e226]: When saving and committing a notebook via the Kaggle API, the GPU is automatically set to P100. Is there a way to set it to RTX Pro 6000 instead?
+          - separator [ref=e227]
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - paragraph [ref=e232]:
+              - paragraph [ref=e233]:
+                - text: Please
+                - link "sign in opens in new window" [ref=e234] [cursor=pointer]:
+                  - /url: /account/login
+                  - text: sign in
+                - text: to reply to this topic.
+            - separator [ref=e235]
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - generic [ref=e239]: comment
+              - heading "5 Comments" [level=2] [ref=e241]
+            - generic [ref=e244]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e245] [cursor=pointer]:
+                - generic [ref=e247]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - generic [ref=e253]:
+                - link "ISAKA Tsuyoshi's profile" [ref=e254] [cursor=pointer]:
+                  - /url: /isakatsuyoshi
+                  - generic "ISAKA Tsuyoshi" [ref=e255]
+                  - img [ref=e256]
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - link "ISAKA Tsuyoshi" [ref=e263] [cursor=pointer]:
+                      - /url: /isakatsuyoshi
+                      - heading "ISAKA Tsuyoshi" [level=3] [ref=e264]
+                    - generic [ref=e266]: Topic Author
+                  - generic [ref=e267]:
+                    - paragraph [ref=e268]: Posted 21 hours ago
+                    - paragraph [ref=e270]: · 38th in this Competition
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - button "Upvote" [ref=e274] [cursor=pointer]:
+                      - generic [ref=e275]: arrow_drop_up
+                    - button "3 votes" [ref=e276] [cursor=pointer]: "3"
+                  - button "More Options for this Comment" [ref=e277] [cursor=pointer]: more_vert
+                - generic [ref=e280]:
+                  - paragraph [ref=e281]:
+                    - text: It worked with
+                    - link "@cnumber (opens in a new tab)" [ref=e282] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/cnumber
+                      - text: "@cnumber"
+                    - text: ’s method! Thank you!
+                  - paragraph [ref=e283]:
+                    - text: I’d also like to thank
+                    - link "@ravi20076 (opens in a new tab)" [ref=e284] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/ravi20076
+                      - text: "@ravi20076"
+                    - text: and
+                    - link "@luciankucera (opens in a new tab)" [ref=e285] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/luciankucera
+                      - text: "@luciankucera"
+                    - text: for their comments.
+                - generic [ref=e291]:
+                  - link "YashasGunderia's profile" [ref=e292] [cursor=pointer]:
+                    - /url: /yashasgunderia
+                    - generic "YashasGunderia" [ref=e293]
+                    - img [ref=e294]
+                  - generic [ref=e299]:
+                    - link "YashasGunderia" [ref=e301] [cursor=pointer]:
+                      - /url: /yashasgunderia
+                      - heading "YashasGunderia" [level=3] [ref=e302]
+                    - generic [ref=e303]:
+                      - paragraph [ref=e304]: Posted 9 hours ago
+                      - paragraph [ref=e306]: · 133rd in this Competition
+                  - generic [ref=e308]:
+                    - generic [ref=e309]:
+                      - button "Upvote" [ref=e310] [cursor=pointer]:
+                        - generic [ref=e311]: arrow_drop_up
+                      - button "0 votes" [ref=e312] [cursor=pointer]: "0"
+                    - button "More Options for this Comment" [ref=e313] [cursor=pointer]: more_vert
+                  - paragraph [ref=e317]: hey, comment link?
+              - separator [ref=e318]
+            - generic [ref=e319]:
+              - generic [ref=e323]:
+                - link "Ravi Ramakrishnan's profile" [ref=e324] [cursor=pointer]:
+                  - /url: /ravi20076
+                  - generic "Ravi Ramakrishnan" [ref=e325]
+                  - img [ref=e326]
+                - generic [ref=e331]:
+                  - link "Ravi Ramakrishnan" [ref=e333] [cursor=pointer]:
+                    - /url: /ravi20076
+                    - heading "Ravi Ramakrishnan" [level=3] [ref=e334]
+                  - generic [ref=e335]:
+                    - paragraph [ref=e336]: Posted a day ago
+                    - paragraph [ref=e338]: · 27th in this Competition
+                - generic [ref=e340]:
+                  - generic [ref=e341]:
+                    - button "Upvote" [ref=e342] [cursor=pointer]:
+                      - generic [ref=e343]: arrow_drop_up
+                    - button "1 votes" [ref=e344] [cursor=pointer]: "1"
+                  - button "More Options for this Comment" [ref=e345] [cursor=pointer]: more_vert
+                - paragraph [ref=e349]:
+                  - link "@isakatsuyoshi (opens in a new tab)" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.kaggle.com/isakatsuyoshi
+                    - text: "@isakatsuyoshi"
+                  - text: use kaggle notebooks - this is the easiest and safest way to ensure A6000 is selected
+              - separator [ref=e351]
+            - generic [ref=e352]:
+              - generic [ref=e356]:
+                - link "c-number's profile" [ref=e357] [cursor=pointer]:
+                  - /url: /cnumber
+                  - generic "c-number" [ref=e358]
+                  - img [ref=e359]
+                - generic [ref=e364]:
+                  - link "c-number" [ref=e366] [cursor=pointer]:
+                    - /url: /cnumber
+                    - heading "c-number" [level=3] [ref=e367]
+                  - paragraph [ref=e369]: Posted a day ago
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - button "Upvote" [ref=e373] [cursor=pointer]:
+                      - generic [ref=e374]: arrow_drop_up
+                    - button "4 votes" [ref=e375] [cursor=pointer]: "4"
+                  - button "More Options for this Comment" [ref=e376] [cursor=pointer]: more_vert
+                - paragraph [ref=e380]:
+                  - text: I haven't checked myself, but this may work.
+                  - link "https://github.com/Kaggle/kaggle-cli/blob/main/docs/kernels.md#:~:text=NvidiaH100-,NvidiaRtxPro6000,-Some%20of%20these (opens in a new tab)" [ref=e381] [cursor=pointer]:
+                    - /url: https://github.com/Kaggle/kaggle-cli/blob/main/docs/kernels.md#:~:text=NvidiaH100-,NvidiaRtxPro6000,-Some%20of%20these
+                    - text: https://github.com/Kaggle/kaggle-cli/blob/main/docs/kernels.md#:~:text=NvidiaH100-,NvidiaRtxPro6000,-Some%20of%20these
+              - separator [ref=e382]
+            - generic [ref=e387]:
+              - link "lucian kucera's profile" [ref=e388] [cursor=pointer]:
+                - /url: /luciankucera
+                - generic "lucian kucera" [ref=e389]
+                - img [ref=e390]
+              - generic [ref=e395]:
+                - link "lucian kucera" [ref=e397] [cursor=pointer]:
+                  - /url: /luciankucera
+                  - heading "lucian kucera" [level=3] [ref=e398]
+                - paragraph [ref=e400]: Posted a day ago
+              - generic [ref=e402]:
+                - generic [ref=e403]:
+                  - button "Upvote" [ref=e404] [cursor=pointer]:
+                    - generic [ref=e405]: arrow_drop_up
+                  - button "1 votes" [ref=e406] [cursor=pointer]: "1"
+                - button "More Options for this Comment" [ref=e407] [cursor=pointer]: more_vert
+              - paragraph [ref=e411]: No there is no way. Just use kaggle notebooks.
+  - alert [ref=e414]

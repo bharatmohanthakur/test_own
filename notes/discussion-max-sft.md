@@ -1,0 +1,399 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT v11 List Item" [ref=e137]:
+                  - link "Nemotron SFT v11" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v11
+                    - paragraph [ref=e144]: Nemotron SFT v11
+                - listitem "Nemotron SFT v10 List Item" [ref=e145]:
+                  - link "Nemotron SFT v10" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v10
+                    - paragraph [ref=e152]: Nemotron SFT v10
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e153]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e160]: Nemotron SFT+GRPO v1
+                - listitem "Nemotron Submit SFT v5 List Item" [ref=e161]:
+                  - link "Nemotron Submit SFT v5" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-submit-sft-v5
+                    - paragraph [ref=e168]: Nemotron Submit SFT v5
+                - listitem "Nemotron SFT v3 List Item" [ref=e169]:
+                  - link "Nemotron SFT v3" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v3
+                    - paragraph [ref=e176]: Nemotron SFT v3
+            - listitem
+      - button "2 View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e179]:
+          - generic [ref=e180]: update
+          - generic [ref=e181]: "2"
+        - paragraph [ref=e182]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e183]:
+    - generic [ref=e184]:
+      - generic [ref=e188]:
+        - generic [ref=e189]: search
+        - textbox "Search" [ref=e190]
+        - group
+      - button "bharat" [ref=e195] [cursor=pointer]:
+        - generic "bharat" [ref=e196]
+        - img [ref=e197]
+  - main [ref=e200]:
+    - generic [ref=e203]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - link "NVIDIA's profile" [ref=e207] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e208]
+            - img [ref=e209]
+          - generic [ref=e212]:
+            - generic [ref=e214]: NVIDIA
+            - generic [ref=e215]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e216]:
+            - button "Submit Prediction" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e221] [cursor=pointer]: more_horiz
+        - generic [ref=e223]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e224]
+          - paragraph [ref=e226]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e230]:
+        - tablist [ref=e237]:
+          - tab "Overview, 1 of 9" [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: Overview
+          - tab "Data, 2 of 9" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: Data
+          - tab "Code, 3 of 9" [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]: Code
+          - tab "Models, 4 of 9" [ref=e244] [cursor=pointer]:
+            - generic [ref=e245]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e246] [cursor=pointer]:
+            - generic [ref=e247]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e248] [cursor=pointer]:
+            - generic [ref=e249]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]: Rules
+          - tab "Team, 8 of 9" [ref=e252] [cursor=pointer]:
+            - generic [ref=e253]: Team
+          - tab "Submissions, 9 of 9" [ref=e254] [cursor=pointer]:
+            - generic [ref=e255]: Submissions
+        - separator [ref=e257]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "m4nocha's profile" [ref=e265] [cursor=pointer]:
+                - /url: /aksh1t
+                - generic "m4nocha" [ref=e266]
+                - img [ref=e267]
+              - generic [ref=e270]:
+                - link "m4nocha" [ref=e271] [cursor=pointer]:
+                  - /url: /aksh1t
+                - text: ·
+                - generic [ref=e272]: 158th in this Competition ·
+                - generic [ref=e273]: Posted 4 days ago
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - button "Upvote" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e277]: arrow_drop_up
+                - button "1 votes" [ref=e278] [cursor=pointer]: "1"
+                - button "Downvote" [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]: arrow_drop_down
+              - button "More Options for this Topic" [ref=e281] [cursor=pointer]: more_vert
+            - heading "maximum achievable performance with SFT only" [level=3] [ref=e282]
+            - paragraph [ref=e286]:
+              - text: I saw that people are achieving 69% accuracy with only prompt -> boxed answer mapping on the other hand i am able to achieve only 65% accuracy with synthetic CoT SFT (for 4 easy categories only)?
+              - text: do you think there is something wrong with my training pipeline? or do I need to move forward with RL? I analysed the answer prompt on the validation set and the output reasoning trace is quite different from the training input
+            - button "React" [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: add_reaction
+              - generic [ref=e292]: React
+          - separator [ref=e293]
+        - generic [ref=e294]:
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - generic [ref=e298]: comment
+              - heading "4 Comments" [level=2] [ref=e300]
+            - generic [ref=e303]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e304] [cursor=pointer]:
+                - generic [ref=e306]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e308]:
+            - link "bharat's profile" [ref=e310] [cursor=pointer]:
+              - /url: /bharatmohan
+              - generic "bharat" [ref=e311]
+              - img [ref=e312]
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e318]:
+                  - generic [ref=e320]:
+                    - button "Undo" [disabled] [ref=e321]: undo
+                    - button "Redo" [disabled] [ref=e322]: redo
+                    - separator [ref=e323]
+                    - button "Insert Heading" [ref=e325] [cursor=pointer]: format_size
+                    - button "Bold" [ref=e327] [cursor=pointer]: format_bold
+                    - button "Italicize" [ref=e329] [cursor=pointer]: format_italic
+                    - button "Strikethrough" [ref=e331] [cursor=pointer]: format_strikethrough
+                    - separator [ref=e332]
+                    - button "Insert Link" [ref=e334] [cursor=pointer]: insert_link
+                    - button "Insert Quote" [ref=e336] [cursor=pointer]: format_quote
+                    - button "Insert Code Block" [ref=e338] [cursor=pointer]: code
+                    - separator [ref=e339]
+                    - button "Insert Numbered List" [ref=e341] [cursor=pointer]: format_list_numbered
+                    - button "Insert Bulleted List" [ref=e343] [cursor=pointer]: format_list_bulleted
+                    - separator [ref=e344]
+                    - button "Insert Table" [ref=e346] [cursor=pointer]: table_chart
+                    - button "Insert Image" [ref=e348] [cursor=pointer]: insert_photo
+                    - button "Embed YouTube Video" [ref=e350] [cursor=pointer]: smart_display
+                    - button "Insert Emoticon" [ref=e352] [cursor=pointer]: insert_emoticon
+                    - separator [ref=e353]
+                    - button "Go to Markdown documentation" [ref=e355] [cursor=pointer]: help
+                  - textbox "Content" [ref=e361]:
+                    - /placeholder: Comment here. Be patient, be friendly, and focus on ideas. We're all here to learn and improve!
+                - paragraph [ref=e364]: This comment will be made public once posted.
+              - generic [ref=e366]:
+                - button "Attach a File" [ref=e368] [cursor=pointer]: attach_file
+                - button "Post Comment" [ref=e369] [cursor=pointer]:
+                  - generic [ref=e370]: Post Comment
+          - generic [ref=e371]:
+            - generic [ref=e372]:
+              - generic [ref=e376]:
+                - link "tamura_aicon's profile" [ref=e377] [cursor=pointer]:
+                  - /url: /hayatetaf
+                  - generic "tamura_aicon" [ref=e378]
+                  - img [ref=e379]
+                  - generic [ref=e383]: emoji_people
+                - generic [ref=e386]:
+                  - link "tamura_aicon" [ref=e388] [cursor=pointer]:
+                    - /url: /hayatetaf
+                    - heading "tamura_aicon" [level=3] [ref=e389]
+                  - generic [ref=e390]:
+                    - paragraph [ref=e391]: Posted a day ago
+                    - paragraph [ref=e393]: · 28th in this Competition
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - button "Upvote" [ref=e397] [cursor=pointer]:
+                      - generic [ref=e398]: arrow_drop_up
+                    - button "2 votes" [ref=e399] [cursor=pointer]: "2"
+                    - button "Downvote" [ref=e400] [cursor=pointer]:
+                      - generic [ref=e401]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e402] [cursor=pointer]: more_vert
+                - paragraph [ref=e406]: In my experiments, I've confirmed that SFT with an improved dataset can reach a score of 0.76.
+                - generic [ref=e407]:
+                  - button "Reply" [ref=e408] [cursor=pointer]:
+                    - generic [ref=e409]: reply
+                    - generic [ref=e410]: Reply
+                  - button "React" [ref=e412] [cursor=pointer]:
+                    - generic [ref=e413]: add_reaction
+                    - generic [ref=e414]: React
+                - generic [ref=e420]:
+                  - link "Bianco Chiu's profile" [ref=e421] [cursor=pointer]:
+                    - /url: /biancochiu
+                    - generic "Bianco Chiu" [ref=e422]
+                    - img [ref=e423]
+                  - generic [ref=e428]:
+                    - link "Bianco Chiu" [ref=e430] [cursor=pointer]:
+                      - /url: /biancochiu
+                      - heading "Bianco Chiu" [level=3] [ref=e431]
+                    - generic [ref=e432]:
+                      - paragraph [ref=e433]: Posted a day ago
+                      - paragraph [ref=e435]: · 408th in this Competition
+                  - generic [ref=e437]:
+                    - generic [ref=e438]:
+                      - button "Upvote" [ref=e439] [cursor=pointer]:
+                        - generic [ref=e440]: arrow_drop_up
+                      - button "0 votes" [ref=e441] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e442] [cursor=pointer]:
+                        - generic [ref=e443]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e444] [cursor=pointer]: more_vert
+                  - paragraph [ref=e448]: Hi, may I ask what do you mean by improved dataset, with CoT?
+                  - generic [ref=e449]:
+                    - button "Reply" [ref=e450] [cursor=pointer]:
+                      - generic [ref=e451]: reply
+                      - generic [ref=e452]: Reply
+                    - button "React" [ref=e454] [cursor=pointer]:
+                      - generic [ref=e455]: add_reaction
+                      - generic [ref=e456]: React
+                  - generic [ref=e462]:
+                    - link "tamura_aicon's profile" [ref=e463] [cursor=pointer]:
+                      - /url: /hayatetaf
+                      - generic "tamura_aicon" [ref=e464]
+                      - img [ref=e465]
+                      - generic [ref=e469]: emoji_people
+                    - generic [ref=e472]:
+                      - link "tamura_aicon" [ref=e474] [cursor=pointer]:
+                        - /url: /hayatetaf
+                        - heading "tamura_aicon" [level=3] [ref=e475]
+                      - generic [ref=e476]:
+                        - paragraph [ref=e477]: Posted a day ago
+                        - paragraph [ref=e479]: · 28th in this Competition
+                    - generic [ref=e481]:
+                      - generic [ref=e482]:
+                        - button "Upvote" [ref=e483] [cursor=pointer]:
+                          - generic [ref=e484]: arrow_drop_up
+                        - button "0 votes" [ref=e485] [cursor=pointer]: "0"
+                        - button "Downvote" [ref=e486] [cursor=pointer]:
+                          - generic [ref=e487]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e488] [cursor=pointer]: more_vert
+                    - paragraph [ref=e492]: Yes, with CoT. In my experience, data quality matters far more than quantity. Not every category benefits from the same training approach.
+                    - generic [ref=e493]:
+                      - button "Reply" [ref=e494] [cursor=pointer]:
+                        - generic [ref=e495]: reply
+                        - generic [ref=e496]: Reply
+                      - generic [ref=e497]:
+                        - checkbox "1" [ref=e499] [cursor=pointer]:
+                          - img [ref=e501]
+                          - generic [ref=e502]: "1"
+                        - button "Add Reaction" [ref=e503] [cursor=pointer]: add_reaction
+              - separator [ref=e504]
+            - generic [ref=e509]:
+              - link "SwiftyOS's profile" [ref=e510] [cursor=pointer]:
+                - /url: /swifty13
+                - generic "SwiftyOS" [ref=e511]
+                - img [ref=e512]
+              - generic [ref=e517]:
+                - link "SwiftyOS" [ref=e519] [cursor=pointer]:
+                  - /url: /swifty13
+                  - heading "SwiftyOS" [level=3] [ref=e520]
+                - generic [ref=e521]:
+                  - paragraph [ref=e522]: Posted 4 days ago
+                  - paragraph [ref=e524]: · 61st in this Competition
+              - generic [ref=e526]:
+                - generic [ref=e527]:
+                  - button "Upvote" [ref=e528] [cursor=pointer]:
+                    - generic [ref=e529]: arrow_drop_up
+                  - button "0 votes" [ref=e530] [cursor=pointer]: "0"
+                  - button "Downvote" [ref=e531] [cursor=pointer]:
+                    - generic [ref=e532]: arrow_drop_down
+                - button "More Options for this Comment" [ref=e533] [cursor=pointer]: more_vert
+              - paragraph [ref=e537]: This is something I'm wondering too. Where does RL play a part if its possible to programatically solve all the problems.
+              - generic [ref=e538]:
+                - button "Reply" [ref=e539] [cursor=pointer]:
+                  - generic [ref=e540]: reply
+                  - generic [ref=e541]: Reply
+                - button "React" [ref=e543] [cursor=pointer]:
+                  - generic [ref=e544]: add_reaction
+                  - generic [ref=e545]: React
+              - generic [ref=e551]:
+                - link "m4nocha's profile" [ref=e552] [cursor=pointer]:
+                  - /url: /aksh1t
+                  - generic "m4nocha" [ref=e553]
+                  - img [ref=e554]
+                - generic [ref=e559]:
+                  - generic [ref=e560]:
+                    - link "m4nocha" [ref=e561] [cursor=pointer]:
+                      - /url: /aksh1t
+                      - heading "m4nocha" [level=3] [ref=e562]
+                    - generic [ref=e564]: Topic Author
+                  - generic [ref=e565]:
+                    - paragraph [ref=e566]: Posted 2 days ago
+                    - paragraph [ref=e568]: · 158th in this Competition
+                - generic [ref=e570]:
+                  - generic [ref=e571]:
+                    - button "Upvote" [ref=e572] [cursor=pointer]:
+                      - generic [ref=e573]: arrow_drop_up
+                    - button "0 votes" [ref=e574] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e575] [cursor=pointer]:
+                      - generic [ref=e576]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e577] [cursor=pointer]: more_vert
+                - paragraph [ref=e581]: how much did you achieve with SFT then?
+                - generic [ref=e582]:
+                  - button "Reply" [ref=e583] [cursor=pointer]:
+                    - generic [ref=e584]: reply
+                    - generic [ref=e585]: Reply
+                  - button "React" [ref=e587] [cursor=pointer]:
+                    - generic [ref=e588]: add_reaction
+                    - generic [ref=e589]: React
+  - alert [ref=e592]

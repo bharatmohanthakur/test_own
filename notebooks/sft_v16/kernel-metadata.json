@@ -1,0 +1,14 @@
+{
+  "id": "bharatmohan/nemotron-sft-v16",
+  "title": "Nemotron SFT v16",
+  "code_file": "train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": ["bharatmohan/nemotron-training-v16"],
+  "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],
+  "kernel_sources": ["ryanholbrook/nvidia-utility-script"],
+  "model_sources": ["metric/nemotron-3-nano-30b-a3b-bf16/transformers/default/1"]
+}

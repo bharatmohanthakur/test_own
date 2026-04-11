@@ -1,0 +1,14 @@
+{
+  "id": "bharatmohan/nemotron-submit-sft-v5",
+  "title": "Nemotron Submit SFT v5",
+  "code_file": "train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": ["bharatmohan/nemotron-sft-v5-adapter"],
+  "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],
+  "kernel_sources": [],
+  "model_sources": []
+}

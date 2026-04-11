@@ -1,0 +1,17 @@
+{
+  "id": "bharatmohan/nemotron-grpo-v30",
+  "title": "Nemotron GRPO v30",
+  "code_file": "train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "bharatmohan/nemotron-training-v29",
+    "mayukh18/nemotron-packages"
+  ],
+  "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],
+  "kernel_sources": ["bharatmohan/nemotron-sft-v29"],
+  "model_sources": ["metric/nemotron-3-nano-30b-a3b-bf16/transformers/default/1"]
+}

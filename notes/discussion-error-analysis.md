@@ -1,0 +1,443 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT v16 Tiny List Item" [ref=e137]:
+                  - link "Nemotron SFT v16 Tiny" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v16-tiny
+                    - paragraph [ref=e144]: Nemotron SFT v16 Tiny
+                - listitem "Nemotron SFT v15 List Item" [ref=e145]:
+                  - link "Nemotron SFT v15" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v15
+                    - paragraph [ref=e152]: Nemotron SFT v15
+                - listitem "Nemotron SFT v11 List Item" [ref=e153]:
+                  - link "Nemotron SFT v11" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v11
+                    - paragraph [ref=e160]: Nemotron SFT v11
+                - listitem "Nemotron SFT v10 List Item" [ref=e161]:
+                  - link "Nemotron SFT v10" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v10
+                    - paragraph [ref=e168]: Nemotron SFT v10
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e169]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e176]: Nemotron SFT+GRPO v1
+            - listitem
+      - button "View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e180]: auto_awesome_motion
+        - paragraph [ref=e181]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e187]:
+        - generic [ref=e188]: search
+        - textbox "Search" [ref=e189]
+        - group
+      - button "bharat" [ref=e194] [cursor=pointer]:
+        - generic "bharat" [ref=e195]
+        - img [ref=e196]
+  - main [ref=e199]:
+    - generic [ref=e202]:
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - link "NVIDIA's profile" [ref=e206] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e207]
+            - img [ref=e208]
+          - generic [ref=e211]:
+            - generic [ref=e213]: NVIDIA
+            - generic [ref=e214]: · Featured Prediction Competition · 2 months to go
+          - generic [ref=e215]:
+            - button "Submit Prediction" [ref=e217] [cursor=pointer]:
+              - generic [ref=e218]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e220] [cursor=pointer]: more_horiz
+        - generic [ref=e222]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e223]
+          - paragraph [ref=e225]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e229]:
+        - tablist [ref=e236]:
+          - tab "Overview, 1 of 9" [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: Overview
+          - tab "Data, 2 of 9" [ref=e239] [cursor=pointer]:
+            - generic [ref=e240]: Data
+          - tab "Code, 3 of 9" [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]: Code
+          - tab "Models, 4 of 9" [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e245] [cursor=pointer]:
+            - generic [ref=e246]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e247] [cursor=pointer]:
+            - generic [ref=e248]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e249] [cursor=pointer]:
+            - generic [ref=e250]: Rules
+          - tab "Team, 8 of 9" [ref=e251] [cursor=pointer]:
+            - generic [ref=e252]: Team
+          - tab "Submissions, 9 of 9" [ref=e253] [cursor=pointer]:
+            - generic [ref=e254]: Submissions
+        - separator [ref=e256]
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - link "EnDream's profile" [ref=e264] [cursor=pointer]:
+                - /url: /endream
+                - generic "EnDream" [ref=e265]
+                - img [ref=e266]
+              - generic [ref=e269]:
+                - link "EnDream" [ref=e270] [cursor=pointer]:
+                  - /url: /endream
+                - text: ·
+                - generic [ref=e271]: 888th in this Competition ·
+                - generic [ref=e272]: Posted 3 days ago
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - button "Upvote" [ref=e275] [cursor=pointer]:
+                  - generic [ref=e276]: arrow_drop_up
+                - button "8 votes" [ref=e277] [cursor=pointer]: "8"
+                - button "Downvote" [ref=e278] [cursor=pointer]:
+                  - generic [ref=e279]: arrow_drop_down
+              - button "More Options for this Topic" [ref=e280] [cursor=pointer]: more_vert
+            - heading "Per-Category Error Analysis After SFT (0.63 LB) — Where the Real Bottlenecks Are" [level=3] [ref=e281]
+            - generic [ref=e284]:
+              - paragraph [ref=e285]: "I ran error analysis on 300 stratified samples (50 per category) after SFT training (1200 samples, LoRA rank 32, 2 epochs). Here are the per-category accuracy numbers:"
+              - table [ref=e286]:
+                - rowgroup [ref=e287]:
+                  - row "Category Accuracy Error Pattern" [ref=e288]:
+                    - columnheader "Category" [ref=e289]
+                    - columnheader "Accuracy" [ref=e290]
+                    - columnheader "Error Pattern" [ref=e291]
+                - rowgroup [ref=e292]:
+                  - row "numeral 100% —" [ref=e293]:
+                    - cell "numeral" [ref=e294]
+                    - cell "100%" [ref=e295]
+                    - cell "—" [ref=e296]
+                  - row "unit_conv 100% —" [ref=e297]:
+                    - cell "unit_conv" [ref=e298]
+                    - cell "100%" [ref=e299]
+                    - cell "—" [ref=e300]
+                  - row "bit_ops 30% Model guesses plausible but wrong bit patterns" [ref=e301]:
+                    - cell "bit_ops" [ref=e302]
+                    - cell "30%" [ref=e303]
+                    - cell "Model guesses plausible but wrong bit patterns" [ref=e304]
+                  - row "gravity 12% Numerical errors of 10-25%, model doesn't compute g correctly" [ref=e305]:
+                    - cell "gravity" [ref=e306]
+                    - cell "12%" [ref=e307]
+                    - cell "Numerical errors of 10-25%, model doesn't compute g correctly" [ref=e308]
+                  - row "cipher 0% Outputs random plausible words, no actual decryption" [ref=e309]:
+                    - cell "cipher" [ref=e310]
+                    - cell "0%" [ref=e311]
+                    - cell "Outputs random plausible words, no actual decryption" [ref=e312]
+                  - row "symbol 6% Completely wrong outputs" [ref=e313]:
+                    - cell "symbol" [ref=e314]
+                    - cell "6%" [ref=e315]
+                    - cell "Completely wrong outputs" [ref=e316]
+              - paragraph [ref=e317]:
+                - strong [ref=e318]: "Key observations:"
+              - list [ref=e319]:
+                - listitem [ref=e320]:
+                  - paragraph [ref=e321]:
+                    - strong [ref=e322]: Format is not the issue.
+                    - text: All 176 errors had properly formatted
+                    - code [ref=e323]: "\\boxed{}"
+                    - text: output — the model learned the output format perfectly. The problem is purely about reasoning quality.
+                - listitem [ref=e324]:
+                  - paragraph [ref=e325]:
+                    - strong [ref=e326]: cipher at 0% is the most striking.
+                    - text: The model outputs grammatically correct phrases with the right number of words (e.g., predicts "the wise mouse draws" when the answer is "the clever turtle sees"), but it's not actually doing any letter-by-letter substitution. It's generating plausible-sounding text.
+                - listitem [ref=e327]:
+                  - paragraph [ref=e328]:
+                    - strong [ref=e329]: gravity errors are systematic, not random.
+                    - text: The predicted values are always in a reasonable range but off by 10-25%. The model seems to be "estimating" rather than computing
+                    - code [ref=e330]: g = 2d/t²
+                    - text: from the examples.
+                - listitem [ref=e331]:
+                  - paragraph [ref=e332]:
+                    - strong [ref=e333]: symbol data quality may be a factor.
+                    - text: Consistent with other threads discussing dataset hallucination — many symbol problems may not have uniquely determinable answers from the given examples.
+              - paragraph [ref=e334]:
+                - strong [ref=e335]: "What I'm trying next:"
+              - list [ref=e336]:
+                - listitem [ref=e337]: Programmatic CoT for cipher and gravity (writing out the actual computation steps, not just "The answer is X")
+                - listitem [ref=e338]: Synthetic data generation for gravity/unit_conv/cipher (we can generate unlimited training examples with verified answers)
+                - listitem [ref=e339]: GRPO with task-specific reward functions (continuous reward for gravity based on numerical error, per-word reward for cipher)
+              - paragraph [ref=e340]: Would be curious if others see similar per-category breakdowns. Is anyone having success with cipher specifically?
+            - button "React" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]: add_reaction
+              - generic [ref=e346]: React
+          - separator [ref=e347]
+        - generic [ref=e348]:
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - generic [ref=e352]: comment
+              - heading "3 Comments" [level=2] [ref=e354]
+            - generic [ref=e357]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e358] [cursor=pointer]:
+                - generic [ref=e360]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e362]:
+            - link "bharat's profile" [ref=e364] [cursor=pointer]:
+              - /url: /bharatmohan
+              - generic "bharat" [ref=e365]
+              - img [ref=e366]
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - generic [ref=e372]:
+                  - generic [ref=e374]:
+                    - button "Undo" [disabled] [ref=e375]: undo
+                    - button "Redo" [disabled] [ref=e376]: redo
+                    - separator [ref=e377]
+                    - button "Insert Heading" [ref=e379] [cursor=pointer]: format_size
+                    - button "Bold" [ref=e381] [cursor=pointer]: format_bold
+                    - button "Italicize" [ref=e383] [cursor=pointer]: format_italic
+                    - button "Strikethrough" [ref=e385] [cursor=pointer]: format_strikethrough
+                    - separator [ref=e386]
+                    - button "Insert Link" [ref=e388] [cursor=pointer]: insert_link
+                    - button "Insert Quote" [ref=e390] [cursor=pointer]: format_quote
+                    - button "Insert Code Block" [ref=e392] [cursor=pointer]: code
+                    - separator [ref=e393]
+                    - button "Insert Numbered List" [ref=e395] [cursor=pointer]: format_list_numbered
+                    - button "Insert Bulleted List" [ref=e397] [cursor=pointer]: format_list_bulleted
+                    - separator [ref=e398]
+                    - button "Insert Table" [ref=e400] [cursor=pointer]: table_chart
+                    - button "Insert Image" [ref=e402] [cursor=pointer]: insert_photo
+                    - button "Embed YouTube Video" [ref=e404] [cursor=pointer]: smart_display
+                    - button "Insert Emoticon" [ref=e406] [cursor=pointer]: insert_emoticon
+                    - separator [ref=e407]
+                    - button "Go to Markdown documentation" [ref=e409] [cursor=pointer]: help
+                  - textbox "Content" [ref=e415]:
+                    - /placeholder: Comment here. Be patient, be friendly, and focus on ideas. We're all here to learn and improve!
+                - paragraph [ref=e418]: This comment will be made public once posted.
+              - generic [ref=e420]:
+                - button "Attach a File" [ref=e422] [cursor=pointer]: attach_file
+                - button "Post Comment" [ref=e423] [cursor=pointer]:
+                  - generic [ref=e424]: Post Comment
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - generic [ref=e430]:
+                - link "James Day's profile" [ref=e431] [cursor=pointer]:
+                  - /url: /jsday96
+                  - generic "James Day" [ref=e432]
+                  - img [ref=e433]
+                - generic [ref=e438]:
+                  - link "James Day" [ref=e440] [cursor=pointer]:
+                    - /url: /jsday96
+                    - heading "James Day" [level=3] [ref=e441]
+                  - generic [ref=e442]:
+                    - paragraph [ref=e443]: Posted a day ago
+                    - paragraph [ref=e445]: · 175th in this Competition
+                - generic [ref=e447]:
+                  - generic [ref=e448]:
+                    - button "Upvote" [ref=e449] [cursor=pointer]:
+                      - generic [ref=e450]: arrow_drop_up
+                    - button "2 votes" [ref=e451] [cursor=pointer]: "2"
+                    - button "Downvote" [ref=e452] [cursor=pointer]:
+                      - generic [ref=e453]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e454] [cursor=pointer]: more_vert
+                - generic [ref=e457]:
+                  - paragraph [ref=e458]: Your SFT results are quite a bit different from mine… I'm having more trouble with the bit manipulation puzzles and less trouble with the cipher & gravity ones.
+                  - paragraph [ref=e459]: CV results from my best model (0.68 LB) are included below. These were measured with 1K questions from outside the training dataset.
+                  - table [ref=e460]:
+                    - rowgroup [ref=e461]:
+                      - row "Category Accuracy with 8K token limit Accuracy with 16K token limit" [ref=e462]:
+                        - columnheader "Category" [ref=e463]
+                        - columnheader "Accuracy with 8K token limit" [ref=e464]
+                        - columnheader "Accuracy with 16K token limit" [ref=e465]
+                    - rowgroup [ref=e466]:
+                      - row "bit_manipulation 9.9% 18.8%" [ref=e467]:
+                        - cell "bit_manipulation" [ref=e468]
+                        - cell "9.9%" [ref=e469]
+                        - cell "18.8%" [ref=e470]
+                      - row "numeral_system 100.0% 100.0%" [ref=e471]:
+                        - cell "numeral_system" [ref=e472]
+                        - cell "100.0%" [ref=e473]
+                        - cell "100.0%" [ref=e474]
+                      - row "physics_gravity 98.8% 98.8%" [ref=e475]:
+                        - cell "physics_gravity" [ref=e476]
+                        - cell "98.8%" [ref=e477]
+                        - cell "98.8%" [ref=e478]
+                      - row "symbol_transform 17.3% 20.7%" [ref=e479]:
+                        - cell "symbol_transform" [ref=e480]
+                        - cell "17.3%" [ref=e481]
+                        - cell "20.7%" [ref=e482]
+                      - row "text_cipher 75.5% 76.1%" [ref=e483]:
+                        - cell "text_cipher" [ref=e484]
+                        - cell "75.5%" [ref=e485]
+                        - cell "76.1%" [ref=e486]
+                      - row "unit_conversion 100.0% 100.0%" [ref=e487]:
+                        - cell "unit_conversion" [ref=e488]
+                        - cell "100.0%" [ref=e489]
+                        - cell "100.0%" [ref=e490]
+                      - row "overall 67.1% 69.3%" [ref=e491]:
+                        - cell "overall" [ref=e492]
+                        - cell "67.1%" [ref=e493]
+                        - cell "69.3%" [ref=e494]
+                  - separator [ref=e495]
+                  - paragraph [ref=e496]: I suspect my bit manipulation failures largely stem from distilling models which yap too much. Qwen3.5 27B with thinking "disabled" and no special instructions can solve 49% of those problems within 16K tokens, but accuracy drops to 10% at 8K, so I likely have some poisonous examples in my training data 🙃
+                - generic [ref=e497]:
+                  - button "Reply" [ref=e498] [cursor=pointer]:
+                    - generic [ref=e499]: reply
+                    - generic [ref=e500]: Reply
+                  - button "React" [ref=e502] [cursor=pointer]:
+                    - generic [ref=e503]: add_reaction
+                    - generic [ref=e504]: React
+                - generic [ref=e510]:
+                  - link "MD Mushfirat Mohaimin's profile" [ref=e511] [cursor=pointer]:
+                    - /url: /mushfirat
+                    - generic "MD Mushfirat Mohaimin" [ref=e512]
+                    - img [ref=e513]
+                  - generic [ref=e518]:
+                    - link "MD Mushfirat Mohaimin" [ref=e520] [cursor=pointer]:
+                      - /url: /mushfirat
+                      - heading "MD Mushfirat Mohaimin" [level=3] [ref=e521]
+                    - generic [ref=e522]:
+                      - paragraph [ref=e523]: Posted 19 hours ago
+                      - paragraph [ref=e525]: · 399th in this Competition
+                  - generic [ref=e527]:
+                    - generic [ref=e528]:
+                      - button "Upvote" [ref=e529] [cursor=pointer]:
+                        - generic [ref=e530]: arrow_drop_up
+                      - button "0 votes" [ref=e531] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e532] [cursor=pointer]:
+                        - generic [ref=e533]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e534] [cursor=pointer]: more_vert
+                  - generic [ref=e537]:
+                    - paragraph [ref=e538]:
+                      - link "@endream (opens in a new tab)" [ref=e539] [cursor=pointer]:
+                        - /url: https://www.kaggle.com/endream
+                        - text: "@endream"
+                      - text: is training the model to directly output
+                      - code [ref=e540]: "\\boxed{answer}"
+                      - text: ", no thinking."
+                      - text: And you're distilling Qwen3.5 27B
+                    - paragraph [ref=e541]: that's causing the difference.
+                  - generic [ref=e542]:
+                    - button "Reply" [ref=e543] [cursor=pointer]:
+                      - generic [ref=e544]: reply
+                      - generic [ref=e545]: Reply
+                    - button "React" [ref=e547] [cursor=pointer]:
+                      - generic [ref=e548]: add_reaction
+                      - generic [ref=e549]: React
+              - separator [ref=e550]
+            - generic [ref=e555]:
+              - link "lucian kucera's profile" [ref=e556] [cursor=pointer]:
+                - /url: /luciankucera
+                - generic "lucian kucera" [ref=e557]
+                - img [ref=e558]
+              - generic [ref=e563]:
+                - link "lucian kucera" [ref=e565] [cursor=pointer]:
+                  - /url: /luciankucera
+                  - heading "lucian kucera" [level=3] [ref=e566]
+                - generic [ref=e567]:
+                  - paragraph [ref=e568]: Posted 2 days ago
+                  - paragraph [ref=e570]: · 116th in this Competition
+              - generic [ref=e572]:
+                - generic [ref=e573]:
+                  - button "Upvote" [ref=e574] [cursor=pointer]:
+                    - generic [ref=e575]: arrow_drop_up
+                  - button "0 votes" [ref=e576] [cursor=pointer]: "0"
+                  - button "Downvote" [ref=e577] [cursor=pointer]:
+                    - generic [ref=e578]: arrow_drop_down
+                - button "More Options for this Comment" [ref=e579] [cursor=pointer]: more_vert
+              - paragraph [ref=e583]: Interesting, since in zero shot setting it seems to do well on ciphers.
+              - generic [ref=e584]:
+                - button "Reply" [ref=e585] [cursor=pointer]:
+                  - generic [ref=e586]: reply
+                  - generic [ref=e587]: Reply
+                - button "React" [ref=e589] [cursor=pointer]:
+                  - generic [ref=e590]: add_reaction
+                  - generic [ref=e591]: React
+  - alert [ref=e594]

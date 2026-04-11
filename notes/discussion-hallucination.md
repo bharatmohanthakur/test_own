@@ -1,0 +1,981 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT v11 List Item" [ref=e137]:
+                  - link "Nemotron SFT v11" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v11
+                    - paragraph [ref=e144]: Nemotron SFT v11
+                - listitem "Nemotron SFT v10 List Item" [ref=e145]:
+                  - link "Nemotron SFT v10" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v10
+                    - paragraph [ref=e152]: Nemotron SFT v10
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e153]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e160]: Nemotron SFT+GRPO v1
+                - listitem "Nemotron Submit SFT v5 List Item" [ref=e161]:
+                  - link "Nemotron Submit SFT v5" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-submit-sft-v5
+                    - paragraph [ref=e168]: Nemotron Submit SFT v5
+                - listitem "Nemotron SFT v3 List Item" [ref=e169]:
+                  - link "Nemotron SFT v3" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v3
+                    - paragraph [ref=e176]: Nemotron SFT v3
+            - listitem
+      - button "2 View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e179]:
+          - generic [ref=e180]: update
+          - generic [ref=e181]: "2"
+        - paragraph [ref=e182]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e183]:
+    - generic [ref=e184]:
+      - generic [ref=e188]:
+        - generic [ref=e189]: search
+        - textbox "Search" [ref=e190]
+        - group
+      - button "bharat" [ref=e195] [cursor=pointer]:
+        - generic "bharat" [ref=e196]
+        - img [ref=e197]
+  - main [ref=e200]:
+    - generic [ref=e203]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - link "NVIDIA's profile" [ref=e207] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e208]
+            - img [ref=e209]
+          - generic [ref=e212]:
+            - generic [ref=e214]: NVIDIA
+            - generic [ref=e215]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e216]:
+            - button "Submit Prediction" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e221] [cursor=pointer]: more_horiz
+        - generic [ref=e223]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e224]
+          - paragraph [ref=e226]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e230]:
+        - tablist [ref=e237]:
+          - tab "Overview, 1 of 9" [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: Overview
+          - tab "Data, 2 of 9" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: Data
+          - tab "Code, 3 of 9" [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]: Code
+          - tab "Models, 4 of 9" [ref=e244] [cursor=pointer]:
+            - generic [ref=e245]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e246] [cursor=pointer]:
+            - generic [ref=e247]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e248] [cursor=pointer]:
+            - generic [ref=e249]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]: Rules
+          - tab "Team, 8 of 9" [ref=e252] [cursor=pointer]:
+            - generic [ref=e253]: Team
+          - tab "Submissions, 9 of 9" [ref=e254] [cursor=pointer]:
+            - generic [ref=e255]: Submissions
+        - separator [ref=e257]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "Dennis's profile" [ref=e265] [cursor=pointer]:
+                - /url: /dennisfong
+                - generic "Dennis" [ref=e266]
+                - img [ref=e267]
+              - generic [ref=e270]:
+                - link "Dennis" [ref=e271] [cursor=pointer]:
+                  - /url: /dennisfong
+                - text: ·
+                - generic [ref=e272]: 161st in this Competition ·
+                - generic [ref=e273]: Posted 6 days ago
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - button "Upvote" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e277]: arrow_drop_up
+                - button "36 votes" [ref=e278] [cursor=pointer]: "36"
+                - button "Downvote" [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]: arrow_drop_down
+              - button "More Options for this Topic" [ref=e281] [cursor=pointer]: more_vert
+            - heading "[Dataset Hallucination?] How did you resolve these problems by human?" [level=3] [ref=e282]
+            - generic [ref=e285]:
+              - paragraph [ref=e286]:
+                - strong [ref=e287]: eeae398e
+              - code [ref=e289]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: 63]67 = 4 18]81 = 9 72-22 = 95 64]48 = 16 65]15 = 5 Now, determine the result for: 65/58"
+              - paragraph [ref=e290]: When we look at the above question, slash has never appeared in the example. How can we deduce the solution? We know that ] is max(A, B) % min(A, B). No example is given for /
+              - paragraph [ref=e291]:
+                - strong [ref=e292]: e7cf0394
+              - code [ref=e294]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: 88\\87 = 7656 30]47 = 3047 52*15 = *37 Now, determine the result for: 97]83"
+              - paragraph [ref=e295]: If the symbol works across the "Alice Wonderland", here 30] 47 should not use concat.
+              - paragraph [ref=e296]: It seems that the training dataset has hallucination?
+              - paragraph [ref=e297]:
+                - text: One more thing,
+                - strong [ref=e298]: 7993452d
+              - code [ref=e300]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: `!-`/ = -[] [/-:( = -]( ^`*<! = :%[! %/-<< = -/( !<+^^ = %(( Now, determine the result for: :<-]!"
+              - paragraph [ref=e301]: Would anyone share how to reason this kind of problem? I have asked some LLM, they spent many tokens but unable to find the solution. I have also tried to deduce it but in vain.
+              - paragraph [ref=e302]: It seems the data is unbalanced and there are some hallucinations (I think it is severe) in the dataset.
+            - generic [ref=e305]:
+              - checkbox "2" [ref=e307] [cursor=pointer]:
+                - img [ref=e309]
+                - generic [ref=e310]: "2"
+              - button "Add Reaction" [ref=e311] [cursor=pointer]: add_reaction
+          - separator [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - generic [ref=e317]: comment
+              - heading "11 Comments" [level=2] [ref=e319]
+            - generic [ref=e322]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e323] [cursor=pointer]:
+                - generic [ref=e325]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e327]:
+            - link "bharat's profile" [ref=e329] [cursor=pointer]:
+              - /url: /bharatmohan
+              - generic "bharat" [ref=e330]
+              - img [ref=e331]
+            - generic [ref=e335]:
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - generic [ref=e339]:
+                    - button "Undo" [disabled] [ref=e340]: undo
+                    - button "Redo" [disabled] [ref=e341]: redo
+                    - separator [ref=e342]
+                    - button "Insert Heading" [ref=e344] [cursor=pointer]: format_size
+                    - button "Bold" [ref=e346] [cursor=pointer]: format_bold
+                    - button "Italicize" [ref=e348] [cursor=pointer]: format_italic
+                    - button "Strikethrough" [ref=e350] [cursor=pointer]: format_strikethrough
+                    - separator [ref=e351]
+                    - button "Insert Link" [ref=e353] [cursor=pointer]: insert_link
+                    - button "Insert Quote" [ref=e355] [cursor=pointer]: format_quote
+                    - button "Insert Code Block" [ref=e357] [cursor=pointer]: code
+                    - separator [ref=e358]
+                    - button "Insert Numbered List" [ref=e360] [cursor=pointer]: format_list_numbered
+                    - button "Insert Bulleted List" [ref=e362] [cursor=pointer]: format_list_bulleted
+                    - separator [ref=e363]
+                    - button "Insert Table" [ref=e365] [cursor=pointer]: table_chart
+                    - button "Insert Image" [ref=e367] [cursor=pointer]: insert_photo
+                    - button "Embed YouTube Video" [ref=e369] [cursor=pointer]: smart_display
+                    - button "Insert Emoticon" [ref=e371] [cursor=pointer]: insert_emoticon
+                    - separator [ref=e372]
+                    - button "Go to Markdown documentation" [ref=e374] [cursor=pointer]: help
+                  - textbox "Content" [ref=e380]:
+                    - /placeholder: Comment here. Be patient, be friendly, and focus on ideas. We're all here to learn and improve!
+                - paragraph [ref=e383]: This comment will be made public once posted.
+              - generic [ref=e385]:
+                - button "Attach a File" [ref=e387] [cursor=pointer]: attach_file
+                - button "Post Comment" [ref=e388] [cursor=pointer]:
+                  - generic [ref=e389]: Post Comment
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - generic [ref=e395]:
+                - link "Navneet's profile" [ref=e396] [cursor=pointer]:
+                  - /url: /navneetbende
+                  - generic "Navneet" [ref=e397]
+                  - img [ref=e398]
+                - generic [ref=e403]:
+                  - link "Navneet" [ref=e405] [cursor=pointer]:
+                    - /url: /navneetbende
+                    - heading "Navneet" [level=3] [ref=e406]
+                  - paragraph [ref=e408]: Posted a day ago
+                - generic [ref=e410]:
+                  - generic [ref=e411]:
+                    - button "Upvote" [ref=e412] [cursor=pointer]:
+                      - generic [ref=e413]: arrow_drop_up
+                    - button "-1 votes" [ref=e414] [cursor=pointer]: "-1"
+                    - button "Downvote" [ref=e415] [cursor=pointer]:
+                      - generic [ref=e416]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e417] [cursor=pointer]: more_vert
+                - paragraph [ref=e421]:
+                  - text: Cool Dataset
+                  - link "@dennisfong (opens in a new tab)" [ref=e422] [cursor=pointer]:
+                    - /url: https://www.kaggle.com/dennisfong
+                    - text: "@dennisfong"
+                - generic [ref=e423]:
+                  - button "Reply" [ref=e424] [cursor=pointer]:
+                    - generic [ref=e425]: reply
+                    - generic [ref=e426]: Reply
+                  - button "React" [ref=e428] [cursor=pointer]:
+                    - generic [ref=e429]: add_reaction
+                    - generic [ref=e430]: React
+              - separator [ref=e431]
+            - generic [ref=e432]:
+              - generic [ref=e436]:
+                - link "Yuchen20's profile" [ref=e437] [cursor=pointer]:
+                  - /url: /yuchen2066
+                  - generic "Yuchen20" [ref=e438]
+                  - img [ref=e439]
+                - generic [ref=e444]:
+                  - link "Yuchen20" [ref=e446] [cursor=pointer]:
+                    - /url: /yuchen2066
+                    - heading "Yuchen20" [level=3] [ref=e447]
+                  - generic [ref=e448]:
+                    - paragraph [ref=e449]: Posted 2 days ago
+                    - paragraph [ref=e451]: · 560th in this Competition
+                - generic [ref=e453]:
+                  - generic [ref=e454]:
+                    - button "Upvote" [ref=e455] [cursor=pointer]:
+                      - generic [ref=e456]: arrow_drop_up
+                    - button "2 votes" [ref=e457] [cursor=pointer]: "2"
+                    - button "Downvote" [ref=e458] [cursor=pointer]:
+                      - generic [ref=e459]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e460] [cursor=pointer]: more_vert
+                - generic [ref=e463]:
+                  - paragraph [ref=e464]: "This one is not even solvable, id : 4e840a1a"
+                  - code [ref=e466]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: 58*93 = 152 26*21 = 48 56*65 = 122 Now, determine the result for: 15+53"
+                  - paragraph [ref=e467]:
+                    - text: the
+                    - code [ref=e468]: +
+                    - text: is not even in the multi-shot example
+                - generic [ref=e469]:
+                  - button "Reply" [ref=e470] [cursor=pointer]:
+                    - generic [ref=e471]: reply
+                    - generic [ref=e472]: Reply
+                  - generic [ref=e473]:
+                    - checkbox "4" [ref=e475] [cursor=pointer]:
+                      - img [ref=e477]
+                      - generic [ref=e478]: "4"
+                    - button "Add Reaction" [ref=e479] [cursor=pointer]: add_reaction
+              - separator [ref=e480]
+            - generic [ref=e481]:
+              - generic [ref=e485]:
+                - link "Asadullah Baig's profile" [ref=e486] [cursor=pointer]:
+                  - /url: /asadullahbeg
+                  - generic "Asadullah Baig" [ref=e487]
+                  - img [ref=e488]
+                - generic [ref=e493]:
+                  - link "Asadullah Baig" [ref=e495] [cursor=pointer]:
+                    - /url: /asadullahbeg
+                    - heading "Asadullah Baig" [level=3] [ref=e496]
+                  - generic [ref=e497]:
+                    - paragraph [ref=e498]: Posted a day ago
+                    - paragraph [ref=e500]: · 1019th in this Competition
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - button "Upvote" [ref=e504] [cursor=pointer]:
+                      - generic [ref=e505]: arrow_drop_up
+                    - button "0 votes" [ref=e506] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e507] [cursor=pointer]:
+                      - generic [ref=e508]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e509] [cursor=pointer]: more_vert
+                - paragraph [ref=e513]: In short training on this dataset is not recommended. Either correct it and then train on a different set?
+                - generic [ref=e514]:
+                  - button "Reply" [ref=e515] [cursor=pointer]:
+                    - generic [ref=e516]: reply
+                    - generic [ref=e517]: Reply
+                  - button "React" [ref=e519] [cursor=pointer]:
+                    - generic [ref=e520]: add_reaction
+                    - generic [ref=e521]: React
+                - generic [ref=e527]:
+                  - link "ImperfectKitto's profile" [ref=e528] [cursor=pointer]:
+                    - /url: /defdet
+                    - generic "ImperfectKitto" [ref=e529]
+                    - img [ref=e530]
+                  - generic [ref=e535]:
+                    - link "ImperfectKitto" [ref=e537] [cursor=pointer]:
+                      - /url: /defdet
+                      - heading "ImperfectKitto" [level=3] [ref=e538]
+                    - generic [ref=e539]:
+                      - paragraph [ref=e540]: Posted 2 hours ago
+                      - paragraph [ref=e542]: · 276th in this Competition
+                  - generic [ref=e544]:
+                    - generic [ref=e545]:
+                      - button "Upvote" [ref=e546] [cursor=pointer]:
+                        - generic [ref=e547]: arrow_drop_up
+                      - button "0 votes" [ref=e548] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e549] [cursor=pointer]:
+                        - generic [ref=e550]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e551] [cursor=pointer]: more_vert
+                  - paragraph [ref=e555]: What about the hidden testing dataset?
+                  - generic [ref=e556]:
+                    - button "Reply" [ref=e557] [cursor=pointer]:
+                      - generic [ref=e558]: reply
+                      - generic [ref=e559]: Reply
+                    - button "React" [ref=e561] [cursor=pointer]:
+                      - generic [ref=e562]: add_reaction
+                      - generic [ref=e563]: React
+              - separator [ref=e564]
+            - generic [ref=e565]:
+              - generic [ref=e569]:
+                - link "George's profile" [ref=e570] [cursor=pointer]:
+                  - /url: /george8874
+                  - generic "George" [ref=e571]
+                  - img [ref=e572]
+                - generic [ref=e577]:
+                  - link "George" [ref=e579] [cursor=pointer]:
+                    - /url: /george8874
+                    - heading "George" [level=3] [ref=e580]
+                  - paragraph [ref=e582]: Posted 4 days ago
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - button "Upvote" [ref=e586] [cursor=pointer]:
+                      - generic [ref=e587]: arrow_drop_up
+                    - button "0 votes" [ref=e588] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e589] [cursor=pointer]:
+                      - generic [ref=e590]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e591] [cursor=pointer]: more_vert
+                - generic [ref=e594]:
+                  - paragraph [ref=e595]: Who can solve this puzzle? * not present in the examples at all
+                  - code [ref=e597]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: 81+79 = 511 19-41 = 7 58-87 = 7 Now, determine the result for: 07*79"
+                - generic [ref=e598]:
+                  - button "Reply" [ref=e599] [cursor=pointer]:
+                    - generic [ref=e600]: reply
+                    - generic [ref=e601]: Reply
+                  - button "React" [ref=e603] [cursor=pointer]:
+                    - generic [ref=e604]: add_reaction
+                    - generic [ref=e605]: React
+                - generic [ref=e611]:
+                  - link "zoey's profile" [ref=e612] [cursor=pointer]:
+                    - /url: /kaggletongtong
+                    - generic "zoey" [ref=e613]
+                    - img [ref=e614]
+                  - generic [ref=e619]:
+                    - link "zoey" [ref=e621] [cursor=pointer]:
+                      - /url: /kaggletongtong
+                      - heading "zoey" [level=3] [ref=e622]
+                    - paragraph [ref=e624]: Posted 2 days ago
+                  - generic [ref=e626]:
+                    - generic [ref=e627]:
+                      - button "Upvote" [ref=e628] [cursor=pointer]:
+                        - generic [ref=e629]: arrow_drop_up
+                      - button "0 votes" [ref=e630] [cursor=pointer]: "0"
+                      - button "Downvote" [ref=e631] [cursor=pointer]:
+                        - generic [ref=e632]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e633] [cursor=pointer]: more_vert
+                  - paragraph [ref=e637]: Impossible, my opus-4.6 failed
+                  - generic [ref=e638]:
+                    - button "Reply" [ref=e639] [cursor=pointer]:
+                      - generic [ref=e640]: reply
+                      - generic [ref=e641]: Reply
+                    - button "React" [ref=e643] [cursor=pointer]:
+                      - generic [ref=e644]: add_reaction
+                      - generic [ref=e645]: React
+              - separator [ref=e646]
+            - generic [ref=e647]:
+              - generic [ref=e651]:
+                - link "Đăng Nguyễn Hồng's profile" [ref=e652] [cursor=pointer]:
+                  - /url: /dangnh0611
+                  - generic "Đăng Nguyễn Hồng" [ref=e653]
+                  - img [ref=e654]
+                - generic [ref=e659]:
+                  - link "Đăng Nguyễn Hồng" [ref=e661] [cursor=pointer]:
+                    - /url: /dangnh0611
+                    - heading "Đăng Nguyễn Hồng" [level=3] [ref=e662]
+                  - generic [ref=e663]:
+                    - paragraph [ref=e664]: Posted 5 days ago
+                    - paragraph [ref=e666]: · 1182nd in this Competition
+                - generic [ref=e668]:
+                  - generic [ref=e669]:
+                    - button "Upvote" [ref=e670] [cursor=pointer]:
+                      - generic [ref=e671]: arrow_drop_up
+                    - button "0 votes" [ref=e672] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e673] [cursor=pointer]:
+                      - generic [ref=e674]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e675] [cursor=pointer]: more_vert
+                - paragraph [ref=e679]: I found the provided dataset is quite consistent in rule, but some questions indeed unsolvable in mathematical term (such as a query operator is unseen in example equations-there are many cases, but not sure if there are hidden rules to find it out, but until now it seems random to me). By this nature, think about it as a puzzle intead of mathematic :D
+                - generic [ref=e680]:
+                  - button "Reply" [ref=e681] [cursor=pointer]:
+                    - generic [ref=e682]: reply
+                    - generic [ref=e683]: Reply
+                  - button "React" [ref=e685] [cursor=pointer]:
+                    - generic [ref=e686]: add_reaction
+                    - generic [ref=e687]: React
+                - generic [ref=e688]:
+                  - generic [ref=e693]:
+                    - link "Dennis's profile" [ref=e694] [cursor=pointer]:
+                      - /url: /dennisfong
+                      - generic "Dennis" [ref=e695]
+                      - img [ref=e696]
+                    - generic [ref=e701]:
+                      - generic [ref=e702]:
+                        - link "Dennis" [ref=e703] [cursor=pointer]:
+                          - /url: /dennisfong
+                          - heading "Dennis" [level=3] [ref=e704]
+                        - generic [ref=e706]: Topic Author
+                      - generic [ref=e707]:
+                        - paragraph [ref=e708]: Posted 4 days ago
+                        - paragraph [ref=e710]: · 161st in this Competition
+                    - generic [ref=e712]:
+                      - generic [ref=e713]:
+                        - button "Upvote" [ref=e714] [cursor=pointer]:
+                          - generic [ref=e715]: arrow_drop_up
+                        - button "0 votes" [ref=e716] [cursor=pointer]: "0"
+                        - button "Downvote" [ref=e717] [cursor=pointer]:
+                          - generic [ref=e718]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e719] [cursor=pointer]: more_vert
+                    - generic [ref=e722]:
+                      - paragraph [ref=e723]:
+                        - link "@dangnh0611 (opens in a new tab)" [ref=e724] [cursor=pointer]:
+                          - /url: https://www.kaggle.com/dangnh0611
+                          - text: "@dangnh0611"
+                        - text: ", can you give some hints on solving this?"
+                      - code [ref=e726]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: `!-`/ = -[] [/-:( = -]( ^`*<! = :%[! %/-<< = -/( !<+^^ = %(( Now, determine the result for: :<-]!"
+                    - generic [ref=e727]:
+                      - button "Reply" [ref=e728] [cursor=pointer]:
+                        - generic [ref=e729]: reply
+                        - generic [ref=e730]: Reply
+                      - button "React" [ref=e732] [cursor=pointer]:
+                        - generic [ref=e733]: add_reaction
+                        - generic [ref=e734]: React
+                    - generic [ref=e735]:
+                      - generic [ref=e740]:
+                        - link "Đăng Nguyễn Hồng's profile" [ref=e741] [cursor=pointer]:
+                          - /url: /dangnh0611
+                          - generic "Đăng Nguyễn Hồng" [ref=e742]
+                          - img [ref=e743]
+                        - generic [ref=e748]:
+                          - link "Đăng Nguyễn Hồng" [ref=e750] [cursor=pointer]:
+                            - /url: /dangnh0611
+                            - heading "Đăng Nguyễn Hồng" [level=3] [ref=e751]
+                          - generic [ref=e752]:
+                            - paragraph [ref=e753]: Posted 4 days ago
+                            - paragraph [ref=e755]: · 1182nd in this Competition
+                        - generic [ref=e757]:
+                          - generic [ref=e758]:
+                            - button "Upvote" [ref=e759] [cursor=pointer]:
+                              - generic [ref=e760]: arrow_drop_up
+                            - button "8 votes" [ref=e761] [cursor=pointer]: "8"
+                            - button "Downvote" [ref=e762] [cursor=pointer]:
+                              - generic [ref=e763]: arrow_drop_down
+                          - button "More Options for this Comment" [ref=e764] [cursor=pointer]: more_vert
+                        - generic [ref=e767]:
+                          - paragraph [ref=e768]: "This result obtained from a LLM by provide a detailed prompt/instructions about how to solve this kind of puzzle. Share you my obtained response, with long-CoT-thinking prunned, strip to the final result:"
+                          - paragraph [ref=e769]:
+                            - strong [ref=e770]: "Digits mapping:"
+                          - list [ref=e771]:
+                            - listitem [ref=e772]:
+                              - code [ref=e773]: "["
+                              - text: = 0,
+                              - code [ref=e774]: (
+                              - text: = 1
+                            - listitem [ref=e775]:
+                              - code [ref=e776]: <
+                              - text: = 2
+                            - listitem [ref=e777]:
+                              - code [ref=e778]: /
+                              - text: = 3
+                            - listitem [ref=e779]:
+                              - code [ref=e780]: "]"
+                              - text: = 4
+                            - listitem [ref=e781]:
+                              - code [ref=e782]: "%"
+                              - text: = 5
+                            - listitem [ref=e783]:
+                              - code [ref=e784]: ":"
+                              - text: = 6
+                            - listitem [ref=e785]:
+                              - code [ref=e786]: "!"
+                              - text: = 7
+                            - listitem [ref=e787]:
+                              - code [ref=e788]: ^
+                              - text: = 8
+                            - listitem [ref=e789]:
+                              - code [ref=e790]: "`"
+                              - text: = 9
+                          - paragraph [ref=e791]:
+                            - strong [ref=e792]: "Operators:"
+                          - list [ref=e793]:
+                            - listitem [ref=e794]:
+                              - code [ref=e795]: +
+                              - text: = standard addition
+                            - listitem [ref=e796]:
+                              - code [ref=e797]: "*"
+                              - text: = multiplication
+                            - listitem [ref=e798]:
+                              - code [ref=e799]: "-"
+                              - text: = negative absolute difference (
+                              - code [ref=e800]: neg_abs_diff
+                              - text: )
+                          - paragraph [ref=e801]: "We can substitute the assigned digits into the equations to verify:"
+                          - list [ref=e802]:
+                            - listitem [ref=e803]:
+                              - strong [ref=e804]: "Eq 1:"
+                              - code [ref=e805]: 97 - 93 = -04
+                              - text: →
+                              - code [ref=e806]: "-|79 - 39| = -40"
+                              - text: → reverses to
+                              - code [ref=e807]: "-04"
+                              - text: . (Matches
+                              - code [ref=e808]: "-[]"
+                              - text: )
+                            - listitem [ref=e809]:
+                              - strong [ref=e810]: "Eq 2:"
+                              - code [ref=e811]: 03 - 61 = -41
+                              - text: →
+                              - code [ref=e812]: "-|30 - 16| = -14"
+                              - text: → reverses to
+                              - code [ref=e813]: "-41"
+                              - text: . (Matches
+                              - code [ref=e814]: "-]("
+                              - text: )
+                            - listitem [ref=e815]:
+                              - strong [ref=e816]: "Eq 3:"
+                              - code [ref=e817]: 89 * 27 = 6507
+                              - text: →
+                              - code [ref=e818]: 98 * 72 = 7056
+                              - text: → reverses to
+                              - code [ref=e819]: "6507"
+                              - text: . (Matches
+                              - code [ref=e820]: :%[!
+                              - text: )
+                            - listitem [ref=e821]:
+                              - strong [ref=e822]: "Eq 4:"
+                              - code [ref=e823]: 53 - 22 = -31
+                              - text: →
+                              - code [ref=e824]: "-|35 - 22| = -13"
+                              - text: → reverses to
+                              - code [ref=e825]: "-31"
+                              - text: . (Matches
+                              - code [ref=e826]: "-/("
+                              - text: )
+                            - listitem [ref=e827]:
+                              - strong [ref=e828]: "Eq 5:"
+                              - code [ref=e829]: 72 + 88 = 511
+                              - text: →
+                              - code [ref=e830]: 27 + 88 = 115
+                              - text: → reverses to
+                              - code [ref=e831]: "511"
+                              - text: . (Matches
+                              - code [ref=e832]: "%(("
+                              - text: )
+                          - paragraph [ref=e833]:
+                            - strong [ref=e834]: "PHASE 3: COMPUTE ANSWER"
+                            - text: "We need to determine the result for the query:"
+                            - code [ref=e835]: :< - ]!
+                          - list [ref=e836]:
+                            - listitem [ref=e837]:
+                              - text: "Translate the operands:"
+                              - code [ref=e838]: ":"
+                              - text: = 6,
+                              - code [ref=e839]: <
+                              - text: = 2 →
+                              - strong [ref=e840]: "62"
+                              - code [ref=e841]: "]"
+                              - text: = 4,
+                              - code [ref=e842]: "!"
+                              - text: = 7 →
+                              - strong [ref=e843]: "47"
+                            - listitem [ref=e844]: "Apply reverse mode (reverse operands): A' = 26 B' = 74"
+                            - listitem [ref=e845]:
+                              - text: Apply the operator
+                              - code [ref=e846]: "-"
+                              - text: (
+                              - code [ref=e847]: neg_abs_diff
+                              - text: "): -|26 - 74| = -|-48| ="
+                              - strong [ref=e848]: "-48"
+                            - listitem [ref=e849]:
+                              - text: "Reverse the magnitude for the final result: 48 reversed is"
+                              - strong [ref=e850]: "84"
+                              - text: . Sign is preserved as
+                              - code [ref=e851]: "-84"
+                              - text: .
+                            - listitem [ref=e852]:
+                              - text: "Re-encode into symbols: 8 ="
+                              - code [ref=e853]: ^
+                              - text: 4 =
+                              - code [ref=e854]: "]"
+                              - text: Result =
+                              - code [ref=e855]: "-^]"
+                        - generic [ref=e856]:
+                          - button "Reply" [ref=e857] [cursor=pointer]:
+                            - generic [ref=e858]: reply
+                            - generic [ref=e859]: Reply
+                          - button "React" [ref=e861] [cursor=pointer]:
+                            - generic [ref=e862]: add_reaction
+                            - generic [ref=e863]: React
+                      - paragraph [ref=e870]: This comment has been deleted.
+                      - generic [ref=e875]:
+                        - link "Dennis's profile" [ref=e876] [cursor=pointer]:
+                          - /url: /dennisfong
+                          - generic "Dennis" [ref=e877]
+                          - img [ref=e878]
+                        - generic [ref=e883]:
+                          - generic [ref=e884]:
+                            - link "Dennis" [ref=e885] [cursor=pointer]:
+                              - /url: /dennisfong
+                              - heading "Dennis" [level=3] [ref=e886]
+                            - generic [ref=e888]: Topic Author
+                          - generic [ref=e889]:
+                            - paragraph [ref=e890]: Posted 4 days ago
+                            - paragraph [ref=e892]: · 161st in this Competition
+                        - generic [ref=e894]:
+                          - generic [ref=e895]:
+                            - button "Upvote" [ref=e896] [cursor=pointer]:
+                              - generic [ref=e897]: arrow_drop_up
+                            - button "0 votes" [ref=e898] [cursor=pointer]: "0"
+                            - button "Downvote" [ref=e899] [cursor=pointer]:
+                              - generic [ref=e900]: arrow_drop_down
+                          - button "More Options for this Comment" [ref=e901] [cursor=pointer]: more_vert
+                        - paragraph [ref=e905]:
+                          - link "@dangnh0611 (opens in a new tab)" [ref=e906] [cursor=pointer]:
+                            - /url: https://www.kaggle.com/dangnh0611
+                            - text: "@dangnh0611"
+                          - text: . Thanks for sharing. It inspired me how to teach my model to fine tune.
+                        - generic [ref=e907]:
+                          - button "Reply" [ref=e908] [cursor=pointer]:
+                            - generic [ref=e909]: reply
+                            - generic [ref=e910]: Reply
+                          - button "React" [ref=e912] [cursor=pointer]:
+                            - generic [ref=e913]: add_reaction
+                            - generic [ref=e914]: React
+                  - generic [ref=e919]:
+                    - link "yash bhaskar's profile" [ref=e920] [cursor=pointer]:
+                      - /url: /yash9439
+                      - generic "yash bhaskar" [ref=e921]
+                      - img [ref=e922]
+                    - generic [ref=e927]:
+                      - link "yash bhaskar" [ref=e929] [cursor=pointer]:
+                        - /url: /yash9439
+                        - heading "yash bhaskar" [level=3] [ref=e930]
+                      - generic [ref=e931]:
+                        - paragraph [ref=e932]: Posted 2 days ago
+                        - paragraph [ref=e934]: · 2nd in this Competition
+                    - generic [ref=e936]:
+                      - generic [ref=e937]:
+                        - button "Upvote" [ref=e938] [cursor=pointer]:
+                          - generic [ref=e939]: arrow_drop_up
+                        - button "0 votes" [ref=e940] [cursor=pointer]: "0"
+                        - button "Downvote" [ref=e941] [cursor=pointer]:
+                          - generic [ref=e942]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e943] [cursor=pointer]: more_vert
+                    - generic [ref=e946]:
+                      - paragraph [ref=e947]:
+                        - link "@dangnh0611 (opens in a new tab)" [ref=e948] [cursor=pointer]:
+                          - /url: https://www.kaggle.com/dangnh0611
+                          - text: "@dangnh0611"
+                        - text: Whats the logic here?
+                      - code [ref=e950]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: #[!}} = ># ]]-?< = >\"] ]](>> = << >#-<} = <#>} Now, determine the result for: >}-<\""
+                    - generic [ref=e951]:
+                      - button "Reply" [ref=e952] [cursor=pointer]:
+                        - generic [ref=e953]: reply
+                        - generic [ref=e954]: Reply
+                      - button "React" [ref=e956] [cursor=pointer]:
+                        - generic [ref=e957]: add_reaction
+                        - generic [ref=e958]: React
+                    - generic [ref=e964]:
+                      - link "Kh0a's profile" [ref=e965] [cursor=pointer]:
+                        - /url: /llkh0a
+                        - generic "Kh0a" [ref=e966]
+                        - img [ref=e967]
+                      - generic [ref=e972]:
+                        - link "Kh0a" [ref=e974] [cursor=pointer]:
+                          - /url: /llkh0a
+                          - heading "Kh0a" [level=3] [ref=e975]
+                        - generic [ref=e976]:
+                          - paragraph [ref=e977]: Posted 2 days ago
+                          - paragraph [ref=e979]: · 269th in this Competition
+                      - generic [ref=e981]:
+                        - generic [ref=e982]:
+                          - button "Upvote" [ref=e983] [cursor=pointer]:
+                            - generic [ref=e984]: arrow_drop_up
+                          - button "0 votes" [ref=e985] [cursor=pointer]: "0"
+                          - button "Downvote" [ref=e986] [cursor=pointer]:
+                            - generic [ref=e987]: arrow_drop_down
+                        - button "More Options for this Comment" [ref=e988] [cursor=pointer]: more_vert
+                      - generic [ref=e991]:
+                        - paragraph [ref=e992]: I asked gemini
+                        - heading "Wonderland Math Puzzle Solution" [level=1] [ref=e993]
+                        - paragraph [ref=e994]:
+                          - strong [ref=e995]: "Digits mapping:"
+                          - strong [ref=e996]: "\""
+                          - text: = 0,
+                          - strong [ref=e997]: <
+                          - text: = 1
+                          - strong [ref=e998]: "]"
+                          - text: = 2
+                          - strong [ref=e999]: "#"
+                          - text: = 3
+                          - strong [ref=e1000]: "?"
+                          - text: = 4
+                          - strong [ref=e1001]: "}"
+                          - text: = 5
+                          - strong [ref=e1002]: "["
+                          - text: = 8
+                          - strong [ref=e1003]: ">"
+                          - text: = 9
+                        - paragraph [ref=e1004]:
+                          - strong [ref=e1005]: "Operators:"
+                          - strong [ref=e1006]: "!"
+                          - text: = standard addition
+                          - strong [ref=e1007]: "-"
+                          - text: = multiplication
+                          - strong [ref=e1008]: (
+                          - text: = Greatest Common Divisor (GCD)
+                        - paragraph [ref=e1009]:
+                          - strong [ref=e1010]: "We can substitute the assigned digits into the equations to verify:"
+                        - list [ref=e1011]:
+                          - listitem [ref=e1012]:
+                            - strong [ref=e1013]: "Eq 1:"
+                            - text: 38 + 55 = 93
+                            - emphasis [ref=e1014]: (Matches >#)
+                          - listitem [ref=e1015]:
+                            - strong [ref=e1016]: "Eq 2:"
+                            - text: 22 * 41 = 902
+                            - emphasis [ref=e1017]: (Matches >"])
+                          - listitem [ref=e1018]:
+                            - strong [ref=e1019]: "Eq 3:"
+                            - text: GCD(22, 99) = 11
+                            - emphasis [ref=e1020]: (Matches <<)
+                          - listitem [ref=e1021]:
+                            - strong [ref=e1022]: "Eq 4:"
+                            - text: 93 * 15 = 1395
+                            - emphasis [ref=e1023]: "(Matches <#>})"
+                        - 'heading "PHASE 3: COMPUTE ANSWER" [level=3] [ref=e1024]'
+                        - paragraph [ref=e1025]:
+                          - strong [ref=e1026]: "We need to determine the result for the query:"
+                          - code [ref=e1027]: ">}-<\""
+                        - list [ref=e1028]:
+                          - listitem [ref=e1029]:
+                            - strong [ref=e1030]: "Translate the operands:"
+                            - code [ref=e1031]: ">"
+                            - text: = 9,
+                            - code [ref=e1032]: "}"
+                            - text: = 5 →
+                            - strong [ref=e1033]: "95"
+                            - text: "|"
+                            - code [ref=e1034]: <
+                            - text: = 1,
+                            - code [ref=e1035]: "\""
+                            - text: = 0 →
+                            - strong [ref=e1036]: "10"
+                          - listitem [ref=e1037]:
+                            - strong [ref=e1038]:
+                              - text: Apply the operator
+                              - code [ref=e1039]: "-"
+                              - text: "(multiplication):"
+                            - text: 95 * 10 =
+                            - strong [ref=e1040]: "950"
+                          - listitem [ref=e1041]:
+                            - strong [ref=e1042]: "Re-encode into symbols:"
+                            - text: 9 =
+                            - code [ref=e1043]: ">"
+                            - text: ", 5 ="
+                            - code [ref=e1044]: "}"
+                            - text: ", 0 ="
+                            - code [ref=e1045]: "\""
+                            - text: →
+                            - strong [ref=e1046]:
+                              - text: Result =
+                              - code [ref=e1047]: ">}\""
+                      - generic [ref=e1048]:
+                        - button "Reply" [ref=e1049] [cursor=pointer]:
+                          - generic [ref=e1050]: reply
+                          - generic [ref=e1051]: Reply
+                        - generic [ref=e1052]:
+                          - checkbox "1" [ref=e1054] [cursor=pointer]:
+                            - img [ref=e1056]
+                            - generic [ref=e1057]: "1"
+                          - button "Add Reaction" [ref=e1058] [cursor=pointer]: add_reaction
+              - separator [ref=e1059]
+            - generic [ref=e1064]:
+              - link "MD Mushfirat Mohaimin's profile" [ref=e1065] [cursor=pointer]:
+                - /url: /mushfirat
+                - generic "MD Mushfirat Mohaimin" [ref=e1066]
+                - img [ref=e1067]
+              - generic [ref=e1072]:
+                - link "MD Mushfirat Mohaimin" [ref=e1074] [cursor=pointer]:
+                  - /url: /mushfirat
+                  - heading "MD Mushfirat Mohaimin" [level=3] [ref=e1075]
+                - generic [ref=e1076]:
+                  - paragraph [ref=e1077]: Posted 5 days ago
+                  - paragraph [ref=e1079]: · 347th in this Competition
+              - generic [ref=e1081]:
+                - generic [ref=e1082]:
+                  - button "Upvote" [ref=e1083] [cursor=pointer]:
+                    - generic [ref=e1084]: arrow_drop_up
+                  - button "0 votes" [ref=e1085] [cursor=pointer]: "0"
+                  - button "Downvote" [ref=e1086] [cursor=pointer]:
+                    - generic [ref=e1087]: arrow_drop_down
+                - button "More Options for this Comment" [ref=e1088] [cursor=pointer]: more_vert
+              - generic [ref=e1091]:
+                - paragraph [ref=e1092]: I found another example.
+                - paragraph [ref=e1093]:
+                  - strong [ref=e1094]: 026106f5
+                - code [ref=e1096]: "In Alice's Wonderland, a secret set of transformation rules is applied to equations. Below are a few examples: 52{43 = 9 31*15 = 46 37{26 = 11 17{92 = 24 Now, determine the result for: 75*97"
+                - paragraph [ref=e1097]:
+                  - text: Here, we can observe that
+                  - code [ref=e1098]: "{"
+                  - text: acts like a minus for two examples, but for the last example the mapping is NOT a minus.
+                  - text: We can also observe that
+                  - code [ref=e1099]: "*"
+                  - text: seems to act like a plus from the only one example where this operator is used.
+                  - text: So, the answer to
+                  - code [ref=e1100]: 75*97
+                  - text: would be the sum of 75 and 97, which is 172, right?
+                - paragraph [ref=e1101]: But, in the dataset, the answer to this prompt is 631
+                - paragraph [ref=e1102]: What's the logic behind it?
+              - generic [ref=e1103]:
+                - button "Reply" [ref=e1104] [cursor=pointer]:
+                  - generic [ref=e1105]: reply
+                  - generic [ref=e1106]: Reply
+                - button "React" [ref=e1108] [cursor=pointer]:
+                  - generic [ref=e1109]: add_reaction
+                  - generic [ref=e1110]: React
+              - generic [ref=e1116]:
+                - link "Dennis's profile" [ref=e1117] [cursor=pointer]:
+                  - /url: /dennisfong
+                  - generic "Dennis" [ref=e1118]
+                  - img [ref=e1119]
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]:
+                    - link "Dennis" [ref=e1126] [cursor=pointer]:
+                      - /url: /dennisfong
+                      - heading "Dennis" [level=3] [ref=e1127]
+                    - generic [ref=e1129]: Topic Author
+                  - generic [ref=e1130]:
+                    - paragraph [ref=e1131]: Posted 5 days ago
+                    - paragraph [ref=e1133]: · 161st in this Competition
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]:
+                    - button "Upvote" [ref=e1137] [cursor=pointer]:
+                      - generic [ref=e1138]: arrow_drop_up
+                    - button "0 votes" [ref=e1139] [cursor=pointer]: "0"
+                    - button "Downvote" [ref=e1140] [cursor=pointer]:
+                      - generic [ref=e1141]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e1142] [cursor=pointer]: more_vert
+                - generic [ref=e1145]:
+                  - paragraph [ref=e1146]: I tried to solve it by hand.
+                  - paragraph [ref=e1147]: 31*15=46 seems like 3+1 =4 , 1+5 = 6 , and then concat = 46
+                  - paragraph [ref=e1148]:
+                    - link "@ryanholbrook (opens in a new tab)" [ref=e1149] [cursor=pointer]:
+                      - /url: https://www.kaggle.com/ryanholbrook
+                      - text: "@ryanholbrook"
+                    - text: ", could you please provide some insights ? Thanks in advance."
+                - generic [ref=e1150]:
+                  - button "Reply" [ref=e1151] [cursor=pointer]:
+                    - generic [ref=e1152]: reply
+                    - generic [ref=e1153]: Reply
+                  - button "React" [ref=e1155] [cursor=pointer]:
+                    - generic [ref=e1156]: add_reaction
+                    - generic [ref=e1157]: React
+                - generic [ref=e1163]:
+                  - link "Đăng Nguyễn Hồng's profile" [ref=e1164] [cursor=pointer]:
+                    - /url: /dangnh0611
+                    - generic "Đăng Nguyễn Hồng" [ref=e1165]
+                    - img [ref=e1166]
+                  - generic [ref=e1171]:
+                    - link "Đăng Nguyễn Hồng" [ref=e1173] [cursor=pointer]:
+                      - /url: /dangnh0611
+                      - heading "Đăng Nguyễn Hồng" [level=3] [ref=e1174]
+                    - generic [ref=e1175]:
+                      - paragraph [ref=e1176]: Posted 5 days ago
+                      - paragraph [ref=e1178]: · 1182nd in this Competition
+                  - generic [ref=e1180]:
+                    - generic [ref=e1181]:
+                      - button "Upvote" [ref=e1182] [cursor=pointer]:
+                        - generic [ref=e1183]: arrow_drop_up
+                      - button "6 votes" [ref=e1184] [cursor=pointer]: "6"
+                      - button "Downvote" [ref=e1185] [cursor=pointer]:
+                        - generic [ref=e1186]: arrow_drop_down
+                    - button "More Options for this Comment" [ref=e1187] [cursor=pointer]: more_vert
+                  - generic [ref=e1190]:
+                    - paragraph [ref=e1191]: "About this example:"
+                    - list [ref=e1192]:
+                      - listitem [ref=e1193]: "{ means digit-reverse then take abs(B-A) -> reverse: 9=34-25; 11=abs(62-73), 42=abs(29-71)"
+                      - listitem [ref=e1194]: "* means reverse -> add -> reverse: 64=51+13; 136=79+57"
+                  - generic [ref=e1195]:
+                    - button "Reply" [ref=e1196] [cursor=pointer]:
+                      - generic [ref=e1197]: reply
+                      - generic [ref=e1198]: Reply
+                    - generic [ref=e1199]:
+                      - checkbox "4" [ref=e1201] [cursor=pointer]:
+                        - img [ref=e1203]
+                        - generic [ref=e1204]: "4"
+                      - button "Add Reaction" [ref=e1205] [cursor=pointer]: add_reaction
+  - alert [ref=e1208]

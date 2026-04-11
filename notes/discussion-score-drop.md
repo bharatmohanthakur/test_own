@@ -1,0 +1,622 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem "Home List Item" [ref=e24]:
+              - link "Home" [ref=e26] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e27]:
+                  - generic [ref=e30]: explore
+                  - paragraph [ref=e32]: Home
+            - listitem "Competitions List Item" [ref=e33]:
+              - link "Competitions" [ref=e35] [cursor=pointer]:
+                - /url: /competitions
+                - generic [ref=e36]:
+                  - generic [ref=e39]: emoji_events
+                  - paragraph [ref=e41]: Competitions
+            - listitem "Datasets List Item" [ref=e43]:
+              - link "Datasets" [ref=e45] [cursor=pointer]:
+                - /url: /datasets
+                - generic [ref=e46]:
+                  - generic [ref=e49]: table_chart
+                  - paragraph [ref=e51]: Datasets
+            - listitem "Models List Item" [ref=e52]:
+              - link "Models" [ref=e54] [cursor=pointer]:
+                - /url: /models
+                - generic [ref=e55]:
+                  - generic [ref=e58]: tenancy
+                  - paragraph [ref=e60]: Models
+            - listitem "Benchmarks List Item" [ref=e61]:
+              - link "Benchmarks" [ref=e63] [cursor=pointer]:
+                - /url: /benchmarks
+                - generic [ref=e64]:
+                  - generic [ref=e67]: leaderboard
+                  - paragraph [ref=e69]: Benchmarks
+            - listitem "Game Arena List Item" [ref=e70]:
+              - link "Game Arena" [ref=e72] [cursor=pointer]:
+                - /url: /game-arena
+                - generic [ref=e73]:
+                  - generic [ref=e76]: smart_toy
+                  - paragraph [ref=e78]: Game Arena
+            - listitem "Code List Item" [ref=e79]:
+              - link "Code" [ref=e81] [cursor=pointer]:
+                - /url: /code
+                - generic [ref=e82]:
+                  - generic [ref=e85]: code
+                  - paragraph [ref=e87]: Code
+            - listitem "Discussions List Item" [ref=e88]:
+              - link "Discussions" [ref=e90] [cursor=pointer]:
+                - /url: /discussions
+                - generic [ref=e91]:
+                  - generic [ref=e94]: comment
+                  - paragraph [ref=e96]: Discussions
+            - listitem "Kaggle Learn List Item" [ref=e97]:
+              - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+                - /url: /learn
+                - generic [ref=e100]:
+                  - generic [ref=e103]: school
+                  - paragraph [ref=e105]: Learn
+          - list [ref=e106]:
+            - listitem "More on Kaggle List Item" [ref=e107]:
+              - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e110]:
+                  - generic [ref=e113]: expand_more
+                  - paragraph [ref=e115]: More
+        - generic [ref=e116]:
+          - separator [ref=e117]
+          - list [ref=e118]:
+            - listitem "Your Work List Item" [ref=e119]:
+              - link "Your Work" [ref=e121] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=e122]:
+                  - generic [ref=e125]: note_alt
+                  - paragraph [ref=e127]: Your Work
+            - listitem [ref=e128]:
+              - button "Expand Viewed" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: arrow_right
+                - generic [ref=e131]: Viewed
+              - list
+            - listitem [ref=e132]:
+              - button "Collapse Edited" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: arrow_drop_down
+                - generic [ref=e135]: Edited
+              - list [ref=e136]:
+                - listitem "Nemotron SFT v16 Tiny List Item" [ref=e137]:
+                  - link "Nemotron SFT v16 Tiny" [ref=e139] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v16-tiny
+                    - paragraph [ref=e144]: Nemotron SFT v16 Tiny
+                - listitem "Nemotron SFT v15 List Item" [ref=e145]:
+                  - link "Nemotron SFT v15" [ref=e147] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v15
+                    - paragraph [ref=e152]: Nemotron SFT v15
+                - listitem "Nemotron SFT v11 List Item" [ref=e153]:
+                  - link "Nemotron SFT v11" [ref=e155] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v11
+                    - paragraph [ref=e160]: Nemotron SFT v11
+                - listitem "Nemotron SFT v10 List Item" [ref=e161]:
+                  - link "Nemotron SFT v10" [ref=e163] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-v10
+                    - paragraph [ref=e168]: Nemotron SFT v10
+                - listitem "Nemotron SFT+GRPO v1 List Item" [ref=e169]:
+                  - link "Nemotron SFT+GRPO v1" [ref=e171] [cursor=pointer]:
+                    - /url: /code/bharatmohan/nemotron-sft-grpo-v1
+                    - paragraph [ref=e176]: Nemotron SFT+GRPO v1
+            - listitem
+      - button "3 View Active Events" [ref=e178] [cursor=pointer]:
+        - generic [ref=e179]:
+          - generic [ref=e180]: update
+          - generic [ref=e181]: "3"
+        - paragraph [ref=e182]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e183]:
+    - generic [ref=e184]:
+      - generic [ref=e188]:
+        - generic [ref=e189]: search
+        - textbox "Search" [ref=e190]
+        - group
+      - button "bharat" [ref=e195] [cursor=pointer]:
+        - generic "bharat" [ref=e196]
+        - img [ref=e197]
+  - main [ref=e200]:
+    - generic [ref=e203]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - link "NVIDIA's profile" [ref=e207] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e208]
+            - img [ref=e209]
+          - generic [ref=e212]:
+            - generic [ref=e214]: NVIDIA
+            - generic [ref=e215]: · Featured Prediction Competition · 2 months to go
+          - generic [ref=e216]:
+            - button "Submit Prediction" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: Submit Prediction
+            - button "Competition options menu collapsed" [ref=e221] [cursor=pointer]: more_horiz
+        - generic [ref=e223]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e224]
+          - paragraph [ref=e226]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e230]:
+        - tablist [ref=e237]:
+          - tab "Overview, 1 of 9" [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: Overview
+          - tab "Data, 2 of 9" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: Data
+          - tab "Code, 3 of 9" [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]: Code
+          - tab "Models, 4 of 9" [ref=e244] [cursor=pointer]:
+            - generic [ref=e245]: Models
+          - tab "Discussion, 5 of 9" [selected] [ref=e246] [cursor=pointer]:
+            - generic [ref=e247]: Discussion
+          - tab "Leaderboard, 6 of 9" [ref=e248] [cursor=pointer]:
+            - generic [ref=e249]: Leaderboard
+          - tab "Rules, 7 of 9" [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]: Rules
+          - tab "Team, 8 of 9" [ref=e252] [cursor=pointer]:
+            - generic [ref=e253]: Team
+          - tab "Submissions, 9 of 9" [ref=e254] [cursor=pointer]:
+            - generic [ref=e255]: Submissions
+        - separator [ref=e257]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "JK-Piece's profile" [ref=e265] [cursor=pointer]:
+                - /url: /jeannkouagou
+                - generic "JK-Piece" [ref=e266]
+                - img [ref=e267]
+              - generic [ref=e270]:
+                - link "JK-Piece" [ref=e271] [cursor=pointer]:
+                  - /url: /jeannkouagou
+                - text: ·
+                - generic [ref=e272]: 4th in this Competition ·
+                - generic [ref=e273]: Posted 3 days ago
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - button "Upvote" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e277]: arrow_drop_up
+                - button "16 votes" [ref=e278] [cursor=pointer]: "16"
+                - button "Downvote" [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]: arrow_drop_down
+              - button "More Options for this Topic" [ref=e281] [cursor=pointer]: more_vert
+            - heading "Something wrong -- My notebook of 0.80+ now scores 0.77" [level=3] [ref=e282]
+            - generic [ref=e285]:
+              - paragraph [ref=e286]: Did anyone else notice a decrease in their score?
+              - paragraph [ref=e287]: My previous notebook with score 0.80+ now scores 0.77
+              - paragraph [ref=e288]: Can the hosts provide any insights here?
+            - button "React" [ref=e292] [cursor=pointer]:
+              - generic [ref=e293]: add_reaction
+              - generic [ref=e294]: React
+          - separator [ref=e295]
+        - generic [ref=e296]:
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]: comment
+              - heading "8 Comments" [level=2] [ref=e302]
+            - generic [ref=e305]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e306] [cursor=pointer]:
+                - generic [ref=e308]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e310]:
+            - link "bharat's profile" [ref=e312] [cursor=pointer]:
+              - /url: /bharatmohan
+              - generic "bharat" [ref=e313]
+              - img [ref=e314]
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - generic [ref=e322]:
+                    - button "Undo" [disabled] [ref=e323]: undo
+                    - button "Redo" [disabled] [ref=e324]: redo
+                    - separator [ref=e325]
+                    - button "Insert Heading" [ref=e327] [cursor=pointer]: format_size
+                    - button "Bold" [ref=e329] [cursor=pointer]: format_bold
+                    - button "Italicize" [ref=e331] [cursor=pointer]: format_italic
+                    - button "Strikethrough" [ref=e333] [cursor=pointer]: format_strikethrough
+                    - separator [ref=e334]
+                    - button "Insert Link" [ref=e336] [cursor=pointer]: insert_link
+                    - button "Insert Quote" [ref=e338] [cursor=pointer]: format_quote
+                    - button "Insert Code Block" [ref=e340] [cursor=pointer]: code
+                    - separator [ref=e341]
+                    - button "Insert Numbered List" [ref=e343] [cursor=pointer]: format_list_numbered
+                    - button "Insert Bulleted List" [ref=e345] [cursor=pointer]: format_list_bulleted
+                    - separator [ref=e346]
+                    - button "Insert Table" [ref=e348] [cursor=pointer]: table_chart
+                    - button "Insert Image" [ref=e350] [cursor=pointer]: insert_photo
+                    - button "Embed YouTube Video" [ref=e352] [cursor=pointer]: smart_display
+                    - button "Insert Emoticon" [ref=e354] [cursor=pointer]: insert_emoticon
+                    - separator [ref=e355]
+                    - button "Go to Markdown documentation" [ref=e357] [cursor=pointer]: help
+                  - textbox "Content" [ref=e363]:
+                    - /placeholder: Comment here. Be patient, be friendly, and focus on ideas. We're all here to learn and improve!
+                - paragraph [ref=e366]: This comment will be made public once posted.
+              - generic [ref=e368]:
+                - button "Attach a File" [ref=e370] [cursor=pointer]: attach_file
+                - button "Post Comment" [ref=e371] [cursor=pointer]:
+                  - generic [ref=e372]: Post Comment
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - generic [ref=e378]:
+                - link "pranavpoduval's profile" [ref=e379] [cursor=pointer]:
+                  - /url: /pranavpoduval
+                  - generic "pranavpoduval" [ref=e380]
+                  - img [ref=e381]
+                - generic [ref=e386]:
+                  - link "pranavpoduval" [ref=e388] [cursor=pointer]:
+                    - /url: /pranavpoduval
+                    - heading "pranavpoduval" [level=3] [ref=e389]
+                  - generic [ref=e390]:
+                    - paragraph [ref=e391]: Posted 2 days ago
+                    - paragraph [ref=e393]: · 24th in this Competition
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - button "Upvote" [ref=e397] [cursor=pointer]:
+                      - generic [ref=e398]: arrow_drop_up
+                    - button "1 votes" [ref=e399] [cursor=pointer]: "1"
+                    - button "Downvote" [ref=e400] [cursor=pointer]:
+                      - generic [ref=e401]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e402] [cursor=pointer]: more_vert
+                - paragraph [ref=e406]: Yah everyones score fell by 0.03-0.04 approx. likely due to the evaluation change
+                - generic [ref=e407]:
+                  - button "Reply" [ref=e408] [cursor=pointer]:
+                    - generic [ref=e409]: reply
+                    - generic [ref=e410]: Reply
+                  - button "React" [ref=e412] [cursor=pointer]:
+                    - generic [ref=e413]: add_reaction
+                    - generic [ref=e414]: React
+              - separator [ref=e415]
+            - generic [ref=e416]:
+              - generic [ref=e420]:
+                - link "Ryan Holbrook's profile" [ref=e421] [cursor=pointer]:
+                  - /url: /ryanholbrook
+                  - generic "Ryan Holbrook" [ref=e422]
+                  - img [ref=e423]
+                - generic [ref=e428]:
+                  - generic [ref=e429]:
+                    - link "Ryan Holbrook" [ref=e430] [cursor=pointer]:
+                      - /url: /ryanholbrook
+                      - heading "Ryan Holbrook" [level=3] [ref=e431]
+                    - generic [ref=e433]: Kaggle Staff
+                  - paragraph [ref=e435]: Posted 3 days ago
+                - generic [ref=e437]:
+                  - generic [ref=e438]:
+                    - button "Upvote" [ref=e439] [cursor=pointer]:
+                      - generic [ref=e440]: arrow_drop_up
+                    - button "7 votes" [ref=e441] [cursor=pointer]: "7"
+                    - button "Downvote" [ref=e442] [cursor=pointer]:
+                      - generic [ref=e443]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e444] [cursor=pointer]: more_vert
+                - paragraph [ref=e448]:
+                  - text: Thanks,
+                  - link "@jeannkouagou (opens in a new tab)" [ref=e449] [cursor=pointer]:
+                    - /url: https://www.kaggle.com/jeannkouagou
+                    - text: "@jeannkouagou"
+                  - text: . I am looking into a rescore. Since this requires the RTX GPUs, I need to ensure we still have availability for ordinary scoring.
+                - generic [ref=e450]:
+                  - button "Reply" [ref=e451] [cursor=pointer]:
+                    - generic [ref=e452]: reply
+                    - generic [ref=e453]: Reply
+                  - button "React" [ref=e455] [cursor=pointer]:
+                    - generic [ref=e456]: add_reaction
+                    - generic [ref=e457]: React
+                - generic [ref=e458]:
+                  - generic [ref=e463]:
+                    - link "MD Mushfirat Mohaimin's profile" [ref=e464] [cursor=pointer]:
+                      - /url: /mushfirat
+                      - generic "MD Mushfirat Mohaimin" [ref=e465]
+                      - img [ref=e466]
+                    - generic [ref=e471]:
+                      - link "MD Mushfirat Mohaimin" [ref=e473] [cursor=pointer]:
+                        - /url: /mushfirat
+                        - heading "MD Mushfirat Mohaimin" [level=3] [ref=e474]
+                      - generic [ref=e475]:
+                        - paragraph [ref=e476]: Posted 2 days ago
+                        - paragraph [ref=e478]: · 399th in this Competition
+                    - generic [ref=e480]:
+                      - generic [ref=e481]:
+                        - button "Upvote" [ref=e482] [cursor=pointer]:
+                          - generic [ref=e483]: arrow_drop_up
+                        - button "3 votes" [ref=e484] [cursor=pointer]: "3"
+                        - button "Downvote" [ref=e485] [cursor=pointer]:
+                          - generic [ref=e486]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e487] [cursor=pointer]: more_vert
+                    - generic [ref=e490]:
+                      - paragraph [ref=e491]:
+                        - text: From my observation, I believe the evaluation is not running with
+                        - code [ref=e492]: temperature=0
+                        - text: Can you please update the default parameter of
+                        - code [ref=e493]: temperature
+                        - text: to
+                        - code [ref=e494]: "0"
+                        - text: in the evaluation notebook? Right now, it is set to
+                        - code [ref=e495]: "1.0"
+                      - paragraph [ref=e496]: Each submission is currently returning different scores. Because of this, we have to submit our solution multiple times just to get back the maximum score.
+                    - generic [ref=e497]:
+                      - button "Reply" [ref=e498] [cursor=pointer]:
+                        - generic [ref=e499]: reply
+                        - generic [ref=e500]: Reply
+                      - button "React" [ref=e502] [cursor=pointer]:
+                        - generic [ref=e503]: add_reaction
+                        - generic [ref=e504]: React
+                    - generic [ref=e505]:
+                      - generic [ref=e510]:
+                        - link "JK-Piece's profile" [ref=e511] [cursor=pointer]:
+                          - /url: /jeannkouagou
+                          - generic "JK-Piece" [ref=e512]
+                          - img [ref=e513]
+                        - generic [ref=e518]:
+                          - generic [ref=e519]:
+                            - link "JK-Piece" [ref=e520] [cursor=pointer]:
+                              - /url: /jeannkouagou
+                              - heading "JK-Piece" [level=3] [ref=e521]
+                            - generic [ref=e523]: Topic Author
+                          - generic [ref=e524]:
+                            - paragraph [ref=e525]: Posted 2 days ago
+                            - paragraph [ref=e527]: · 4th in this Competition
+                        - generic [ref=e529]:
+                          - generic [ref=e530]:
+                            - button "Upvote" [ref=e531] [cursor=pointer]:
+                              - generic [ref=e532]: arrow_drop_up
+                            - button "2 votes" [ref=e533] [cursor=pointer]: "2"
+                            - button "Downvote" [ref=e534] [cursor=pointer]:
+                              - generic [ref=e535]: arrow_drop_down
+                          - button "More Options for this Comment" [ref=e536] [cursor=pointer]: more_vert
+                        - paragraph [ref=e540]:
+                          - text: Yes, this is true. The temperature value is now
+                          - code [ref=e541]: "1.0"
+                          - text: instead of the initial
+                          - code [ref=e542]: "0.0"
+                          - text: .
+                          - link "@ryanholbrook (opens in a new tab)" [ref=e543] [cursor=pointer]:
+                            - /url: https://www.kaggle.com/ryanholbrook
+                            - text: "@ryanholbrook"
+                          - text: could you please also fix this?
+                        - generic [ref=e544]:
+                          - button "Reply" [ref=e545] [cursor=pointer]:
+                            - generic [ref=e546]: reply
+                            - generic [ref=e547]: Reply
+                          - button "React" [ref=e549] [cursor=pointer]:
+                            - generic [ref=e550]: add_reaction
+                            - generic [ref=e551]: React
+                      - generic [ref=e552]:
+                        - button "14 more replies" [ref=e553] [cursor=pointer]:
+                          - generic [ref=e554]: 14 more replies
+                          - generic [ref=e555]: arrow_drop_down
+                        - generic [ref=e556]:
+                          - img "Profile picture for Ryan Holbrook" [ref=e558]
+                          - img "Profile picture for Tony Li" [ref=e560]
+                          - img "Profile picture for JK-Piece" [ref=e562]
+                          - img "Profile picture for ImperfectKitto" [ref=e564]
+                        - generic [ref=e565]: "+5"
+                  - generic [ref=e570]:
+                    - link "Chew Kok Wah's profile" [ref=e571] [cursor=pointer]:
+                      - /url: /chewkokwahibrainai
+                      - generic "Chew Kok Wah" [ref=e572]
+                      - img [ref=e573]
+                    - generic [ref=e578]:
+                      - link "Chew Kok Wah" [ref=e580] [cursor=pointer]:
+                        - /url: /chewkokwahibrainai
+                        - heading "Chew Kok Wah" [level=3] [ref=e581]
+                      - paragraph [ref=e583]: Posted 6 hours ago
+                    - generic [ref=e585]:
+                      - generic [ref=e586]:
+                        - button "Upvote" [ref=e587] [cursor=pointer]:
+                          - generic [ref=e588]: arrow_drop_up
+                        - button "1 votes" [ref=e589] [cursor=pointer]: "1"
+                        - button "Downvote" [ref=e590] [cursor=pointer]:
+                          - generic [ref=e591]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e592] [cursor=pointer]: more_vert
+                    - paragraph [ref=e596]:
+                      - text: In your scoring Metric code there is no per request seed set, this make the score non-deterministic and keep on changing even with no code change. Can you set the seed to make the score more deterministic?
+                      - link "@ryanholbrook (opens in a new tab)" [ref=e597] [cursor=pointer]:
+                        - /url: https://www.kaggle.com/ryanholbrook
+                        - text: "@ryanholbrook"
+                    - generic [ref=e598]:
+                      - button "Reply" [ref=e599] [cursor=pointer]:
+                        - generic [ref=e600]: reply
+                        - generic [ref=e601]: Reply
+                      - button "React" [ref=e603] [cursor=pointer]:
+                        - generic [ref=e604]: add_reaction
+                        - generic [ref=e605]: React
+              - separator [ref=e606]
+            - generic [ref=e607]:
+              - generic [ref=e611]:
+                - link "muyouqian4's profile" [ref=e612] [cursor=pointer]:
+                  - /url: /muyouqian4
+                  - generic "muyouqian4" [ref=e613]
+                  - img [ref=e614]
+                - generic [ref=e619]:
+                  - link "muyouqian4" [ref=e621] [cursor=pointer]:
+                    - /url: /muyouqian4
+                    - heading "muyouqian4" [level=3] [ref=e622]
+                  - generic [ref=e623]:
+                    - paragraph [ref=e624]: Posted 3 days ago
+                    - paragraph [ref=e626]: · 3rd in this Competition
+                - generic [ref=e628]:
+                  - generic [ref=e629]:
+                    - button "Upvote" [ref=e630] [cursor=pointer]:
+                      - generic [ref=e631]: arrow_drop_up
+                    - button "1 votes" [ref=e632] [cursor=pointer]: "1"
+                    - button "Downvote" [ref=e633] [cursor=pointer]:
+                      - generic [ref=e634]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e635] [cursor=pointer]: more_vert
+                - paragraph [ref=e639]: Wow, thanks! I resubmit my best submission.csv, 0.82 -> 0.8
+                - generic [ref=e640]:
+                  - button "Reply" [ref=e641] [cursor=pointer]:
+                    - generic [ref=e642]: reply
+                    - generic [ref=e643]: Reply
+                  - button "React" [ref=e645] [cursor=pointer]:
+                    - generic [ref=e646]: add_reaction
+                    - generic [ref=e647]: React
+              - separator [ref=e648]
+            - generic [ref=e649]:
+              - generic [ref=e653]:
+                - link "datnt114's profile" [ref=e654] [cursor=pointer]:
+                  - /url: /kingkong153
+                  - generic "datnt114" [ref=e655]
+                  - img [ref=e656]
+                - generic [ref=e661]:
+                  - link "datnt114" [ref=e663] [cursor=pointer]:
+                    - /url: /kingkong153
+                    - heading "datnt114" [level=3] [ref=e664]
+                  - generic [ref=e665]:
+                    - paragraph [ref=e666]: Posted 3 days ago
+                    - paragraph [ref=e668]: · 187th in this Competition
+                - generic [ref=e670]:
+                  - generic [ref=e671]:
+                    - button "Upvote" [ref=e672] [cursor=pointer]:
+                      - generic [ref=e673]: arrow_drop_up
+                    - button "1 votes" [ref=e674] [cursor=pointer]: "1"
+                    - button "Downvote" [ref=e675] [cursor=pointer]:
+                      - generic [ref=e676]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e677] [cursor=pointer]: more_vert
+                - paragraph [ref=e681]: I also tried resubmitting the best model in kernel public, but it only achieved 0.64.
+                - generic [ref=e682]:
+                  - button "Reply" [ref=e683] [cursor=pointer]:
+                    - generic [ref=e684]: reply
+                    - generic [ref=e685]: Reply
+                  - button "React" [ref=e687] [cursor=pointer]:
+                    - generic [ref=e688]: add_reaction
+                    - generic [ref=e689]: React
+              - separator [ref=e690]
+            - generic [ref=e695]:
+              - link "bliao's profile" [ref=e696] [cursor=pointer]:
+                - /url: /baohaoliao
+                - generic "bliao" [ref=e697]
+                - img [ref=e698]
+              - generic [ref=e703]:
+                - link "bliao" [ref=e705] [cursor=pointer]:
+                  - /url: /baohaoliao
+                  - heading "bliao" [level=3] [ref=e706]
+                - generic [ref=e707]:
+                  - paragraph [ref=e708]: Posted 3 days ago
+                  - paragraph [ref=e710]: · 542nd in this Competition
+              - generic [ref=e712]:
+                - generic [ref=e713]:
+                  - button "Upvote" [ref=e714] [cursor=pointer]:
+                    - generic [ref=e715]: arrow_drop_up
+                  - button "3 votes" [ref=e716] [cursor=pointer]: "3"
+                  - button "Downvote" [ref=e717] [cursor=pointer]:
+                    - generic [ref=e718]: arrow_drop_down
+                - button "More Options for this Comment" [ref=e719] [cursor=pointer]: more_vert
+              - paragraph [ref=e723]:
+                - text: The verify function (
+                - link "https://www.kaggle.com/code/metric/nvidia-nemotron-metric (opens in a new tab)" [ref=e724] [cursor=pointer]:
+                  - /url: https://www.kaggle.com/code/metric/nvidia-nemotron-metric
+                  - text: https://www.kaggle.com/code/metric/nvidia-nemotron-metric
+                - text: ) is changed. See discussion at
+                - link "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/683853 (opens in a new tab)" [ref=e725] [cursor=pointer]:
+                  - /url: https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/683853
+                  - text: https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/683853
+              - generic [ref=e726]:
+                - button "Reply" [ref=e727] [cursor=pointer]:
+                  - generic [ref=e728]: reply
+                  - generic [ref=e729]: Reply
+                - button "React" [ref=e731] [cursor=pointer]:
+                  - generic [ref=e732]: add_reaction
+                  - generic [ref=e733]: React
+              - generic [ref=e739]:
+                - link "Tong Hui Kang's profile" [ref=e740] [cursor=pointer]:
+                  - /url: /huikang
+                  - generic "Tong Hui Kang" [ref=e741]
+                  - img [ref=e742]
+                - generic [ref=e747]:
+                  - link "Tong Hui Kang" [ref=e749] [cursor=pointer]:
+                    - /url: /huikang
+                    - heading "Tong Hui Kang" [level=3] [ref=e750]
+                  - generic [ref=e751]:
+                    - paragraph [ref=e752]: Posted 3 days ago
+                    - paragraph [ref=e754]: · 14th in this Competition
+                - generic [ref=e756]:
+                  - generic [ref=e757]:
+                    - button "Upvote" [ref=e758] [cursor=pointer]:
+                      - generic [ref=e759]: arrow_drop_up
+                    - button "6 votes" [ref=e760] [cursor=pointer]: "6"
+                    - button "Downvote" [ref=e761] [cursor=pointer]:
+                      - generic [ref=e762]: arrow_drop_down
+                  - button "More Options for this Comment" [ref=e763] [cursor=pointer]: more_vert
+                - generic [ref=e766]:
+                  - paragraph [ref=e767]: I note that this part was added
+                  - code [ref=e769]: "# If the answer is a binary string, compare strictly as strings if re.fullmatch(r\"[01]+\", stored_answer): return predicted.lower() == stored_answer.lower()"
+                  - paragraph [ref=e770]: If this is indeed the case, I think we should rescore (just rescore, not rerun) the leaderboard
+                - generic [ref=e771]:
+                  - button "Reply" [ref=e772] [cursor=pointer]:
+                    - generic [ref=e773]: reply
+                    - generic [ref=e774]: Reply
+                  - button "React" [ref=e776] [cursor=pointer]:
+                    - generic [ref=e777]: add_reaction
+                    - generic [ref=e778]: React
+                - generic [ref=e779]:
+                  - generic [ref=e784]:
+                    - link "bliao's profile" [ref=e785] [cursor=pointer]:
+                      - /url: /baohaoliao
+                      - generic "bliao" [ref=e786]
+                      - img [ref=e787]
+                    - generic [ref=e792]:
+                      - link "bliao" [ref=e794] [cursor=pointer]:
+                        - /url: /baohaoliao
+                        - heading "bliao" [level=3] [ref=e795]
+                      - generic [ref=e796]:
+                        - paragraph [ref=e797]: Posted 3 days ago
+                        - paragraph [ref=e799]: · 542nd in this Competition
+                    - generic [ref=e801]:
+                      - generic [ref=e802]:
+                        - button "Upvote" [ref=e803] [cursor=pointer]:
+                          - generic [ref=e804]: arrow_drop_up
+                        - button "1 votes" [ref=e805] [cursor=pointer]: "1"
+                        - button "Downvote" [ref=e806] [cursor=pointer]:
+                          - generic [ref=e807]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e808] [cursor=pointer]: more_vert
+                    - paragraph [ref=e812]: agree to rescore the LB, since the metric is different. In addition, the same notebook gets different scores, although temp=0. There might be some issues about deterministic.
+                    - generic [ref=e813]:
+                      - button "Reply" [ref=e814] [cursor=pointer]:
+                        - generic [ref=e815]: reply
+                        - generic [ref=e816]: Reply
+                      - button "React" [ref=e818] [cursor=pointer]:
+                        - generic [ref=e819]: add_reaction
+                        - generic [ref=e820]: React
+                  - generic [ref=e825]:
+                    - link "lucian kucera's profile" [ref=e826] [cursor=pointer]:
+                      - /url: /luciankucera
+                      - generic "lucian kucera" [ref=e827]
+                      - img [ref=e828]
+                    - generic [ref=e833]:
+                      - link "lucian kucera" [ref=e835] [cursor=pointer]:
+                        - /url: /luciankucera
+                        - heading "lucian kucera" [level=3] [ref=e836]
+                      - generic [ref=e837]:
+                        - paragraph [ref=e838]: Posted 3 days ago
+                        - paragraph [ref=e840]: · 116th in this Competition
+                    - generic [ref=e842]:
+                      - generic [ref=e843]:
+                        - button "Upvote" [ref=e844] [cursor=pointer]:
+                          - generic [ref=e845]: arrow_drop_up
+                        - button "-1 votes" [ref=e846] [cursor=pointer]: "-1"
+                        - button "Downvote" [ref=e847] [cursor=pointer]:
+                          - generic [ref=e848]: arrow_drop_down
+                      - button "More Options for this Comment" [ref=e849] [cursor=pointer]: more_vert
+                    - generic [ref=e852]:
+                      - paragraph [ref=e853]: I dont think its needed, since scores will improve and rescoring will be naturally done. I doubt top scores will stay this low. Iam about to publish comprahensivve dataset for bit problems, with very good traces.
+                      - paragraph [ref=e854]: Iam currently running vllm inference with gpt oss 120B, so I hope to share my dataset today. Lets see what others think.
+                    - generic [ref=e855]:
+                      - button "Reply" [ref=e856] [cursor=pointer]:
+                        - generic [ref=e857]: reply
+                        - generic [ref=e858]: Reply
+                      - button "React" [ref=e860] [cursor=pointer]:
+                        - generic [ref=e861]: add_reaction
+                        - generic [ref=e862]: React
+  - alert [ref=e865]

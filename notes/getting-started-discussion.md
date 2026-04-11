@@ -1,0 +1,489 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - list [ref=e23]:
+          - listitem "Home List Item" [ref=e24]:
+            - link "Home" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e27]:
+                - generic [ref=e30]: explore
+                - paragraph [ref=e32]: Home
+          - listitem "Competitions List Item" [ref=e33]:
+            - link "Competitions" [ref=e35] [cursor=pointer]:
+              - /url: /competitions
+              - generic [ref=e36]:
+                - generic [ref=e39]: emoji_events
+                - paragraph [ref=e41]: Competitions
+          - listitem "Datasets List Item" [ref=e43]:
+            - link "Datasets" [ref=e45] [cursor=pointer]:
+              - /url: /datasets
+              - generic [ref=e46]:
+                - generic [ref=e49]: table_chart
+                - paragraph [ref=e51]: Datasets
+          - listitem "Models List Item" [ref=e52]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /models
+              - generic [ref=e55]:
+                - generic [ref=e58]: tenancy
+                - paragraph [ref=e60]: Models
+          - listitem "Benchmarks List Item" [ref=e61]:
+            - link "Benchmarks" [ref=e63] [cursor=pointer]:
+              - /url: /benchmarks
+              - generic [ref=e64]:
+                - generic [ref=e67]: leaderboard
+                - paragraph [ref=e69]: Benchmarks
+          - listitem "Game Arena List Item" [ref=e70]:
+            - link "Game Arena" [ref=e72] [cursor=pointer]:
+              - /url: /game-arena
+              - generic [ref=e73]:
+                - generic [ref=e76]: smart_toy
+                - paragraph [ref=e78]: Game Arena
+          - listitem "Code List Item" [ref=e79]:
+            - link "Code" [ref=e81] [cursor=pointer]:
+              - /url: /code
+              - generic [ref=e82]:
+                - generic [ref=e85]: code
+                - paragraph [ref=e87]: Code
+          - listitem "Discussions List Item" [ref=e88]:
+            - link "Discussions" [ref=e90] [cursor=pointer]:
+              - /url: /discussions
+              - generic [ref=e91]:
+                - generic [ref=e94]: comment
+                - paragraph [ref=e96]: Discussions
+          - listitem "Kaggle Learn List Item" [ref=e97]:
+            - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+              - /url: /learn
+              - generic [ref=e100]:
+                - generic [ref=e103]: school
+                - paragraph [ref=e105]: Learn
+        - list [ref=e106]:
+          - listitem "More on Kaggle List Item" [ref=e107]:
+            - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e110]:
+                - generic [ref=e113]: expand_more
+                - paragraph [ref=e115]: More
+      - button "View Active Events" [ref=e117] [cursor=pointer]:
+        - generic [ref=e119]: auto_awesome_motion
+        - paragraph [ref=e120]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: search
+        - textbox "Search" [ref=e128]
+        - group
+      - generic [ref=e130]:
+        - link "Sign In" [ref=e132] [cursor=pointer]:
+          - /url: /account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F681745
+          - button "Sign In" [ref=e133]:
+            - generic [ref=e134]: Sign In
+        - link "Register" [ref=e136] [cursor=pointer]:
+          - /url: /account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F681745
+          - button "Register" [ref=e137]:
+            - generic [ref=e138]: Register
+  - main [ref=e139]:
+    - generic [ref=e141]:
+      - generic [ref=e142]: Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+      - generic [ref=e143]:
+        - link "Learn more" [ref=e144] [cursor=pointer]:
+          - /url: /cookies
+          - generic [ref=e145]: Learn more
+        - generic [ref=e146] [cursor=pointer]: OK, Got it.
+    - generic [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - link "NVIDIA's profile" [ref=e153] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e154]
+            - img [ref=e155]
+          - generic [ref=e158]:
+            - generic [ref=e160]: NVIDIA
+            - generic [ref=e161]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e162]:
+            - button "Join Competition" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Join Competition
+            - button "Competition options menu collapsed" [ref=e167] [cursor=pointer]: more_horiz
+        - generic [ref=e169]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e170]
+          - paragraph [ref=e172]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e176]:
+        - tablist [ref=e183]:
+          - tab "Overview, 1 of 7" [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]: Overview
+          - tab "Data, 2 of 7" [ref=e186] [cursor=pointer]:
+            - generic [ref=e187]: Data
+          - tab "Code, 3 of 7" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]: Code
+          - tab "Models, 4 of 7" [ref=e190] [cursor=pointer]:
+            - generic [ref=e191]: Models
+          - tab "Discussion, 5 of 7" [selected] [ref=e192] [cursor=pointer]:
+            - generic [ref=e193]: Discussion
+          - tab "Leaderboard, 6 of 7" [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]: Leaderboard
+          - tab "Rules, 7 of 7" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: Rules
+        - separator [ref=e199]
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - link "Jamil C Semaan's profile" [ref=e207] [cursor=pointer]:
+                - /url: /jamilcsemaan
+                - generic "Jamil C Semaan" [ref=e208]
+                - img [ref=e209]
+              - generic [ref=e212]:
+                - link "Jamil C Semaan" [ref=e213] [cursor=pointer]:
+                  - /url: /jamilcsemaan
+                - text: ·
+                - generic [ref=e214]: Posted 2 days ago
+              - text: ·
+              - generic [ref=e215]: Competition Host
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - button "Upvote" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]: arrow_drop_up
+                - button "10 votes" [ref=e220] [cursor=pointer]: "10"
+              - button "More Options for this Topic" [ref=e221] [cursor=pointer]: more_vert
+            - heading "How to Get Started + Nemotron Model Reasoning Challenge Resources" [level=3] [ref=e222]
+            - generic [ref=e225]:
+              - heading "Information for First-Timers" [level=2] [ref=e226]
+              - paragraph [ref=e227]: New to NVIDIA Nemotron open model family and its NeMo open libraries? If you’re just starting to explore these models, tools, or docs, feel free to start a new thread in this channel, or drop any first-timer questions here and folks can help you get unblocked. If you’re new to Nemotron and NeMo, skim the official Nemotron model pages, NeMo docs, and the resources listed below, then come back with specific questions about setup, fine-tuning, RL, or evaluation. Happy reasoning with Nemotron, and good luck climbing the leaderboard!
+              - heading "1. Core Nemotron model family (models & baselines)" [level=3] [ref=e228]
+              - list [ref=e229]:
+                - listitem [ref=e230]:
+                  - link "Nemotron overview (model family, capabilities, benchmarks) (opens in a new tab)" [ref=e231] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/nemotron
+                    - text: Nemotron overview (model family, capabilities, benchmarks)
+                - listitem [ref=e232]:
+                  - link "Nemotron GitHub (opens in a new tab)" [ref=e233] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/Nemotron
+                    - text: Nemotron GitHub
+                  - text: (main repo and examples)
+                - listitem [ref=e234]:
+                  - text: Nemotron 3 Nano
+                  - link "technical blog (opens in a new tab)" [ref=e235] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/blog/inside-nvidia-nemotron-3-techniques-tools-and-data-that-make-it-efficient-and-accurate/
+                    - text: technical blog
+                  - text: (architecture, efficiency, training details)
+                - listitem [ref=e236]:
+                  - text: Nemotron v3 collection on
+                  - link "Hugging Face (opens in a new tab)" [ref=e237] [cursor=pointer]:
+                    - /url: https://huggingface.co/collections/nvidia/nvidia-nemotron-v3
+                    - text: Hugging Face
+                  - text: (ready-to-use checkpoints)
+              - heading "2. Nemotron open libraries for data & RL" [level=3] [ref=e238]
+              - paragraph [ref=e239]:
+                - strong [ref=e240]: Synthetic data generation
+                - text: "NeMo Data Designer (generate domain/task-specific synthetic data):"
+              - list [ref=e241]:
+                - listitem [ref=e242]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo/DataDesigner (opens in a new tab)" [ref=e243] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/DataDesigner
+                    - text: https://github.com/NVIDIA-NeMo/DataDesigner
+                - listitem [ref=e244]:
+                  - text: "Docs:"
+                  - link "https://nvidia-nemo.github.io/DataDesigner/latest/ (opens in a new tab)" [ref=e245] [cursor=pointer]:
+                    - /url: https://nvidia-nemo.github.io/DataDesigner/latest/
+                    - text: https://nvidia-nemo.github.io/DataDesigner/latest/
+                - listitem [ref=e246]:
+                  - text: "Recipes:"
+                  - link "https://nvidia-nemo.github.io/DataDesigner/latest/recipes/cards/ (opens in a new tab)" [ref=e247] [cursor=pointer]:
+                    - /url: https://nvidia-nemo.github.io/DataDesigner/latest/recipes/cards/
+                    - text: https://nvidia-nemo.github.io/DataDesigner/latest/recipes/cards/
+              - paragraph [ref=e248]:
+                - strong [ref=e249]: Data filtering and curation
+                - text: "NeMo Curator (multi‑modal data curation: text, images, video, audio):"
+              - list [ref=e250]:
+                - listitem [ref=e251]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo/Curator (opens in a new tab)" [ref=e252] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/Curator
+                    - text: https://github.com/NVIDIA-NeMo/Curator
+                - listitem [ref=e253]:
+                  - text: "Docs:"
+                  - link "https://docs.nvidia.com/nemo/curator/latest/ (opens in a new tab)" [ref=e254] [cursor=pointer]:
+                    - /url: https://docs.nvidia.com/nemo/curator/latest/
+                    - text: https://docs.nvidia.com/nemo/curator/latest/
+              - paragraph [ref=e255]:
+                - strong [ref=e256]: RL & Gym (reasoning, behavior, agents)
+                - text: "NeMo RL (RL training at scale with SOTA algorithms):"
+              - list [ref=e257]:
+                - listitem [ref=e258]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo/RL (opens in a new tab)" [ref=e259] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/RL
+                    - text: https://github.com/NVIDIA-NeMo/RL
+              - paragraph [ref=e260]:
+                - strong [ref=e261]: NeMo Gym (build/manage RL environments)
+              - list [ref=e262]:
+                - listitem [ref=e263]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo/gym (opens in a new tab)" [ref=e264] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/gym
+                    - text: https://github.com/NVIDIA-NeMo/gym
+                - listitem [ref=e265]:
+                  - text: "Available environments:"
+                  - link "https://github.com/NVIDIA-NeMo/Gym?tab=readme-ov-file#-available-environments (opens in a new tab)" [ref=e266] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/Gym?tab=readme-ov-file#-available-environments
+                    - text: https://github.com/NVIDIA-NeMo/Gym?tab=readme-ov-file#-available-environments
+              - paragraph [ref=e267]:
+                - strong [ref=e268]: Guides & tutorials
+                - text: "Nemotron 3 Super – multi‑stage RLVR & RLHF recipe with NeMo RL:"
+              - list [ref=e269]:
+                - listitem [ref=e270]:
+                  - text: "Guide:"
+                  - link "https://github.com/NVIDIA-NeMo/RL/blob/super-v3/docs/guides/nemotron-3-super.md (opens in a new tab)" [ref=e271] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/RL/blob/super-v3/docs/guides/nemotron-3-super.md
+                    - text: https://github.com/NVIDIA-NeMo/RL/blob/super-v3/docs/guides/nemotron-3-super.md
+                - listitem [ref=e272]:
+                  - text: "GRPO RLVR Jupyter notebook:"
+                  - link "https://github.com/NVIDIA-NeMo/Nemotron/tree/main/usage-cookbook/Nemotron-3-Super/grpo-dapo (opens in a new tab)" [ref=e273] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/Nemotron/tree/main/usage-cookbook/Nemotron-3-Super/grpo-dapo
+                    - text: https://github.com/NVIDIA-NeMo/Nemotron/tree/main/usage-cookbook/Nemotron-3-Super/grpo-dapo
+              - paragraph [ref=e274]:
+                - strong [ref=e275]: Nemotron 3 Nano RL guide
+                - link "https://docs.nvidia.com/nemo/rl/nightly/guides/nemotron-3-nano.html (opens in a new tab)" [ref=e276] [cursor=pointer]:
+                  - /url: https://docs.nvidia.com/nemo/rl/nightly/guides/nemotron-3-nano.html
+                  - text: https://docs.nvidia.com/nemo/rl/nightly/guides/nemotron-3-nano.html
+              - heading "3. Nemotron open datasets (instruction-following & reasoning)" [level=3] [ref=e277]
+              - list [ref=e278]:
+                - listitem [ref=e279]:
+                  - text: "Pre‑training datasets collection:"
+                  - link "Link (opens in a new tab)" [ref=e280] [cursor=pointer]:
+                    - /url: https://huggingface.co/collections/nvidia/nemotron-pre-training-datasets
+                    - text: Link
+                - listitem [ref=e281]:
+                  - text: "Post‑training datasets:"
+                  - link "Link (opens in a new tab)" [ref=e282] [cursor=pointer]:
+                    - /url: https://huggingface.co/collections/nvidia/nemotron-post-training-v3
+                    - text: Link
+                - listitem [ref=e283]:
+                  - text: "RL instruction‑following dataset:"
+                  - link "Link (opens in a new tab)" [ref=e284] [cursor=pointer]:
+                    - /url: https://huggingface.co/datasets/nvidia/Nemotron-RL-instruction_following
+                    - text: Link
+                - listitem [ref=e285]:
+                  - text: "Agentic dataset:"
+                  - link "Link (opens in a new tab)" [ref=e286] [cursor=pointer]:
+                    - /url: https://huggingface.co/datasets/nvidia/Nemotron-Agentic-v1
+                    - text: Link
+                - listitem [ref=e287]:
+                  - text: "RAG dataset:"
+                  - link "Link (opens in a new tab)" [ref=e288] [cursor=pointer]:
+                    - /url: https://huggingface.co/datasets/nvidia/embed-nemotron-dataset-v1
+                    - text: Link
+                - listitem [ref=e289]:
+                  - text: "Personas collection:"
+                  - link "Link (opens in a new tab)" [ref=e290] [cursor=pointer]:
+                    - /url: https://huggingface.co/collections/nvidia/nemotron-personas
+                    - text: Link
+                - listitem [ref=e291]:
+                  - text: "More NVIDIA datasets:"
+                  - link "Link (opens in a new tab)" [ref=e292] [cursor=pointer]:
+                    - /url: https://huggingface.co/datasets?search=nvidia
+                    - text: Link
+              - heading "4. Cookbooks, recipes, and evaluation" [level=3] [ref=e293]
+              - list [ref=e294]:
+                - listitem [ref=e295]:
+                  - text: "Nemotron main repo (cookbooks, training recipes, deployment examples):"
+                  - link "https://github.com/NVIDIA-NeMo/Nemotron (opens in a new tab)" [ref=e296] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/Nemotron
+                    - text: https://github.com/NVIDIA-NeMo/Nemotron
+                - listitem [ref=e297]:
+                  - text: "Nemotron 3 Nano reproducibility / eval guide with NeMo Evaluator:"
+                  - link "https://github.com/NVIDIA-NeMo/Evaluator/blob/main/packages/nemo-evaluator-launcher/examples/nemotron/nano-v3-reproducibility.md (opens in a new tab)" [ref=e298] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo/Evaluator/blob/main/packages/nemo-evaluator-launcher/examples/nemotron/nano-v3-reproducibility.md
+                    - text: https://github.com/NVIDIA-NeMo/Evaluator/blob/main/packages/nemo-evaluator-launcher/examples/nemotron/nano-v3-reproducibility.md
+              - heading "5. Community & learning paths" [level=3] [ref=e299]
+              - paragraph [ref=e300]: "If you get stuck, want feedback on an idea, or just want to see how others are approaching the challenge, these are great next stops:"
+              - paragraph [ref=e301]:
+                - strong [ref=e302]: "Nemotron / NVIDIA Developer Discord (join + Nemotron channel):"
+                - text: "Join:"
+                - link "https://discord.com/invite/nvidiadeveloper (opens in a new tab)" [ref=e303] [cursor=pointer]:
+                  - /url: https://discord.com/invite/nvidiadeveloper
+                  - text: https://discord.com/invite/nvidiadeveloper
+              - paragraph [ref=e304]:
+                - strong [ref=e305]: "Nemotron Reasoning Challenge Discord channel:"
+                - link "https://discord.gg/kRwhDfTW (opens in a new tab)" [ref=e306] [cursor=pointer]:
+                  - /url: https://discord.gg/kRwhDfTW
+                  - text: https://discord.gg/kRwhDfTW
+                - text: "NVIDIA community email (questions, feedback, sharing work):"
+                - link "community@nvidia.com" [ref=e307] [cursor=pointer]:
+                  - /url: mailto:community@nvidia.com
+              - paragraph [ref=e308]:
+                - strong [ref=e309]: Learning paths
+              - list [ref=e310]:
+                - listitem [ref=e311]:
+                  - text: "Build an AI agent (guide + code):"
+                  - link "https://developer.nvidia.com/topics/ai/how-to-build-an-ai-agent (opens in a new tab)" [ref=e312] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/topics/ai/how-to-build-an-ai-agent
+                    - text: https://developer.nvidia.com/topics/ai/how-to-build-an-ai-agent
+                - listitem [ref=e313]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo (opens in a new tab)" [ref=e314] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo
+                    - text: https://github.com/NVIDIA-NeMo
+                - listitem [ref=e315]:
+                  - text: "Build a RAG agent (guide + code):"
+                  - link "https://developer.nvidia.com/topics/ai/how-to-build-agentic-ai-rag (opens in a new tab)" [ref=e316] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/topics/ai/how-to-build-agentic-ai-rag
+                    - text: https://developer.nvidia.com/topics/ai/how-to-build-agentic-ai-rag
+                - listitem [ref=e317]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo (opens in a new tab)" [ref=e318] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo
+                    - text: https://github.com/NVIDIA-NeMo
+                - listitem [ref=e319]:
+                  - text: "Launchable environment for Nemotron (pre‑configured cloud env):"
+                  - link "https://brev.nvidia.com/launchable/deploy?launchableID=env-32kC34ErT9wsqTcJyaKMxBEuhr2 (opens in a new tab)" [ref=e320] [cursor=pointer]:
+                    - /url: https://brev.nvidia.com/launchable/deploy?launchableID=env-32kC34ErT9wsqTcJyaKMxBEuhr2
+                    - text: https://brev.nvidia.com/launchable/deploy?launchableID=env-32kC34ErT9wsqTcJyaKMxBEuhr2
+                - listitem [ref=e321]:
+                  - text: "GitHub:"
+                  - link "https://github.com/NVIDIA-NeMo (opens in a new tab)" [ref=e322] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA-NeMo
+                    - text: https://github.com/NVIDIA-NeMo
+                - listitem [ref=e323]:
+                  - text: "Nemotron Labs livestreams playlist (deep dives, demos, Q&A):"
+                  - link "https://youtube.com/playlist?list=PL5B692fm6--vEL0FwctKghCpyEnBGAQJA&si=jhVNZVfdj_91hpEJ (opens in a new tab)" [ref=e324] [cursor=pointer]:
+                    - /url: https://youtube.com/playlist?list=PL5B692fm6--vEL0FwctKghCpyEnBGAQJA&si=jhVNZVfdj_91hpEJ
+                    - text: https://youtube.com/playlist?list=PL5B692fm6--vEL0FwctKghCpyEnBGAQJA&si=jhVNZVfdj_91hpEJ
+            - generic [ref=e327]:
+              - generic [ref=e329]:
+                - img [ref=e331]
+                - generic [ref=e332]: "5"
+              - generic [ref=e334]:
+                - img [ref=e336]
+                - generic [ref=e337]: "4"
+          - separator [ref=e338]
+        - generic [ref=e339]:
+          - generic [ref=e340]:
+            - paragraph [ref=e343]:
+              - paragraph [ref=e344]:
+                - text: Please
+                - link "sign in opens in new window" [ref=e345] [cursor=pointer]:
+                  - /url: /account/login
+                  - text: sign in
+                - text: to reply to this topic.
+            - separator [ref=e346]
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - generic [ref=e350]: comment
+              - heading "5 Comments" [level=2] [ref=e352]
+            - generic [ref=e355]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e356] [cursor=pointer]:
+                - generic [ref=e358]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - generic [ref=e364]:
+                - link "Muhammad's profile" [ref=e365] [cursor=pointer]:
+                  - /url: /hark99
+                  - generic "Muhammad" [ref=e366]
+                  - img [ref=e367]
+                - generic [ref=e372]:
+                  - link "Muhammad" [ref=e374] [cursor=pointer]:
+                    - /url: /hark99
+                    - heading "Muhammad" [level=3] [ref=e375]
+                  - paragraph [ref=e377]: Posted 2 days ago
+                - generic [ref=e379]:
+                  - generic [ref=e380]:
+                    - button "Upvote" [ref=e381] [cursor=pointer]:
+                      - generic [ref=e382]: arrow_drop_up
+                    - button "3 votes" [ref=e383] [cursor=pointer]: "3"
+                  - button "More Options for this Comment" [ref=e384] [cursor=pointer]: more_vert
+                - paragraph [ref=e388]: NVIDIA Nemotron Submission Demo page is not working
+                - generic [ref=e394]:
+                  - link "Ryan Holbrook's profile" [ref=e395] [cursor=pointer]:
+                    - /url: /ryanholbrook
+                    - generic "Ryan Holbrook" [ref=e396]
+                    - img [ref=e397]
+                  - generic [ref=e402]:
+                    - generic [ref=e403]:
+                      - link "Ryan Holbrook" [ref=e404] [cursor=pointer]:
+                        - /url: /ryanholbrook
+                        - heading "Ryan Holbrook" [level=3] [ref=e405]
+                      - generic [ref=e407]: Kaggle Staff
+                    - paragraph [ref=e409]: Posted 2 days ago
+                  - generic [ref=e411]:
+                    - generic [ref=e412]:
+                      - button "Upvote" [ref=e413] [cursor=pointer]:
+                        - generic [ref=e414]: arrow_drop_up
+                      - button "0 votes" [ref=e415] [cursor=pointer]: "0"
+                    - button "More Options for this Comment" [ref=e416] [cursor=pointer]: more_vert
+                  - paragraph [ref=e420]: Fixed! Thank you.
+              - separator [ref=e421]
+            - generic [ref=e422]:
+              - generic [ref=e426]:
+                - link "Muhammad's profile" [ref=e427] [cursor=pointer]:
+                  - /url: /hark99
+                  - generic "Muhammad" [ref=e428]
+                  - img [ref=e429]
+                - generic [ref=e434]:
+                  - link "Muhammad" [ref=e436] [cursor=pointer]:
+                    - /url: /hark99
+                    - heading "Muhammad" [level=3] [ref=e437]
+                  - paragraph [ref=e439]: Posted 2 days ago
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - button "Upvote" [ref=e443] [cursor=pointer]:
+                      - generic [ref=e444]: arrow_drop_up
+                    - button "1 votes" [ref=e445] [cursor=pointer]: "1"
+                  - button "More Options for this Comment" [ref=e446] [cursor=pointer]: more_vert
+                - paragraph [ref=e450]: The max input tokens for the eval model is 128k. In the main page, inference parameters setting is showing with max_model_len = 8192 while in the metric code, it is 4096. Similarly, for other parameters as well. Please tell me which settings will be used to evaluate the final results, except for LORA.
+                - generic [ref=e456]:
+                  - link "Ryan Holbrook's profile" [ref=e457] [cursor=pointer]:
+                    - /url: /ryanholbrook
+                    - generic "Ryan Holbrook" [ref=e458]
+                    - img [ref=e459]
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - link "Ryan Holbrook" [ref=e466] [cursor=pointer]:
+                        - /url: /ryanholbrook
+                        - heading "Ryan Holbrook" [level=3] [ref=e467]
+                      - generic [ref=e469]: Kaggle Staff
+                    - paragraph [ref=e471]: Posted 2 days ago
+                  - generic [ref=e473]:
+                    - generic [ref=e474]:
+                      - button "Upvote" [ref=e475] [cursor=pointer]:
+                        - generic [ref=e476]: arrow_drop_up
+                      - button "1 votes" [ref=e477] [cursor=pointer]: "1"
+                    - button "More Options for this Comment" [ref=e478] [cursor=pointer]: more_vert
+                  - paragraph [ref=e482]: The parameters on the Evaluation page are what the metric is currently running with. They override the default values in the code.
+              - separator [ref=e483]
+            - generic [ref=e488]:
+              - link "Marília Prata's profile" [ref=e489] [cursor=pointer]:
+                - /url: /mpwolke
+                - generic "Marília Prata" [ref=e490]
+                - img [ref=e491]
+              - generic [ref=e496]:
+                - link "Marília Prata" [ref=e498] [cursor=pointer]:
+                  - /url: /mpwolke
+                  - heading "Marília Prata" [level=3] [ref=e499]
+                - paragraph [ref=e501]: Posted 2 days ago
+              - generic [ref=e503]:
+                - generic [ref=e504]:
+                  - button "Upvote" [ref=e505] [cursor=pointer]:
+                    - generic [ref=e506]: arrow_drop_up
+                  - button "-1 votes" [ref=e507] [cursor=pointer]: "-1"
+                - button "More Options for this Comment" [ref=e508] [cursor=pointer]: more_vert
+              - generic [ref=e511]:
+                - paragraph [ref=e512]: Hi Seeman,
+                - paragraph [ref=e513]: "unfortunately, many (almost all) NVidia GitHub pages that I tried to open, resulted in: Error Loading Page"
+                - paragraph [ref=e514]
+  - alert [ref=e517]

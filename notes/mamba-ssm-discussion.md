@@ -1,0 +1,240 @@
+- generic [ref=e2]:
+  - navigation "Main Kaggle page navigation" [ref=e3]:
+    - generic [ref=e5]:
+      - button "Navigation menu" [ref=e7] [cursor=pointer]: menu
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#site-content"
+        - text: Skip to
+        - text: content
+      - link "Return to Kaggle home page" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Kaggle" [ref=e11]
+    - button "Create" [ref=e13] [cursor=pointer]:
+      - img [ref=e14]
+      - generic [ref=e19]: Create
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - list [ref=e23]:
+          - listitem "Home List Item" [ref=e24]:
+            - link "Home" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e27]:
+                - generic [ref=e30]: explore
+                - paragraph [ref=e32]: Home
+          - listitem "Competitions List Item" [ref=e33]:
+            - link "Competitions" [ref=e35] [cursor=pointer]:
+              - /url: /competitions
+              - generic [ref=e36]:
+                - generic [ref=e39]: emoji_events
+                - paragraph [ref=e41]: Competitions
+          - listitem "Datasets List Item" [ref=e43]:
+            - link "Datasets" [ref=e45] [cursor=pointer]:
+              - /url: /datasets
+              - generic [ref=e46]:
+                - generic [ref=e49]: table_chart
+                - paragraph [ref=e51]: Datasets
+          - listitem "Models List Item" [ref=e52]:
+            - link "Models" [ref=e54] [cursor=pointer]:
+              - /url: /models
+              - generic [ref=e55]:
+                - generic [ref=e58]: tenancy
+                - paragraph [ref=e60]: Models
+          - listitem "Benchmarks List Item" [ref=e61]:
+            - link "Benchmarks" [ref=e63] [cursor=pointer]:
+              - /url: /benchmarks
+              - generic [ref=e64]:
+                - generic [ref=e67]: leaderboard
+                - paragraph [ref=e69]: Benchmarks
+          - listitem "Game Arena List Item" [ref=e70]:
+            - link "Game Arena" [ref=e72] [cursor=pointer]:
+              - /url: /game-arena
+              - generic [ref=e73]:
+                - generic [ref=e76]: smart_toy
+                - paragraph [ref=e78]: Game Arena
+          - listitem "Code List Item" [ref=e79]:
+            - link "Code" [ref=e81] [cursor=pointer]:
+              - /url: /code
+              - generic [ref=e82]:
+                - generic [ref=e85]: code
+                - paragraph [ref=e87]: Code
+          - listitem "Discussions List Item" [ref=e88]:
+            - link "Discussions" [ref=e90] [cursor=pointer]:
+              - /url: /discussions
+              - generic [ref=e91]:
+                - generic [ref=e94]: comment
+                - paragraph [ref=e96]: Discussions
+          - listitem "Kaggle Learn List Item" [ref=e97]:
+            - link "Kaggle Learn" [ref=e99] [cursor=pointer]:
+              - /url: /learn
+              - generic [ref=e100]:
+                - generic [ref=e103]: school
+                - paragraph [ref=e105]: Learn
+        - list [ref=e106]:
+          - listitem "More on Kaggle List Item" [ref=e107]:
+            - link "More on Kaggle" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e110]:
+                - generic [ref=e113]: expand_more
+                - paragraph [ref=e115]: More
+      - button "View Active Events" [ref=e117] [cursor=pointer]:
+        - generic [ref=e119]: auto_awesome_motion
+        - paragraph [ref=e120]: View Active Events
+  - navigation "Main menu, search and your account" [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: search
+        - textbox "Search" [ref=e128]
+        - group
+      - generic [ref=e130]:
+        - link "Sign In" [ref=e132] [cursor=pointer]:
+          - /url: /account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F681968
+          - button "Sign In" [ref=e133]:
+            - generic [ref=e134]: Sign In
+        - link "Register" [ref=e136] [cursor=pointer]:
+          - /url: /account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Fnvidia-nemotron-model-reasoning-challenge%2Fdiscussion%2F681968
+          - button "Register" [ref=e137]:
+            - generic [ref=e138]: Register
+  - main [ref=e139]:
+    - generic [ref=e141]:
+      - generic [ref=e142]: Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+      - generic [ref=e143]:
+        - link "Learn more" [ref=e144] [cursor=pointer]:
+          - /url: /cookies
+          - generic [ref=e145]: Learn more
+        - generic [ref=e146] [cursor=pointer]: OK, Got it.
+    - generic [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - link "NVIDIA's profile" [ref=e153] [cursor=pointer]:
+            - /url: /organizations/nvidia
+            - generic "NVIDIA" [ref=e154]
+            - img [ref=e155]
+          - generic [ref=e158]:
+            - generic [ref=e160]: NVIDIA
+            - generic [ref=e161]: · Featured Prediction Competition · 3 months to go
+          - generic [ref=e162]:
+            - button "Join Competition" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Join Competition
+            - button "Competition options menu collapsed" [ref=e167] [cursor=pointer]: more_horiz
+        - generic [ref=e169]:
+          - heading "NVIDIA Nemotron Model Reasoning Challenge" [level=1] [ref=e170]
+          - paragraph [ref=e172]: Advance reasoning techniques using NVIDIA Nemotron open models on a novel benchmark
+      - generic [ref=e176]:
+        - tablist [ref=e183]:
+          - tab "Overview, 1 of 7" [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]: Overview
+          - tab "Data, 2 of 7" [ref=e186] [cursor=pointer]:
+            - generic [ref=e187]: Data
+          - tab "Code, 3 of 7" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]: Code
+          - tab "Models, 4 of 7" [ref=e190] [cursor=pointer]:
+            - generic [ref=e191]: Models
+          - tab "Discussion, 5 of 7" [selected] [ref=e192] [cursor=pointer]:
+            - generic [ref=e193]: Discussion
+          - tab "Leaderboard, 6 of 7" [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]: Leaderboard
+          - tab "Rules, 7 of 7" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: Rules
+        - separator [ref=e199]
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - link "mindset324's profile" [ref=e207] [cursor=pointer]:
+                - /url: /mindset324
+                - generic "mindset324" [ref=e208]
+                - img [ref=e209]
+              - generic [ref=e212]:
+                - link "mindset324" [ref=e213] [cursor=pointer]:
+                  - /url: /mindset324
+                - text: ·
+                - generic [ref=e214]: 95th in this Competition ·
+                - generic [ref=e215]: Posted a day ago
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - button "Upvote" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]: arrow_drop_up
+                - button "1 votes" [ref=e220] [cursor=pointer]: "1"
+              - button "More Options for this Topic" [ref=e221] [cursor=pointer]: more_vert
+            - heading "Unable to load Nemotron-3-Nano-30B-A3B-BF16 due to mamba_ssm dependency (No Internet Environment)" [level=3] [ref=e222]
+            - generic [ref=e225]:
+              - paragraph [ref=e226]: I’m facing an issue while trying to load the Nemotron-3-Nano-30B-A3B-BF16 model.
+              - paragraph [ref=e227]: From what I understand, this model relies on Mamba SSM components, which require the mamba_ssm library. Since the Kaggle GPU RTX PRO 6000 environment has internet access disabled, I’m unable to install this dependency using pip, which prevents the model from loading successfully.
+              - paragraph [ref=e228]: "Issue:"
+              - paragraph [ref=e229]: "Model: Nemotron-3-Nano-30B-A3B-BF16"
+              - paragraph [ref=e230]: "Error: Missing mamba_ssm dependency"
+              - paragraph [ref=e231]: "Constraint: No internet access → cannot install required package"
+              - paragraph [ref=e232]: "What I’ve tried:"
+              - paragraph [ref=e233]: Attempted standard pip install mamba-ssm (fails due to no internet)
+              - paragraph [ref=e234]: Checked for preinstalled packages (not available)
+              - paragraph [ref=e235]: "Questions:"
+              - paragraph [ref=e236]: Is there a preinstalled or offline-compatible version of mamba_ssm available in this environment?
+              - paragraph [ref=e237]: Are we expected to vendor the dependency manually (e.g., upload wheels or source code as a dataset)?
+              - paragraph [ref=e238]: Is there an alternative way to run Nemotron-3 models in this setup (e.g., prebuilt runtime, container, or supported inference framework)?
+              - paragraph [ref=e239]: Has anyone successfully run this model in the competition environment?
+              - paragraph [ref=e240]: Any guidance from organizers or participants would be really helpful.
+          - separator [ref=e241]
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - paragraph [ref=e246]:
+              - paragraph [ref=e247]:
+                - text: Please
+                - link "sign in opens in new window" [ref=e248] [cursor=pointer]:
+                  - /url: /account/login
+                  - text: sign in
+                - text: to reply to this topic.
+            - separator [ref=e249]
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e253]: comment
+              - heading "2 Comments" [level=2] [ref=e255]
+            - generic [ref=e258]:
+              - combobox "Select combobox. Hotness currently selected." [ref=e259] [cursor=pointer]:
+                - generic [ref=e261]: Hotness
+              - textbox: Hotness
+              - img
+          - generic [ref=e267]:
+            - link "Kh0a's profile" [ref=e268] [cursor=pointer]:
+              - /url: /llkh0a
+              - generic "Kh0a" [ref=e269]
+              - img [ref=e270]
+            - generic [ref=e275]:
+              - link "Kh0a" [ref=e277] [cursor=pointer]:
+                - /url: /llkh0a
+                - heading "Kh0a" [level=3] [ref=e278]
+              - generic [ref=e279]:
+                - paragraph [ref=e280]: Posted a day ago
+                - paragraph [ref=e282]: · 110th in this Competition
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - button "Upvote" [ref=e286] [cursor=pointer]:
+                  - generic [ref=e287]: arrow_drop_up
+                - button "1 votes" [ref=e288] [cursor=pointer]: "1"
+              - button "More Options for this Comment" [ref=e289] [cursor=pointer]: more_vert
+            - paragraph [ref=e293]:
+              - text: You can add this utility script to your notebook
+              - link "https://www.kaggle.com/code/ryanholbrook/nvidia-utility-script (opens in a new tab)" [ref=e294] [cursor=pointer]:
+                - /url: https://www.kaggle.com/code/ryanholbrook/nvidia-utility-script
+                - text: https://www.kaggle.com/code/ryanholbrook/nvidia-utility-script
+            - generic [ref=e300]:
+              - link "HADY's profile" [ref=e301] [cursor=pointer]:
+                - /url: /johnhady101
+                - generic "HADY" [ref=e302]
+                - img [ref=e303]
+              - generic [ref=e308]:
+                - link "HADY" [ref=e310] [cursor=pointer]:
+                  - /url: /johnhady101
+                  - heading "HADY" [level=3] [ref=e311]
+                - paragraph [ref=e313]: Posted 13 hours ago
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - button "Upvote" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e318]: arrow_drop_up
+                  - button "0 votes" [ref=e319] [cursor=pointer]: "0"
+                - button "More Options for this Comment" [ref=e320] [cursor=pointer]: more_vert
+              - generic [ref=e322]:
+                - paragraph [ref=e324]: it didn't work for me
+                - link "Screenshot 2026-03-18 181504.png opens in new window" [ref=e327] [cursor=pointer]:
+                  - /url: https://storage.googleapis.com/kaggle-forum-message-attachments/3423498/39329/Screenshot 2026-03-18 181504.png
+                  - text: Screenshot 2026-03-18 181504.png
+  - alert [ref=e330]
