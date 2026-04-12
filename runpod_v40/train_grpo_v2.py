@@ -41,9 +41,9 @@ TRAIN_CSV = "/workspace/data/train.csv"
 OUTPUT_DIR = "/workspace/output_v41"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-GRPO_STEPS = 100  # More steps since we have strong SFT base
-GRPO_GENERATIONS = 2
-GRPO_MAX_COMPLETION = 512
+GRPO_STEPS = 200  # Long run with 2048 completion length for real learning
+GRPO_GENERATIONS = 4  # More generations = better reward signal estimation
+GRPO_MAX_COMPLETION = 1024  # 2048 OOMs, 512 too short — 1024 is the sweet spot
 GRPO_BATCH = 1
 GRPO_GRAD_ACCUM = 4
 GRPO_LR = 5e-6
