@@ -17,3 +17,6 @@ trained_adapter/
 submissions/
 training_data/
 datasets/
+distill.log
+rft_gen.log
+data/v40_grpo_adapter/

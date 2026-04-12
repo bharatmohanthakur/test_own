@@ -1,6 +1,6 @@
 {
-  "id": "bharatmohan/nemotron-sft-v38a",
-  "title": "Nemotron SFT v38a",
+  "id": "bharatmohan/nemotron-sft-v39",
+  "title": "Nemotron SFT v39",
   "code_file": "train.py",
   "language": "python",
   "kernel_type": "script",
@@ -8,7 +8,7 @@
   "enable_gpu": "true",
   "enable_internet": "true",
   "dataset_sources": [
-    "bharatmohan/nemotron-training-v38",
+    "bharatmohan/nemotron-training-v39",
     "mayukh18/nemotron-packages"
   ],
   "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],

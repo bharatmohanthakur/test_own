@@ -1,6 +1,6 @@
 {
-  "id": "bharatmohan/nemotron-sft-v38a",
-  "title": "Nemotron SFT v38a",
+  "id": "bharatmohan/nemotron-sft-v42",
+  "title": "Nemotron SFT v42",
   "code_file": "train.py",
   "language": "python",
   "kernel_type": "script",
