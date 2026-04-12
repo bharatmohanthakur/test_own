@@ -8,6 +8,7 @@
   "enable_gpu": "true",
   "enable_internet": "true",
   "dataset_sources": [
+    "bharatmohan/grpo-wheels-tf53-trl11",
     "mayukh18/nemotron-packages"
   ],
   "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],

@@ -1,0 +1,14 @@
+{
+  "id": "bharatmohan/nemotron-submit-v39",
+  "title": "Nemotron Submit v39",
+  "code_file": "train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_internet": "false",
+  "kernel_sources": ["bharatmohan/nemotron-sft-v39"],
+  "competition_sources": ["nvidia-nemotron-model-reasoning-challenge"],
+  "dataset_sources": [],
+  "model_sources": []
+}
