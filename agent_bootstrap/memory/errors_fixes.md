@@ -1,0 +1,47 @@
+---
+name: errors_fixes
+description: All Kaggle notebook errors encountered and their fixes - prevent repeating mistakes
+type: feedback
+---
+
+1. **No mamba_ssm** → Add nvidia-utility-script as input + `import mamba_ssm` before model load
+2. **device_map offload** → `offload_folder="/kaggle/tmp/offload"` in from_pretrained (model 60GB > 48GB VRAM)
+3. **CUDA no kernel image** → Wrong GPU. CLI push resets to P100. MUST switch to RTX Pro 6000 via Playwright UI
+4. **train.csv not found** → Use glob to find data path, don't hardcode
+5. **CLI resets GPU/env** → After every `kaggle kernels push`, open UI → switch GPU → switch env → Save & Run
+6. **Inputs lost** → Verify competition + model + utility script all present before saving
+
+7. **pip install fails on RTX Pro 6000** → Internet is blocked for this competition on RTX Pro 6000 batch mode. Any extra library (trl, wandb, etc.) MUST be pre-installed or added as a dataset with .whl files. Use `dennisfong/nvidia-nemotron-offline-packages` dataset for common packages, or add your own wheel dataset. NEVER rely on `pip install` in the training script for RTX Pro 6000 runs.
+8. **Dataset path on Kaggle** → Datasets mount at `/kaggle/input/datasets/USERNAME/DATASET-SLUG/` not just `/kaggle/input/DATASET-SLUG/`. Always use comprehensive glob patterns including `datasets/bharatmohan/` prefix.
+9. **v18 data fallback disaster** → If JSONL not found, script fell back to raw 9500 examples → 0.53 score, 20hr runtime. NEVER fallback to raw data — `sys.exit(1)` instead.
+
+10. **Unsloth SFTTrainer scores lower than custom loop** → 0.65 vs 0.69 on same data. Unsloth's `train_on_responses_only` masking differs from manual `labels=-100` masking. Use custom training loop for best scores.
+11. **More data ≠ better score** → 504 verified (0.69) beats 1699 mixed (0.58). Extra "other" category data dilutes LoRA capacity. Stick to puzzle-only data.
+12. **GRPO needs Mamba generation patches** → Must set `is_fast_path_available = False` and use `FastLanguageModel.for_inference(model)` before generation in GRPO phase. Without this, generation hangs or produces garbage.
+13. **GRPO padding direction** → SFT uses `padding_side="right"`, GRPO needs `padding_side="left"`. Must switch when transitioning.
+14. **Disk space kills background tasks** → Long-running distillation + monitoring tasks fill /tmp. Clean up regularly.
+15. **v24 SFT+GRPO torch.compile error** → `TorchRuntimeError: Dynamo failed to run FX node with fake tensors: call_function matmul` after SFT finishes, during GRPO generation. Root cause: Unsloth's torch.compile doesn't work with Nemotron Mamba during generation. Fix: set `unsloth_force_compile=False` in `FastLanguageModel.from_pretrained()`.
+16. **ALWAYS test on sample data first when there's an error** → When an error occurs or you're trying a new approach, ALWAYS run with a minimal sample (20-50 examples) first. It validates the fix in ~15-20 min instead of wasting 1-2 hours of GPU quota on a bug. Example: v24 wasted 73 min of GPU before erroring; v25 wasted 93 min on same bug. v26 with 20 samples would have caught it in 20 min. Rule: fix → test with 20 samples → if works, run full.
+17. **torch.compile fix for Unsloth GRPO** → Set these env vars BEFORE any imports: `TORCH_COMPILE_DISABLE=1`, `TORCHDYNAMO_DISABLE=1`, `UNSLOTH_COMPILE_DISABLE=1`. Also monkey-patch `torch.compile = lambda m,*a,**k: m`. Verified working in v26: SFT+GRPO reached GRPO phase without FX tracing error.
+18. **GRPO OOM on RTX Pro 6000 96GB** → With `num_generations=4` × `max_completion_length=2048` + full model in VRAM = 88GB+ used. Must reduce: use `num_generations=2`, `max_completion_length=1024`, `PYTORCH_ALLOC_CONF=expandable_segments:True`, and `torch.cuda.empty_cache()` between SFT and GRPO phases.
+19. **Kernel source notebook output path** → When adding another notebook as `kernel_sources` in metadata, files appear at `/kaggle/input/notebooks/USERNAME/NOTEBOOK-SLUG/...` NOT `/kaggle/input/NOTEBOOK-SLUG/`. Always include `notebooks/bharatmohan/` prefix in glob patterns.
+20. **Unsloth GRPO chunked-log-softmax shape mismatch on Nemotron** (v27 v4 root cause) → `RuntimeError: mat1 and mat2 shapes cannot be multiplied (Nx131072 and 2688x131072)` in `_get_per_token_logps_and_entropies`. Unsloth's text-only branch (UnslothGRPOTrainer.py:2671) calls `chunked_hidden_states_selective_log_softmax(model().logits, lm_head, ...)` but for Nemotron-3-Nano `.logits` is shape `(B, S, vocab_size=131072)`, NOT hidden states. The function expects `(B, S, hidden_size=2688)` and projects via `lm_head.t()`. The VLM branch (line 2700) has a `if logits_chunk.shape[-1] == lm_head.shape[1]` guard — the text branch does NOT. **Fix in v28**: monkey-patch `chunked_hidden_states_selective_log_softmax` AFTER `GRPOTrainer(...)` is instantiated. Find the module via `sys.modules` (key contains "UnslothGRPOTrainer"), wrap the original to detect when `hidden_states.shape[-1] == lm_head.shape[0]` (already logits) and fall back to `chunked_selective_log_softmax`. The `is_fast_path_available = False` patch from error #15 does NOT fix this — it's a separate code path.
+
+21. **Kaggle CLI `kernels output` returns 0 bytes for large kernel output files** (re-confirmed Apr 8) → `kaggle kernels output` (and the Python `api.kernels_output()`) consistently writes large `.safetensors` files as 0 bytes. **Fix**: bypass the CLI entirely. GET `https://www.kaggle.com/api/v1/kernels/output?userName=USER&kernelSlug=SLUG` with HTTP Basic auth (kaggle.json username + key). Response JSON has a `files` array; each entry has a direct `url` to `kaggleusercontent.com`. Stream-download with `requests.get(url, stream=True)`. Verified working: downloaded v22 adapter_model.safetensors at 3.3GB intact. Use `--file-pattern` matching gives 0 bytes too — the bug is in the CLI's redirect/streaming, not the file selection.
+
+22. **RunPod MooseFS quota on /workspace** (Apr 8) → `/workspace` is a network FS with per-user quota. Symptom: `cp` and `python json.dump` fail with `Errno 122 Disk quota exceeded` mid-training. **Fix**: stage final adapter copies on the container disk `/root/work` (100 GB unaffected by MooseFS quota), delete old checkpoints aggressively (`rm -rf /workspace/output/grpo_output/checkpoint-{2,4,6}`), and delete `/workspace/nemotron-pkgs` after wheel install (5.5 GB freed).
+
+23. **Python `with open(path, "w")` truncates file BEFORE writing — destructive on quota errors** (Apr 8 self-inflicted) → If you do `with open(path, "w") as f: json.dump(cfg, f)` and the disk is full, json.dump crashes BUT the file is already truncated to 0 bytes. The original content is irrecoverable. I destroyed `checkpoint-10/adapter_config.json` this way. **Fix**: write to a temp path first then `os.rename(tmp, target)`. Or: write to `/root/work` (container disk, no quota) and copy back after success. Recovery: copy adapter_config.json from an earlier checkpoint dir — they're identical for the same LoRA architecture.
+
+24. **trainer.save_model() at script end can silently fail** (Apr 8) → `model.save_pretrained()` finished writing `adapter_model.safetensors` (640 MB) but `adapter_config.json` was 0 bytes after the script exited "cleanly". No error raised. **Recovery**: the trainer's auto-save during training already wrote `output/grpo_output/checkpoint-N/` with the FULL valid adapter (3.3 GB safetensors + 1.3 KB config). Use that. Lesson for v33+: `save_steps=2` (small) so even if step 9-10 OOMs, you have checkpoint-8 to fall back to.
+
+25. **`runpod/pytorch:2.10.0-py3.12-cuda12.8.1-cudnn-devel-ubuntu24.04` doesn't exist on Docker Hub** (Apr 8) → Pod hangs in RUNNING status with no runtime ports because it's stuck pulling a 404 image. Cost ~$0.10 per failed pod attempt. **Fix**: verify image exists with `curl -s -o /dev/null -w "%{http_code}" "https://hub.docker.com/v2/repositories/runpod/pytorch/tags/TAG/"` before creating pod. Working tags: `runpod/pytorch:1.0.3-cu1281-torch290-ubuntu2404` (Ubuntu 24, py3.12, has sshd).
+
+26. **Official `pytorch/pytorch:2.10.0-cuda12.8-cudnn9-devel` has NO sshd** (Apr 8) → Pod created RUNNING but no port 22 binds, can't SSH in. PyTorch base image doesn't ship sshd. **Fix**: use a runpod/* image that has sshd built-in (like #25 above). Cost ~$0.20 wasted on this attempt.
+
+27. **Custom `dockerArgs` overrides RunPod's default sshd setup** (Apr 8) → Passing `dockerArgs: "bash -c '...sshd...'"` to PodFindAndDeployOnDemand replaces the runpod template startup, breaking SSH key injection from the PUBLIC_KEY env var. **Fix**: don't pass dockerArgs at all. Just set `env: [{"key": "PUBLIC_KEY", "value": pubkey}]` and let the template handle SSH.
+
+28. **TRL 0.24 + transformers 5.x missing `TRANSFORMERS_CACHE`** (Apr 8 — only relevant if NOT using mayukh18 wheels) → `from trl import GRPOTrainer` fails with `cannot import name 'TRANSFORMERS_CACHE' from 'transformers.utils.hub'`. The newer transformers removed the legacy constant; trl's judges.py still imports llm_blender which uses it. **Fix**: use mayukh18/nemotron-packages wheels which pin transformers 4.57.6 + trl 0.24.0 known good. If you can't use those, monkey-patch by appending `TRANSFORMERS_CACHE = HF_HUB_CACHE` to transformers/utils/hub.py AND uninstall llm_blender (`pip uninstall -y llm_blender weave`).
+
+**Why:** Wasted 10+ runs and ~3hr GPU quota learning these. Each error costs 5-15 min of quota.
+**How to apply:** Check every item before launching any notebook run. For any new library, add it as a wheel dataset input — don't pip install.
