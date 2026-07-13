@@ -22,6 +22,18 @@ cp agent_bootstrap/hookify/* .claude/            # hookify local rules
 Wire `hooks/inject_reminders.sh` as a UserPromptSubmit hook in `.claude/settings.json` —
 it carries the binding rules (GOAL RULE, DISCOVERY NEVER STOPS, CODEX COLLEAGUE, RESEARCH GATE).
 
+HOOK CAVEATS FOR REMOTE BOXES (vet each hook before wiring; do NOT wire blindly):
+- `block_tmp_writes.sh`: SKIP or adapt — it blocks .py/.sh/.md writes to /tmp/*, which breaks
+  Claude's own session scratchpad (/tmp/claude-*/…). Its intent (never keep EXPERIMENT scripts
+  in /tmp where they get lost) is served by discipline: experiment scripts go in scripts/,
+  scratchpad is fine. If wiring it, add an exemption for /tmp/claude-*.
+- `block_destroy.sh`: keep (protects pods), but verify paths — it was written for macOS.
+- Any hook referencing /Users/bharat is laptop-specific — adapt or skip.
+
+TWO-REPO NOTE: `test_own.git` (this bundle) does NOT contain rogii/ — that is a separate
+nested repo (`rogii-wellbore.git`). Clone BOTH; `git pull` rogii before starting — the
+r321–r331 scripts (incl. exp330_dense_gbdt.py, exp331_*) landed in pushes up to 3dcc1de.
+
 ## 3. Credentials (NOT in this bundle — set via environment)
 - Kaggle (bharatmohan): put kaggle.json in ~/.kaggle/ yourself
 - Nency's Kaggle token, Vast.ai, RunPod, wandb, DeepSeek keys: ask the manager (Bharat) or
